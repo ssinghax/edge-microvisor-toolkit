@@ -1,0 +1,26 @@
+specVersion: 4
+overrides:
+- component:
+    name: x-crypto
+  newVersion: v0.23.1
+  forceVersion: true
+- component:
+    name: x-arch
+  newVersion: v0.8.0
+  forceVersion: true
+- component:
+    name: platform-telemetry-agent
+  newVersion: v1.1.19
+  forceVersion: true
+- component:
+    name: hd-agent
+  newVersion: v1.4.7
+  forceVersion: true
+- component:
+    name: platform-update-agent
+  newVersion: v1.2.20
+  forceVersion: true
+- component:
+    name: cluster-agent
+  newVersion: v1.4.2
+  forceVersion: true
