@@ -1,0 +1,44 @@
+specVersion: 4
+overrides:
+- component:
+    name: go-autorest-autorest
+  newVersion: v0.11.29
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/coredns'
+- component:
+    name: etcd
+  newVersion: v3.5.9
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/coredns'
+- component:
+    name: go-autorest-logger
+  newVersion: v0.2.1
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/coredns'
+- component:
+    name: go-autorest-tracing
+  newVersion: v0.6.0
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/coredns'
+- component:
+    name: go-yaml
+  newVersion: v3.0.1
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/coredns'
+- component:
+    name: golang-genproto
+  newVersion: v0.0.0-20230803162519-f966b187b2e5
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/coredns'
+- component:
+    name: coredns-coredns
+  newVersion: 1.11.1
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/coredns'

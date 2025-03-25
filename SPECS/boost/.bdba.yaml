@@ -1,0 +1,14 @@
+specVersion: 4
+overrides:
+- component:
+    name: libbacktrace
+  newVersion: 13.2.0-7.emt3
+  forceVersion: 'true'
+  files:
+  - path: 'usr/lib/libboost_stacktrace_backtrace.so.1.83.0'
+- component:
+    name: rapidxml
+  newVersion: 1.13
+  forceVersion: 'true'
+  files:
+  - path: 'usr/lib/libboost_graph.so.1.83.0'
