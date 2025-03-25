@@ -1,0 +1,9 @@
+specVersion: 4
+overrides:
+- component:
+    name: selinux
+  newVersion: 3.6
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/checkmodule'
+  - path: 'usr/bin/checkpolicy'
