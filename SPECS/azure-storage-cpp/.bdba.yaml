@@ -1,0 +1,8 @@
+specVersion: 4
+overrides:
+- component:
+    name: boost
+  newVersion: 1.83.0
+  forceVersion: 'true'
+  files:
+  - path: 'usr/lib/libazurestorage.so.7.5'

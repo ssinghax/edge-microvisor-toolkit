@@ -1,0 +1,14 @@
+specVersion: 4
+overrides:
+- component:
+    name: websocketpp
+  newVersion: 0.8.2
+  forceVersion: 'true'
+  files:
+  - path: 'usr/lib/libcpprest.so.2.10'
+- component:
+    name: boost
+  newVersion: 1.83.0
+  forceVersion: 'true'
+  files:
+  - path: 'usr/lib/libcpprest.so.2.10'

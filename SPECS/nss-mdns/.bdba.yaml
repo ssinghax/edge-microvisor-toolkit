@@ -1,0 +1,13 @@
+specVersion: 4
+overrides:
+- component:
+    name: libnss-mdns
+  newVersion: 0.15.1
+  forceVersion: 'true'
+  files:
+  - path: 'lib/libnss_mdns.so.2'
+  - path: 'lib/libnss_mdns4.so.2'
+  - path: 'lib/libnss_mdns4_minimal.so.2'
+  - path: 'lib/libnss_mdns6.so.2'
+  - path: 'lib/libnss_mdns6_minimal.so.2'
+  - path: 'lib/libnss_mdns_minimal.so.2'

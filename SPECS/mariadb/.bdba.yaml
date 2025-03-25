@@ -1,0 +1,9 @@
+specVersion: 4
+overrides:
+- component:
+    name: readline
+  newVersion: 8.2.1
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/mariadb'
+  - path: 'usr/bin/mariadb-embedded'
