@@ -1,0 +1,8 @@
+specVersion: 4
+overrides:
+- component:
+    name: polkit
+  newVersion: 123
+  forceVersion: 'true'
+  files:
+  - path: 'usr/lib/libpolkit-qt6-core-1.so.1.175.0'
