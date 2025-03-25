@@ -1,0 +1,20 @@
+specVersion: 4
+overrides:
+- component:
+    name: cjson
+  newVersion: 1.7.14
+  forceVersion: true
+  files:
+  - path: usr/bin/fluent-bit
+- component:
+    name: libbacktrace
+  newVersion: 1.0
+  forceVersion: true
+  files:
+  - path: usr/bin/fluent-bit
+- component:
+    name: msgpack
+  newVersion: v1.1.1
+  forceVersion: true
+  files:
+  - path: usr/bin/fluent-bit
