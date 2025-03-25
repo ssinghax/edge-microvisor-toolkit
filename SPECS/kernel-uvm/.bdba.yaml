@@ -1,0 +1,9 @@
+specVersion: 4
+overrides:
+- component:
+    name: acpica
+  newVersion: 20240827
+  forceVersion: 'true'
+  files:
+  - path: 'usr/share/cloud-hypervisor/bzImage'
+  - path: 'usr/share/cloud-hypervisor/vmlinux.bin'

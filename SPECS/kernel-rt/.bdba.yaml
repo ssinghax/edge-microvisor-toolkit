@@ -1,0 +1,8 @@
+specVersion: 4
+overrides:
+- component:
+    name: acpica
+  newVersion: 20240827
+  forceVersion: 'true'
+  files:
+  - path: 'boot/vmlinuz-6.12.15-1.emt3'

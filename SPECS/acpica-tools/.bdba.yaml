@@ -1,0 +1,16 @@
+specVersion: 4
+overrides:
+- component:
+    name: acpica
+  newVersion: 20190509
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/acpibin'
+  - path: 'usr/bin/acpidump'
+  - path: 'usr/bin/acpiexamples'
+  - path: 'usr/bin/acpiexec'
+  - path: 'usr/bin/acpihelp'
+  - path: 'usr/bin/acpinames'
+  - path: 'usr/bin/acpisrc'
+  - path: 'usr/bin/acpixtract'
+  - path: 'usr/bin/iasl'
