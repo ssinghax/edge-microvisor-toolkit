@@ -1,0 +1,8 @@
+specVersion: 4
+overrides:
+- component:
+    name: qt
+  newVersion: 6.6.1
+  forceVersion: true
+  files:
+  - path: usr/lib/libQt6Qml.so.6.6.1

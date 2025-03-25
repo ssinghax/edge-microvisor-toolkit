@@ -1,0 +1,8 @@
+pecVersion: 4
+overrides:
+- component:
+    name: libbacktrace
+  newVersion: 13.2.0-7.emt3
+  forceVersion: true
+  files:
+  - path: usr/bin/gdb

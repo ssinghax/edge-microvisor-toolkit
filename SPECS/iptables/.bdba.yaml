@@ -1,0 +1,9 @@
+specVersion: 4
+overrides:
+- component:
+    name: ebtables
+  newVersion: 1.8.10
+  forceVersion: true
+  files:
+  - path: usr/sbin/xtables-nft-multi
+

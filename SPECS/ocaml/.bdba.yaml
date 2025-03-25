@@ -1,0 +1,24 @@
+specVersion: 4
+overrides:
+- component:
+    name: ocaml-runtime
+  newVersion: 5.1.1-1
+  forceVersion: true
+  files:
+  - path: usr/bin/ocamlc.opt
+  - path: usr/bin/ocamldep.opt
+  - path: usr/bin/ocamllex.opt
+  - path: usr/bin/ocamlnat
+  - path: usr/bin/ocamlobjinfo.opt
+  - path: usr/bin/ocamlopt.opt
+  - path: usr/lib/ocaml/libasmrun.a
+  - path: usr/lib/ocaml/libasmrun_pic.a
+  - path: usr/lib/ocaml/libasmrun_shared.so
+  - path: usr/lib/ocaml/libasmrund.a
+  - path: usr/lib/ocaml/libasmruni.a
+  - path: usr/lib/ocaml/libcamlrun.a
+  - path: usr/lib/ocaml/libcamlrun_pic.a
+  - path: usr/lib/ocaml/libcamlrun_shared.so
+  - path: usr/lib/ocaml/libcamlrund.a
+  - path: usr/lib/ocaml/libcamlruni.a
+  - path: usr/lib/ocaml/stdlib.a

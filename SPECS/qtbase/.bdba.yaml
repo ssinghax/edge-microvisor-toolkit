@@ -1,0 +1,9 @@
+specVersion: 4
+overrides:
+- component:
+    name: qt
+  newVersion: 6.6.3
+  forceVersion: true
+  files:
+  - path: usr/lib/libQt6Sql.so.6.6.3
+

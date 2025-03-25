@@ -1,0 +1,9 @@
+specVersion: 4
+overrides:
+- component:
+    name: ocaml-runtime
+  newVersion: 5.1.1-1
+  forceVersion: true
+  files:
+  - path: usr/bin/bisect-ppx-report
+  - path: usr/lib/ocaml/bisect_ppx/ppx.exe

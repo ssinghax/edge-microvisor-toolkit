@@ -1,0 +1,27 @@
+specVersion: 4
+overrides:
+- component:
+    name: libsanitizer
+  newVersion: 13.2.0-7.emt3
+  forceVersion: true
+  files:
+  - path: usr/lib/clang/18/lib/linux/libclang_rt.asan-x86_64.a
+  - path: usr/lib/clang/18/lib/linux/libclang_rt.asan-x86_64.so
+  - path: usr/lib/clang/18/lib/linux/libclang_rt.hwasan-x86_64.a
+  - path: usr/lib/clang/18/lib/linux/libclang_rt.hwasan-x86_64.so
+  - path: usr/lib/clang/18/lib/linux/libclang_rt.hwasan_aliases-x86_64.a
+  - path: usr/lib/clang/18/lib/linux/libclang_rt.hwasan_aliases-x86_64.so
+  - path: usr/lib/clang/18/lib/linux/libclang_rt.lsan-x86_64.a
+  - path: usr/lib/clang/18/lib/linux/libclang_rt.memprof-x86_64.a
+  - path: usr/lib/clang/18/lib/linux/libclang_rt.memprof-x86_64.so
+  - path: usr/lib/clang/18/lib/linux/libclang_rt.msan-x86_64.a
+  - path: usr/lib/clang/18/lib/linux/libclang_rt.tsan-x86_64.a
+  - path: usr/lib/clang/18/lib/linux/libclang_rt.tsan-x86_64.so
+- component:
+    name: libcxx
+  newVersion: 18.1.2
+  forceVersion: true
+  files:
+  - path: usr/lib/clang/18/lib/linux/libclang_rt.fuzzer-x86_64.a
+  - path: usr/lib/clang/18/lib/linux/libclang_rt.fuzzer_no_main-x86_64.a
+

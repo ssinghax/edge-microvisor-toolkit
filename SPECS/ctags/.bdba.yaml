@@ -1,0 +1,10 @@
+specVersion: 4
+overrides:
+- component:
+    name: exuberant-ctags
+  newVersion: 6.1.0
+  forceVersion: true
+  files:
+  - path: usr/bin/ctags
+  - path: usr/bin/optscript
+

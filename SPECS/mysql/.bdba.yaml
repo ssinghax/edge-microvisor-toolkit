@@ -1,0 +1,18 @@
+specVersion: 4
+overrides:
+- component:
+    name: zstd 
+  newVersion: 1.5.5
+  forceVersion: true
+  files:
+  - path: usr/bin/mysql
+  - path: usr/bin/mysql_client_test
+  - path: usr/bin/mysql_secure_installation
+  - path: usr/bin/mysqlbinlog
+  - path: usr/bin/mysqldump
+  - path: usr/bin/mysqlimport
+  - path: usr/bin/mysqlshow
+  - path: usr/bin/mysqlslap
+  - path: usr/lib/mysqlrouter/http_auth_backend.so
+  - path: usr/lib/mysqlrouter/rest_metadata_cache.so
+  - path: usr/lib/mysqlrouter/private/libmysqlrouter.so.1

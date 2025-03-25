@@ -1,0 +1,10 @@
+specVersion: 4
+overrides:
+- component:
+    name: shim
+  newVersion: 15.8
+  forceVersion: true
+  files:
+  - path: usr/share/shim/15.8/x64/shimx64.efi
+  - path: usr/share/shim/15.8/x64/fbx64.efi
+  - path: usr/share/shim/15.8/x64/mmx64.efi

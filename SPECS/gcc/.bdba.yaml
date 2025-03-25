@@ -1,0 +1,49 @@
+specVersion: 4
+overrides:
+- component:
+    name: libatomic1
+  newVersion: 13.2.0-7.emt3
+  forceVersion: true
+  files:
+  - path: usr/lib64/libatomic.a
+  - path: usr/lib64/libatomic.so.1.2.0
+- component:
+    name: libbacktrace
+  newVersion: 13.2.0-7.emt3
+  forceVersion: true
+  files:
+  - path: usr/bin/cpp
+  - path: usr/bin/gcov
+  - path: usr/bin/gcov-dump
+  - path: usr/bin/gcov-tool
+  - path: usr/bin/lto-dump
+  - path: usr/bin/x86_64-pc-linux-gnu-gcc-13.2.0
+  - path: usr/lib64/libasan.a
+  - path: usr/lib64/libasan.so.8.0.0
+  - path: usr/lib64/libgfortran.a
+  - path: usr/lib64/libgfortran.so.5.0.0
+  - path: usr/lib64/libhwasan.a
+  - path: usr/lib64/libhwasan.so.0.0.0
+  - path: usr/lib64/liblsan.a
+  - path: usr/lib64/liblsan.so.0.0.0
+  - path: usr/lib64/libtsan.a
+  - path: usr/lib64/libtsan.so.2.0.0
+  - path: usr/lib64/libubsan.a
+  - path: usr/lib64/libubsan.so.1.0.0
+  - path: usr/libexec/gcc/x86_64-pc-linux-gnu/13.2.0/cc1
+  - path: usr/libexec/gcc/x86_64-pc-linux-gnu/13.2.0/collect2
+  - path: usr/libexec/gcc/x86_64-pc-linux-gnu/13.2.0/lto-wrapper
+  - path: usr/libexec/gcc/x86_64-pc-linux-gnu/13.2.0/lto1
+- component:
+    name: libsanitizer
+  newVersion: 13.2.0-7.emt3
+  forceVersion: true
+  files:
+  - path: usr/lib64/libasan.a
+  - path: usr/lib64/libasan.so.8.0.0
+  - path: usr/lib64/libhwasan.a
+  - path: usr/lib64/libhwasan.so.0.0.0
+  - path: usr/lib64/liblsan.a
+  - path: usr/lib64/liblsan.so.0.0.0
+  - path: usr/lib64/libtsan.a
+  - path: usr/lib64/libtsan.so.2.0.0

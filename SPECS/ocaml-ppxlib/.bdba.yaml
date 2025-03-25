@@ -1,0 +1,8 @@
+specVersion: 4
+overrides:
+- component:
+    name: ocaml-runtime
+  newVersion: 5.1.1-1
+  forceVersion: true
+  files:
+  - path: usr/lib/ocaml/ppxlib/metaquot/ppx.exe
