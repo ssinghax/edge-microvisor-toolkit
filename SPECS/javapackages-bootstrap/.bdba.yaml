@@ -1,0 +1,1125 @@
+specVersion: 4
+overrides:
+- component:
+    name: aQute.libg
+  newVersion: 5.2.0 
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/aQute.libg.jar
+- component:
+    name: ant
+  newVersion: 1.10.14
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/ant-bootstrap.jar
+  - path: usr/share/java/javapackages-bootstrap/ant-junit.jar
+  - path: usr/share/java/javapackages-bootstrap/ant-junit4.jar
+  - path: usr/share/java/javapackages-bootstrap/ant-launcher.jar
+  - path: usr/share/java/javapackages-bootstrap/ant.jar
+- component:
+    name: ant-junit
+  newVersion: 1.10.14
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/ant-junit.jar
+- component:
+    name: ant-junit4
+  newVersion: 1.10.14
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/ant-junit4.jar
+- component:
+    name: ant-launcher
+  newVersion: 1.10.14
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/ant-launcher.jar
+- component:
+    name: aopalliance
+  newVersion: 1.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/aopalliance.jar
+- component:
+    name: apiguardian-api
+  newVersion: 1.1.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/apiguardian-api.jar
+- component:
+    name: asm
+  newVersion: 9.6
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/asm-util.jar
+  - path: usr/share/java/javapackages-bootstrap/asm.jar
+  - path: usr/share/java/javapackages-bootstrap/org.eclipse.sisu.inject.jar
+- component:
+    name: asm-analysis
+  newVersion: 9.6
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/asm-analysis.jar
+- component:
+    name: asm-commons
+  newVersion: 9.6
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/asm-commons.jar
+- component:
+    name: asm-tree
+  newVersion: 9.6
+  files:
+  - path: usr/share/java/javapackages-bootstrap/asm-tree.jar
+- component:
+    name: asm-util
+  newVersion: 9.6
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/asm-util.jar
+- component:
+    name: assertj-core
+  newVersion: 3.24.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/assertj-core.jar
+- component:
+    name: biz.aQute.bnd.annotation
+  newVersion: 5.2.0 
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/biz.aQute.bnd.annotation.jar
+- component:
+    name: biz.aQute.bndlib
+  newVersion: 5.2.0 
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/biz.aQute.bndlib.jar
+- component:
+    name: build-helper-maven-plugin
+  newVersion: 3.4.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/build-helper-maven-plugin.jar
+- component:
+    name: cdi-api
+  newVersion: 2.0.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/cdi-api.jar
+- component:
+    name: cglib
+  newVersion: 3.3.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/cglib.jar
+- component:
+    name: classworlds
+  newVersion: 2.7.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/plexus-classworlds.jar
+- component:
+    name: common-java5
+  newVersion: 3.1.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/common-java5.jar
+- component:
+    name: common-junit3
+  newVersion: 3.1.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/common-junit3.jar
+- component:
+    name: common-junit4
+  newVersion: 3.1.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/common-junit4.jar
+- component:
+    name: common-junit48
+  newVersion: 3.1.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/common-junit48.jar
+- component:
+    name: commons-beanutils
+  newVersion: 1.9.4
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/commons-beanutils.jar
+- component:
+    name: commons-cli
+  newVersion: 1.5.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/commons-cli.jar
+- component:
+    name: commons-codec
+  newVersion: 1.16.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/commons-codec.jar
+- component:
+    name: commons-collections
+  newVersion: 3.2.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/commons-collections.jar
+- component:
+    name: commons-compress
+  newVersion: 1.23.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/commons-compress.jar
+- component:
+    name: commons-io
+  newVersion: 2.13.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/commons-io.jar
+- component:
+    name: commons-jxpath
+  newVersion: 1.3
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/commons-jxpath.jar
+- component:
+    name: commons-lang3
+  newVersion: 3.13.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/commons-lang3.jar
+- component:
+    name: commons-logging
+  newVersion: 1.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/commons-logging-api.jar
+  - path: usr/share/java/javapackages-bootstrap/commons-logging.jar
+- component:
+    name: disruptor
+  newVersion: 3.4.4
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/disruptor.jar
+- component:
+    name: easymock
+  newVersion: 4.3
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/easymock.jar
+- component:
+    name: enforcer-api
+  newVersion: 3.3.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/enforcer-api.jar
+- component:
+    name: enforcer-rules
+  newVersion: 3.3.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/enforcer-rules.jar
+- component:
+    name: equinox
+  newVersion: 8.0.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/osgi.core.jar
+- component:
+    name: failureaccess
+  newVersion: 31.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/failureaccess.jar
+- component:
+    name: file-management
+  newVersion: 3.1.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/file-management.jar
+- component:
+    name: guava
+  newVersion: 31.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/failureaccess.jar
+  - path: usr/share/java/javapackages-bootstrap/guava.jar
+- component:
+    name: guice
+  newVersion: 5.1.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/guice-servlet.jar
+  - path: usr/share/java/javapackages-bootstrap/guice.jar
+- component:
+    name: guice-servlet
+  newVersion: 5.1.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/guice-servlet.jar
+- component:
+    name: hamcrest
+  newVersion: 2.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/hamcrest-core.jar
+- component:
+    name: high-scale-lib
+  newVersion: 4.0.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/jctools-core.jar
+- component:
+    name: httpcomponents-client
+  newVersion: 4.5.13
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/httpclient.jar
+- component:
+    name: httpcomponents-core
+  newVersion: 4.4.13
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/httpcore.jar
+- component:
+    name: jakarta.mail
+  newVersion: 2.1.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/jakarta.mail-api.jar
+- component:
+    name: java-cup-runtime
+  newVersion: 0.11b
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/java_cup-runtime.jar
+- component:
+    name: javacc
+  newVersion: 7.0.13
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/javacc.jar
+- component:
+    name: javacc-maven-plugin
+  newVersion: 3.0.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/javacc-maven-plugin.jar
+- component:
+    name: javapackages-bootstrap
+  newVersion: 1.14.0
+  forceVersion: true
+  files:
+  - path: usr/lib/rpm/fileattrs/jpbgen.attr
+- component:
+    name: javaparser-core
+  newVersion: 3.25.7
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/javaparser-core.jar
+- component:
+    name: javax.activation
+  newVersion: 2.1.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/jakarta.activation-api.jar
+- component:
+    name: jcl-over-slf4j
+  newVersion: 1.7.36
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/jcl-over-slf4j.jar
+- component:
+    name: jcommander
+  newVersion: 1.82
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/jcommander.jar
+- component:
+    name: jctools-core
+  newVersion: 4.0.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/jctools-core.jar
+- component:
+    name: jdom
+  newVersion: 1.1.3
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/jdom2.jar
+- component:
+    name: jsoup
+  newVersion: 1.16.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/jsoup.jar
+- component:
+    name: jsr305
+  newVersion: 3.0.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/jsr305.jar
+- component:
+    name: junit
+  newVersion: 4.13.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/junit.jar
+- component:
+    name: junit-platform-commons
+  newVersion: 5.10.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/junit-platform-commons.jar
+- component:
+    name: junit-platform-engine
+  newVersion: 5.10.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/junit-platform-engine.jar
+- component:
+    name: junit-platform-launcher
+  newVersion: 5.10.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/junit-platform-launcher.jar
+- component:
+    name: junit-platform-reporting
+  newVersion: 5.10.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/junit-platform-reporting.jar
+- component:
+    name: junit-platform-runner
+  newVersion: 5.10.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/junit-platform-runner.jar
+- component:
+    name: junit-platform-suite-api
+  newVersion: 5.10.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/junit-platform-suite-api.jar
+- component:
+    name: junit-vintage-engine
+  newVersion: 5.10.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/junit-vintage-engine.jar
+- component:
+    name: log4j
+  newVersion: 2.20.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/log4j-api.jar
+  - path: usr/share/java/javapackages-bootstrap/log4j-core.jar
+- component:
+    name: log4j-1.2-api
+  newVersion: 2.20.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/log4j-1.2-api.jar
+  - path: usr/share/java/javapackages-bootstrap/log4j-api.jar
+  - path: usr/share/java/javapackages-bootstrap/log4j-core.jar
+- component:
+    name: log4j-api
+  newVersion: 2.20.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/log4j-api.jar
+- component:
+    name: maven-antrun-plugin
+  newVersion: 3.1.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-antrun-plugin.jar
+- component:
+    name: maven-archiver
+  newVersion: 3.6.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-archiver.jar
+- component:
+    name: maven-artifact
+  newVersion: 0.13.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-artifact.jar
+- component:
+    name: maven-artifact-transfer
+  newVersion: 0.13.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-artifact-transfer.jar
+- component:
+    name: maven-assembly-plugin
+  newVersion: 3.6.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-assembly-plugin.jar
+- component:
+    name: maven-builder-support
+  newVersion: 3.9.4
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-builder-support.jar
+- component:
+    name: maven-bundle-plugin
+  newVersion: 5.1.9
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-bundle-plugin.jar
+- component:
+    name: maven-common-artifact-filters
+  newVersion: 3.3.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-common-artifact-filters.jar
+- component:
+    name: maven-compat
+  newVersion: 3.9.4
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-compat.jar
+- component:
+    name: maven-compiler-plugin
+  newVersion: 3.11.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-compiler-plugin.jar
+- component:
+    name: maven-core
+  newVersion: 3.9.4
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-core.jar
+- component:
+    name: maven-dependency-analyzer
+  newVersion: 1.13.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-dependency-analyzer.jar
+- component:
+    name: maven-dependency-plugin
+  newVersion: 3.6.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-dependency-plugin.jar
+- component:
+    name: maven-dependency-tree
+  newVersion: 3.2.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-dependency-tree.jar
+- component:
+    name: maven-embedder
+  newVersion: 3.9.4
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-embedder.jar
+- component:
+    name: maven-enforcer-plugin
+  newVersion: 3.3.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-enforcer-plugin.jar
+- component:
+    name: maven-failsafe-plugin
+  newVersion: 3.1.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-failsafe-plugin.jar
+- component:
+    name: maven-filtering
+  newVersion: 3.3.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-filtering.jar
+- component:
+    name: maven-jar-plugin
+  newVersion: 3.3.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-jar-plugin.jar
+- component:
+    name: maven-model
+  newVersion: 3.9.4
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-model.jar
+- component:
+    name: maven-model-builder
+  newVersion: 3.9.4
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-model-builder.jar
+- component:
+    name: maven-plugin-annotations
+  newVersion: 3.9.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-plugin-annotations.jar
+- component:
+    name: maven-plugin-api
+  newVersion: 3.9.4
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-plugin-api.jar
+- component:
+    name: maven-plugin-plugin
+  newVersion: 3.9.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-plugin-plugin.jar
+- component:
+    name: maven-plugin-tools-annotations
+  newVersion: 3.9.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-plugin-tools-annotations.jar
+- component:
+    name: maven-plugin-tools-api
+  newVersion: 3.9.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-plugin-tools-api.jar
+- component:
+    name: maven-plugin-tools-generators
+  newVersion: 3.9.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-plugin-tools-generators.jar
+- component:
+    name: maven-plugin-tools-java
+  newVersion: 3.9.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-plugin-tools-java.jar
+- component:
+    name: maven-remote-resources-plugin
+  newVersion: 3.1.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-remote-resources-plugin.jar
+- component:
+    name: maven-repository-metadata
+  newVersion: 3.9.4
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-repository-metadata.jar
+- component:
+    name: maven-resolver-api
+  newVersion: 1.9.15
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-resolver-api.jar
+- component:
+    name: maven-resolver-connector-basic
+  newVersion: 1.9.15
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-resolver-connector-basic.jar
+- component:
+    name: maven-resolver-impl
+  newVersion: 1.9.15
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-resolver-impl.jar
+- component:
+    name: maven-resolver-named-locks
+  newVersion: 1.9.15
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-resolver-named-locks.jar
+- component:
+    name: maven-resolver-provider
+  newVersion: 3.9.4
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-resolver-provider.jar
+- component:
+    name: maven-resolver-spi
+  newVersion: 1.9.15
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-resolver-spi.jar
+- component:
+    name: maven-resolver-transport-file
+  newVersion: 1.9.15
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-resolver-transport-file.jar
+- component:
+    name: maven-resolver-transport-http
+  newVersion: 1.9.15
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-resolver-transport-http.jar
+- component:
+    name: maven-resolver-transport-wagon
+  newVersion: 1.9.15
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-resolver-transport-wagon.jar
+- component:
+    name: maven-resolver-util
+  newVersion: 1.9.15
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-resolver-util.jar
+- component:
+    name: maven-resources-plugin
+  newVersion: 3.3.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-resources-plugin.jar
+- component:
+    name: maven-settings
+  newVersion: 3.9.4
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-settings.jar
+- component:
+    name: maven-settings-builder
+  newVersion: 3.9.4
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-settings-builder.jar
+- component:
+    name: maven-shared-io
+  newVersion: 3.0.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-shared-io.jar
+- component:
+    name: maven-shared-utils
+  newVersion: 3.4.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-shared-utils.jar
+- component:
+    name: maven-source-plugin
+  newVersion: 3.3.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-source-plugin.jar
+- component:
+    name: maven-surefire-common
+  newVersion: 3.1.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-surefire-common.jar
+- component:
+    name: maven-surefire-plugin
+  newVersion: 3.1.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-surefire-plugin.jar
+- component:
+    name: maven-verifier
+  newVersion: 2.0.0~M1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/maven-verifier.jar
+- component:
+    name: mockito
+  newVersion: 3.7.13
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/mockito-core.jar
+- component:
+    name: modello-core
+  newVersion: 2.1.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/modello-core.jar
+- component:
+    name: modello-maven-plugin
+  newVersion: 2.1.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/modello-maven-plugin.jar
+- component:
+    name: modello-plugin-converters
+  newVersion: 2.1.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/modello-plugin-converters.jar
+- component:
+    name: modello-plugin-dom4j
+  newVersion: 2.1.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/modello-plugin-dom4j.jar
+- component:
+    name: modello-plugin-java
+  newVersion: 2.1.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/modello-plugin-java.jar
+- component:
+    name: modello-plugin-jdom
+  newVersion: 2.1.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/modello-plugin-jdom.jar
+- component:
+    name: modello-plugin-sax
+  newVersion: 2.1.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/modello-plugin-sax.jar
+- component:
+    name: modello-plugin-stax
+  newVersion: 2.1.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/modello-plugin-stax.jar
+- component:
+    name: modello-plugin-velocity
+  newVersion: 2.1.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/modello-plugin-velocity.jar
+- component:
+    name: modello-plugin-xdoc
+  newVersion: 2.1.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/modello-plugin-xdoc.jar
+- component:
+    name: modello-plugin-xml
+  newVersion: 2.1.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/modello-plugin-xml.jar
+- component:
+    name: modello-plugin-xpp3
+  newVersion: 2.1.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/modello-plugin-xpp3.jar
+- component:
+    name: modello-plugin-xsd
+  newVersion: 2.1.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/modello-plugin-xsd.jar
+- component:
+    name: moditect-maven-plugin
+  newVersion: 1.1.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/moditect-maven-plugin.jar
+- component:
+    name: modulemaker-maven-plugin
+  newVersion: 1.9
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/modulemaker-maven-plugin.jar
+- component:
+    name: objenesis
+  newVersion: 3.3
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/objenesis.jar
+- component:
+    name: opentest4j
+  newVersion: 1.3.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/opentest4j.jar
+- component:
+    name: org.apache.felix.utils
+  newVersion: 1.11.8
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/org.apache.felix.utils.jar
+- component:
+    name: org.eclipse.sisu.inject
+  newVersion: 0.3.5
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/org.eclipse.sisu.inject.jar
+- component:
+    name: org.eclipse.sisu.plexus
+  newVersion: 0.3.5
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/org.eclipse.sisu.plexus.jar
+- component:
+    name: osgi.annotation
+  newVersion: 8.1.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/osgi.annotation.jar
+- component:
+    name: osgi.cmpn
+  newVersion: 7.0.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/osgi.cmpn.jar
+- component:
+    name: osgi.core
+  newVersion: 8.0.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/osgi.core.jar
+- component:
+    name: plexus-archiver
+  newVersion: 4.8.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/plexus-archiver.jar
+- component:
+    name: plexus-compiler-api
+  newVersion: 2.13.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/plexus-compiler-api.jar
+- component:
+    name: plexus-compiler-javac
+  newVersion: 2.13.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/plexus-compiler-javac.jar
+- component:
+    name: plexus-compiler-manager
+  newVersion: 2.13.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/plexus-compiler-manager.jar
+- component:
+    name: plexus-component-annotations
+  newVersion: 2.1.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/plexus-component-annotations.jar
+- component:
+    name: plexus-component-metadata
+  newVersion: 2.1.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/plexus-component-metadata.jar
+- component:
+    name: plexus-container-default
+  newVersion: 2.1.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/plexus-container-default.jar
+- component:
+    name: plexus-interpolation
+  newVersion: 1.26
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/plexus-interpolation.jar
+- component:
+    name: plexus-io
+  newVersion: 3.4.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/plexus-io.jar
+- component:
+    name: plexus-java
+  newVersion: 1.4.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/plexus-java.jar
+- component:
+    name: plexus-resources
+  newVersion: 1.2.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/plexus-resources.jar
+- component:
+    name: plexus-utils
+  newVersion: 3.5.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/plexus-utils.jar
+- component:
+    name: servlet-api
+  newVersion: 4.0.3
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/javax.servlet-api.jar
+- component:
+    name: slf4j
+  newVersion: 1.7.36
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/slf4j-api.jar
+  - path: usr/share/java/javapackages-bootstrap/slf4j-simple.jar
+  - path: usr/share/java/javapackages-bootstrap/slf4j-nop.jar
+- component:
+    name: slf4j-nop
+  newVersion: 1.7.36
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/slf4j-nop.jar
+- component:
+    name: surefire-api
+  newVersion: 3.1.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/surefire-api.jar
+- component:
+    name: surefire-booter
+  newVersion: 3.1.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/surefire-booter.jar
+- component:
+    name: surefire-extensions-api
+  newVersion: 3.1.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/surefire-extensions-api.jar
+- component:
+    name: surefire-extensions-spi
+  newVersion: 3.1.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/surefire-extensions-spi.jar
+- component:
+    name: surefire-junit-platform
+  newVersion: 3.1.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/surefire-junit-platform.jar
+- component:
+    name: surefire-junit3
+  newVersion: 3.1.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/surefire-junit3.jar
+- component:
+    name: surefire-junit4
+  newVersion: 3.1.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/surefire-junit4.jar
+- component:
+    name: surefire-junit47
+  newVersion: 3.1.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/surefire-junit47.jar
+- component:
+    name: surefire-logger-api
+  newVersion: 3.1.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/surefire-logger-api.jar
+- component:
+    name: surefire-shared-utils
+  newVersion: 3.1.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/surefire-shared-utils.jar
+- component:
+    name: surefire-testng
+  newVersion: 3.1.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/surefire-testng.jar
+- component:
+    name: surefire-testng-utils
+  newVersion: 3.1.2
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/surefire-testng-utils.jar
+- component:
+    name: testng
+  newVersion: 7.8.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/testng.jar
+- component:
+    name: univocity-parsers
+  newVersion: 2.9.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/univocity-parsers.jar
+- component:
+    name: velocity
+  newVersion: 2.3
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/velocity-engine-core.jar
+- component:
+    name: velocity-engine-core
+  newVersion: 2.3
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/velocity-engine-core.jar
+- component:
+    name: wagon-file
+  newVersion: 3.5.3
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/wagon-file.jar
+- component:
+    name: wagon-http
+  newVersion: 3.5.3
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/wagon-http.jar
+- component:
+    name: wagon-http-shared
+  newVersion: 3.5.3
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/wagon-http-shared.jar
+- component:
+    name: wagon-provider-api
+  newVersion: 3.5.3
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/wagon-provider-api.jar
+- component:
+    name: xbean-reflect
+  newVersion: 4.23
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/xbean-reflect.jar
+- component:
+    name: xmlunit-assertj3
+  newVersion: 2.9.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/xmlunit-assertj3.jar
+- component:
+    name: xmlunit-core
+  newVersion: 2.9.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/xmlunit-core.jar
+- component:
+    name: xmlunit-matchers
+  newVersion: 2.9.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/xmlunit-matchers.jar
+- component:
+    name: xmvn-mojo
+  newVersion: 4.2.0
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/xmvn-mojo.jar
+- component:
+    name: xpp3
+  newVersion: 3.5.1
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/plexus-utils.jar
+- component:
+    name: xz-java
+  newVersion: 1.9
+  forceVersion: true
+  files:
+  - path: usr/share/java/javapackages-bootstrap/xz.jar
