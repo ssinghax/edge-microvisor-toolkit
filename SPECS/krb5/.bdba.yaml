@@ -1,0 +1,15 @@
+specVersion: 4
+overrides:
+- component:
+    name: libev
+  newVersion: 4.22
+  forceVersion: 'true'
+  files:
+  - path: 'usr/lib/libverto.so.0.0'
+- component:
+    name: kerberos
+  newVersion: 1.21.3
+  forceVersion: 'true'
+  files:
+  - path: 'usr/lib/libgssapi_krb5.so.2.2'
+  - path: 'usr/lib/libk5crypto.so.3.1'
