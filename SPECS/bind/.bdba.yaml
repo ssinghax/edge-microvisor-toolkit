@@ -1,8 +1,0 @@
-specVersion: 4
-overrides:
-- component:
-    name: picohttpparser
-  newVersion: 9.20.0
-  forceVersion: true
-  files:
-  - path: usr/lib/libisc-9.20.0.so

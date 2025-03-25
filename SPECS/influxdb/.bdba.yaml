@@ -1,0 +1,8 @@
+pecVersion: 4
+overrides:
+- component:
+    name: x-crypto
+  newVersion: v0.0.0-20220331220935-ae2d96664a29
+  forceVersion: true
+  files:
+  - path: usr/bin/influx
