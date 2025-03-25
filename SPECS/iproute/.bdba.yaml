@@ -1,0 +1,8 @@
+specVersion: 4
+overrides:
+- component:
+    name: iproute2
+  newVersion: 6.7.0
+  forceVersion: 'true'
+  files:
+  - path: 'usr/sbin/tipc'

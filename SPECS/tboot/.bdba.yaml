@@ -1,0 +1,12 @@
+specVersion: 4
+overrides:
+- component:
+    name: safestring
+  newVersion: 1.0.0
+  forceVersion: 'true'
+  files:
+  - path: 'usr/sbin/lcp2_crtpol'
+  - path: 'usr/sbin/lcp2_crtpolelt'
+  - path: 'usr/sbin/lcp2_crtpollist'
+  - path: 'usr/sbin/lcp2_mlehash'
+  - path: 'usr/sbin/tb_polgen'
