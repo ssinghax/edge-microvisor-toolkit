@@ -1,0 +1,9 @@
+specVersion: 4
+overrides:
+- component:
+    name: libev
+  newVersion: 4.33
+  forceVersion: 'true'
+  files:
+  - path: 'usr/lib/ruby/gems/3.3.0/gems/nio4r-2.5.9/lib/nio4r_ext.so'
+  - path: 'usr/lib/ruby/gems/3.3.0/extensions/x86_64-linux/3.3.0/nio4r-2.5.9/nio4r_ext.so'

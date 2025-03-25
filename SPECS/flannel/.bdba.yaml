@@ -1,0 +1,32 @@
+specVersion: 4
+overrides:
+- component:
+    name: glibc
+  newVersion: 2.38
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/flanneld'
+- component:
+    name: flannel-io-flannel
+  newVersion: 0.24.2
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/flanneld'
+- component:
+    name: golang-genproto
+  newVersion: v0.0.0-20231012201019-e917dd12ba7a
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/flanneld'
+- component:
+    name: go-yaml
+  newVersion: v3.0.1
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/flanneld'
+- component:
+    name: etcd
+  newVersion: v3.5.10
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/flanneld'

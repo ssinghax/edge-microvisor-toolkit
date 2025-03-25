@@ -1,0 +1,8 @@
+specVersion: 4
+overrides:
+- component:
+    name: glibc
+  newVersion: 2.38
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/tini-static'

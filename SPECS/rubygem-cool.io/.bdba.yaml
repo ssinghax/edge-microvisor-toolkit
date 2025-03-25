@@ -1,0 +1,9 @@
+specVersion: 4
+overrides:
+- component:
+    name: libev
+  newVersion: 4.24
+  forceVersion: 'true'
+  files:
+  - path: 'usr/lib/ruby/gems/3.3.0/gems/cool.io-1.8.0/lib/cool.io_ext.so'
+  - path: 'usr/lib/ruby/gems/3.3.0/extensions/x86_64-linux/3.3.0/cool.io-1.8.0/cool.io_ext.so'
