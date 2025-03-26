@@ -1,0 +1,26 @@
+pecVersion: 4
+overrides:
+- component:
+    name: aws-sdk-go
+  newVersion: v1.24.1
+  forceVersion: true
+  files:
+  - path: usr/libexec/docker/cli-plugins/docker-buildx
+- component:
+    name: azure-sdk-for-go-sdk-azcore
+  newVersion: v1.1.0
+  forceVersion: true
+  files:
+  - path: usr/libexec/docker/cli-plugins/docker-buildx
+- component:
+    name: go-jose
+  newVersion: v2.6.0
+  forceVersion: true
+  files:
+  - path: usr/libexec/docker/cli-plugins/docker-buildx
+- component:
+    name: go-yaml
+  newVersion: v2.4.0
+  forceVersion: true
+  files:
+  - path: usr/libexec/docker/cli-plugins/docker-buildx

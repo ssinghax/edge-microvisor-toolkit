@@ -1,0 +1,158 @@
+pecVersion: 4
+overrides:
+- component:
+    name: cobra
+  newVersion: v1.8.0
+  forceVersion: true
+  files:
+  - path: usr/bin/docker
+- component:
+    name: errors
+  newVersion: v0.9.1
+  forceVersion: true
+  files:
+  - path: usr/bin/docker
+- component:
+    name: go-connections
+  newVersion: v0.5.0
+  forceVersion: true
+  files:
+  - path: usr/bin/docker
+- component:
+    name: go-runewidth
+  newVersion: v0.0.15
+  forceVersion: true
+  files:
+  - path: usr/bin/docker
+- component:
+    name: go-units
+  newVersion: v0.5.0
+  forceVersion: true
+  files:
+  - path: usr/bin/docker
+- component:
+    name: gojsonpointer
+  newVersion: v0.0.0-20190905194746-02993c407bfb
+  forceVersion: true
+  files:
+  - path: usr/bin/docker
+- component:
+    name: gojsonreference
+  newVersion: v0.0.0-20180127040603-bd5ef7bd5415
+  forceVersion: true
+  files:
+  - path: usr/bin/docker
+- component:
+    name: gojsonschema
+  newVersion: v1.2.0
+  forceVersion: true
+  files:
+  - path: usr/bin/docker
+- component:
+    name: golang-genproto
+  newVersion: v0.0.0-20230711160842-782d3b101e98
+  forceVersion: true
+  files:
+  - path: usr/bin/docker
+- component:
+    name: gorilla/mux
+  newVersion: v1.8.1
+  forceVersion: true
+  files:
+  - path: usr/bin/docker
+- component:
+    name: grpc-go
+  newVersion: v1.58.3
+  forceVersion: true
+  files:
+  - path: usr/bin/docker
+- component:
+    name: klauspost-compress
+  newVersion: v1.17.4
+  forceVersion: true
+  files:
+  - path: usr/bin/docker
+- component:
+    name: logr
+  newVersion: v1.2.4
+  forceVersion: true
+  files:
+  - path: usr/bin/docker
+- component:
+    name: logrus
+  newVersion: v1.9.3
+  forceVersion: true
+  files:
+  - path: usr/bin/docker
+- component:
+    name: mergo
+  newVersion: v1.0.0
+  forceVersion: true
+  files:
+  - path: usr/bin/docker
+- component:
+    name: mitchellh-mapstructure
+  newVersion: v1.5.0
+  forceVersion: true
+  files:
+  - path: usr/bin/docker
+- component:
+    name: moby
+  newVersion: v25.0.2+incompatible
+  forceVersion: true
+  files:
+  - path: usr/bin/docker
+- component:
+    name: notary
+  newVersion: v0.7.1-0.20210315103452-bf96a202a09a
+  forceVersion: true
+  files:
+  - path: usr/bin/docker
+- component:
+    name: pflag
+  newVersion: v1.0.5
+  forceVersion: true
+  files:
+  - path: usr/bin/docker
+- component:
+    name: prometheus-client
+  newVersion: v1.14.0
+  forceVersion: true
+  files:
+  - path: usr/bin/docker
+- component:
+    name: prometheus-client-model
+  newVersion: v0.3.0
+  forceVersion: true
+  files:
+  - path: usr/bin/docker
+- component:
+    name: protobuf
+  newVersion: v1.5.3
+  forceVersion: true
+  files:
+  - path: usr/bin/docker
+- component:
+    name: protobuf-go
+  newVersion: v1.31.0
+  forceVersion: true
+  files:
+  - path: usr/bin/docker
+- component:
+    name: x-crypto
+  newVersion: v0.17.0
+  forceVersion: true
+  files:
+  - path: usr/bin/docker
+- component:
+    name: x-net
+  newVersion: 0.19.0
+  forceVersion: true
+  files:
+  - path: usr/bin/docker
+- component:
+    name: x-time-rate
+  newVersion: v0.3.0
+  forceVersion: true
+  files:
+  - path: usr/bin/docker
