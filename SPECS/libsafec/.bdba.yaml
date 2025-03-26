@@ -1,0 +1,8 @@
+specVersion: 4
+overrides:
+- component:
+    name: safeclib
+  newVersion: 3.8.1
+  forceVersion: 'true'
+  files:
+  - path: 'usr/lib/libsafec.so.3.0.8'

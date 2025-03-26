@@ -1,0 +1,8 @@
+specVersion: 4
+overrides:
+- component:
+    name: libnetfilter-cttimeout
+  newVersion: 1.0.1
+  forceVersion: 'true'
+  files:
+  - path: 'usr/lib/libnetfilter_cttimeout.so.1.0.0'

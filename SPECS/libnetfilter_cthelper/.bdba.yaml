@@ -1,0 +1,8 @@
+specVersion: 4
+overrides:
+- component:
+    name: libnetfilter-cthelper
+  newVersion: 1.0.1
+  forceVersion: 'true'
+  files:
+  - path: 'usr/lib/libnetfilter_cthelper.so.0.0.0'

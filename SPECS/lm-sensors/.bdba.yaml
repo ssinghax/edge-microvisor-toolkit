@@ -1,0 +1,8 @@
+specVersion: 4
+overrides:
+- component:
+    name: lm_sensors
+  newVersion: 3.6.0
+  forceVersion: 'true'
+  files:
+  - path: 'usr/lib/libsensors.so.5.0.0'
