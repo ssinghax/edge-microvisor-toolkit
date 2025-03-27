@@ -1,0 +1,8 @@
+specVersion: 3
+overrides:
+- component:
+    name: libusrsctp
+  newVersion: v0.9.5.0
+  forceVersion: 'true'
+  files:
+  - path: usr/lib/libusrsctp.so.2.0.0

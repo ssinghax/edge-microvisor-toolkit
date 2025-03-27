@@ -1,0 +1,10 @@
+specVersion: 3
+overrides:
+- component:
+    name: asm
+  newVersion: 4.1
+  forceVersion: 'true'
+- component:
+    name: xpp3
+  newVersion: 1.1.3.3_min
+  forceVersion: 'true'
