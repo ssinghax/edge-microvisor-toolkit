@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: bind
+  triages:
+  - cve: CVE-2019-6470
+    resolution: FalsePositive
+    comment: '"CVE-2019-6470 is fixed by updating the dhcp package to 4.4.1 or greater"'

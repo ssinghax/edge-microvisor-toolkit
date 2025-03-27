@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: flex
+  triages:
+  - cve: CVE-2019-6293
+    resolution: FalsePositive
+    comment: '"Upstream community decided to not fix this"'

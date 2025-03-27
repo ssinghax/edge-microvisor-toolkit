@@ -1,0 +1,44 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: libtiff
+  triages:
+  - cve: CVE-2022-3598
+    resolution: FalsePositive
+    comment: '"Already fixed with CVE-2022-3570.patch."'
+  - cve: CVE-2022-3627
+    resolution: FalsePositive
+    comment: '"Already fixed with CVE-2022-3597.patch."'
+  - cve: CVE-2022-2058
+    resolution: FalsePositive
+    comment: '"The CVE-2022-2056.patch also fixes CVE-2022-2058."'
+  - cve: CVE-2023-0798
+    resolution: FalsePositive
+    comment: '"The CVE-2023-0795.patch also fixes CVE-2023-0798"'
+  - cve: CVE-2023-0804
+    resolution: FalsePositive
+    comment: '"The CVE-2023-0801.patch also fixes CVE-2023-0804"'
+  - cve: CVE-2023-0802
+    resolution: FalsePositive
+    comment: '"The CVE-2023-0801.patch also fixes CVE-2023-0802"'
+  - cve: CVE-2023-0800
+    resolution: FalsePositive
+    comment: '"The CVE-2023-0801.patch also fixes CVE-2023-0800"'
+  - cve: CVE-2023-0803
+    resolution: FalsePositive
+    comment: '"The CVE-2023-0801.patch also fixes CVE-2023-0803"'
+  - cve: CVE-2022-2057
+    resolution: FalsePositive
+    comment: '"The CVE-2022-2056.patch also fixes CVE-2022-2057."'
+  - cve: CVE-2023-0797
+    resolution: FalsePositive
+    comment: '"The CVE-2023-0795.patch also fixes CVE-2023-0797"'
+  - cve: CVE-2023-0799
+    resolution: FalsePositive
+    comment: '"The CVE-2023-0795.patch also fixes CVE-2023-0799"'
+  - cve: CVE-2023-0796
+    resolution: FalsePositive
+    comment: '"The CVE-2023-0795.patch also fixes CVE-2023-0796"'
+  - cve: CVE-2022-3626
+    resolution: FalsePositive
+    comment: '"Already fixed with CVE-2022-3597.patch."'

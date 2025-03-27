@@ -1,0 +1,16 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: httpd
+  triages:
+  - cve: CVE-1999-0236
+    resolution: FalsePositive
+    comment: '"CVE-1999-0236 must be mitigated by the user. See "Server Side Includes"
+      at https://httpd.apache.org/docs/2.4/misc/security_tips.html"'
+  - cve: CVE-2007-0086
+    resolution: FalsePositive
+    comment: '"CVE-2007-0086 has been disputed to not be a vulnerability since 2007
+      due to default system configurations securing against it."'
+  - cve: CVE-1999-1412
+    resolution: FalsePositive
+    comment: '"CVE-1999-1412 applies only to MacOS X"'

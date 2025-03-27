@@ -7,3 +7,37 @@ overrides:
   files:
   - path: 'usr/bin/mariadb'
   - path: 'usr/bin/mariadb-embedded'
+vulnerabilityTriages:
+- component:
+    name: mariadb
+  triages:
+  - cve: CVE-2022-27458
+    resolution: FalsePositive
+    comment: '"CVE-2022-27458 - Fixed in v10.6.8
+
+
+      https://jira.mariadb.org/browse/MDEV-28099"'
+  - cve: CVE-2022-27451
+    resolution: FalsePositive
+    comment: '"CVE-2022-27451 - Fixed in v10.6.8
+
+
+      https://jira.mariadb.org/browse/MDEV-28094"'
+  - cve: CVE-2022-27449
+    resolution: FalsePositive
+    comment: '"CVE-2022-27449 - Fixed in v10.6.8
+
+
+      https://jira.mariadb.org/browse/MDEV-28089"'
+  - cve: CVE-2022-27457
+    resolution: FalsePositive
+    comment: '"CVE-2022-27457 - Fixed in v10.6.8
+
+
+      https://jira.mariadb.org/browse/MDEV-28098"'
+  - cve: CVE-2022-27448
+    resolution: FalsePositive
+    comment: '"CVE-2022-27448 - Fixed in v10.6.8
+
+
+      https://jira.mariadb.org/browse/MDEV-28095"'

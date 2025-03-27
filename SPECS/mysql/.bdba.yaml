@@ -22,3 +22,10 @@ overrides:
   forceVersion: 'true'
   files:
   - path: usr/bin/mysql
+vulnerabilityTriages:
+- component:
+    name: mysql
+  triages:
+  - cve: CVE-2012-5627
+    resolution: FalsePositive
+    comment: ''

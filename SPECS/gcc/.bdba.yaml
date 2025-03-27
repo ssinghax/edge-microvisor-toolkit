@@ -47,3 +47,10 @@ overrides:
   - path: usr/lib64/liblsan.so.0.0.0
   - path: usr/lib64/libtsan.a
   - path: usr/lib64/libtsan.so.2.0.0
+vulnerabilityTriages:
+- component:
+    name: gcc
+  triages:
+  - cve: CVE-2019-15847
+    resolution: FalsePositive
+    comment: ''

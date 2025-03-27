@@ -6,3 +6,14 @@ overrides:
   forceVersion: 'true'
   files:
   - path: 'boot/vmlinuz-6.12.15-1.emt3'
+vulnerabilityTriages:
+- component:
+    name: kernel-rt
+  triages:
+  - cve: CVE-2022-2785
+    resolution: FalsePositive
+    comment: '"already fixed by upstream fix_in_version: v6.0-rc1 patch: 86f44fcec22c"'
+  - cve: CVE-2025-21837
+    resolution: FalsePositive
+    comment: '"Ignore # CONFIG_IO_URING is not set The file(s) affected by this issue
+      are: io_uring/uring_cmd.c"'

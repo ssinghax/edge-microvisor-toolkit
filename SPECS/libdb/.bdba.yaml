@@ -1,0 +1,75 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: libdb
+  triages:
+  - cve: CVE-2017-3606
+    resolution: FalsePositive
+    comment: ''
+  - cve: CVE-2016-0689
+    resolution: FalsePositive
+    comment: "\"None of these vulnerabilities may be remotely exploitable without\
+      \ authentication, i.e., none may be exploited over a network without the need\
+      \ for a username and password. \n\nhttps://www.oracle.com/security-alerts/cpuapr2016v3.html\""
+  - cve: CVE-2017-3616
+    resolution: FalsePositive
+    comment: ''
+  - cve: CVE-2017-3604
+    resolution: FalsePositive
+    comment: ''
+  - cve: CVE-2017-3617
+    resolution: FalsePositive
+    comment: ''
+  - cve: CVE-2016-0694
+    resolution: FalsePositive
+    comment: "\"None of these vulnerabilities may be remotely exploitable without\
+      \ authentication, i.e., none may be exploited over a network without the need\
+      \ for a username and password. \n\nhttps://www.oracle.com/security-alerts/cpuapr2016v3.html\""
+  - cve: CVE-2020-2981
+    resolution: FalsePositive
+    comment: ''
+  - cve: CVE-2017-3614
+    resolution: FalsePositive
+    comment: ''
+  - cve: CVE-2016-0682
+    resolution: FalsePositive
+    comment: "\"None of these vulnerabilities may be remotely exploitable without\
+      \ authentication, i.e., none may be exploited over a network without the need\
+      \ for a username and password. \n\nhttps://www.oracle.com/security-alerts/cpuapr2016v3.html\""
+  - cve: CVE-2017-3613
+    resolution: FalsePositive
+    comment: ''
+  - cve: CVE-2016-0692
+    resolution: FalsePositive
+    comment: "\"None of these vulnerabilities may be remotely exploitable without\
+      \ authentication, i.e., none may be exploited over a network without the need\
+      \ for a username and password. \n\nhttps://www.oracle.com/security-alerts/cpuapr2016v3.html\""
+  - cve: CVE-2016-3418
+    resolution: FalsePositive
+    comment: "\"None of these vulnerabilities may be remotely exploitable without\
+      \ authentication, i.e., none may be exploited over a network without the need\
+      \ for a username and password. \n\nhttps://www.oracle.com/security-alerts/cpuapr2016v3.html\""
+  - cve: CVE-2017-3609
+    resolution: FalsePositive
+    comment: ''
+  - cve: CVE-2017-3612
+    resolution: FalsePositive
+    comment: ''
+  - cve: CVE-2017-3615
+    resolution: FalsePositive
+    comment: ''
+  - cve: CVE-2017-3608
+    resolution: FalsePositive
+    comment: ''
+  - cve: CVE-2017-3611
+    resolution: FalsePositive
+    comment: ''
+  - cve: CVE-2017-3610
+    resolution: FalsePositive
+    comment: ''
+  - cve: CVE-2017-3605
+    resolution: FalsePositive
+    comment: ''
+  - cve: CVE-2017-3607
+    resolution: FalsePositive
+    comment: ''

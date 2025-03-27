@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: tuned
+  triages:
+  - cve: CVE-2024-52337
+    resolution: FalsePositive
+    comment: ''

@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: sqlite
+  triages:
+  - cve: CVE-2015-3717
+    resolution: FalsePositive
+    comment: '"CVE-2015-3717 applies to versions shipped in iOS and OS X"'

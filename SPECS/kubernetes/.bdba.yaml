@@ -120,3 +120,10 @@ overrides:
   forceVersion: true
   files:
   - path: usr/bin/kubelet
+vulnerabilityTriages:
+- component:
+    name: kubernetes
+  triages:
+  - cve: CVE-2020-8554
+    resolution: FalsePositive
+    comment: ''

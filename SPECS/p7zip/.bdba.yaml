@@ -1,0 +1,14 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: p7zip
+  triages:
+  - cve: CVE-2018-5996
+    resolution: FalsePositive
+    comment: '"p7zip sources does not include 7-Zips RAR compression code.
+
+      Refer to p7zip no rar sources tar and patch0 for nonrar cmake.
+
+      Patch to fix CVE-2018-5996 is for RAR functionality compression bug.
+
+      It is not vulnerable hence adding nopatch"'

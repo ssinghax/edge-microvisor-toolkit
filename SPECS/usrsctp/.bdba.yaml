@@ -6,3 +6,14 @@ overrides:
   forceVersion: 'true'
   files:
   - path: usr/lib/libusrsctp.so.2.0.0
+vulnerabilityTriages:
+- component:
+    name: usrsctp
+  triages:
+  - cve: CVE-2019-20503
+    resolution: FalsePositive
+    comment: '"CVE-2019-20503 is already resolved in version usrsctp version 0.9.5.0
+
+      https://nvd.nist.gov/vuln/detail/CVE-2019-20503
+
+      https://github.com/sctplab/usrsctp/commit/790a7a2555aefb392a5a69923f1e9d17b4968467"'

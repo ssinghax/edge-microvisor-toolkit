@@ -1,0 +1,11 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: gperftools
+  triages:
+  - cve: CVE-2018-13420
+    resolution: FalsePositive
+    comment: '"Using an empty patch to ignoring this CVE because it''s considered
+      a false positive.
+
+      For more details see: https://github.com/gperftools/gperftools/issues/1013."'

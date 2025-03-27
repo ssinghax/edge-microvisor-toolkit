@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: ed
+  triages:
+  - cve: CVE-2015-2987
+    resolution: FalsePositive
+    comment: '"CVE-2015-2987 applies to a different program named ED"'

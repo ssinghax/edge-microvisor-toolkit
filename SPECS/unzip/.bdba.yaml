@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: unzip
+  triages:
+  - cve: CVE-2008-0888
+    resolution: FalsePositive
+    comment: '"Upstream has fixed CVE-2008-0888 in 6.0"'

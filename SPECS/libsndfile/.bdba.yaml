@@ -1,0 +1,10 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: libsndfile
+  triages:
+  - cve: CVE-2018-13419
+    resolution: FalsePositive
+    comment: '"CVE disputed by project''s owner, no repro.
+
+      See here for more details: https://github.com/libsndfile/libsndfile/issues/398."'

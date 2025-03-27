@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: patch
+  triages:
+  - cve: CVE-2019-13638
+    resolution: FalsePositive
+    comment: '"This vulnerability is fixed with patch3."'

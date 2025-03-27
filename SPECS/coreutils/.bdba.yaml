@@ -1,0 +1,17 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: coreutils
+  triages:
+  - cve: CVE-2016-2781
+    resolution: FalsePositive
+    comment: '"# Upstream community agreed to not fix this"'
+  - cve: CVE-2013-0222
+    resolution: FalsePositive
+    comment: '"CVE-2013-0221 is fixed in coreutils-8.32-i18n-1.patch"'
+  - cve: CVE-2013-0221
+    resolution: FalsePositive
+    comment: '"CVE-2013-0221 is fixed in coreutils-8.32-i18n-1.patch"'
+  - cve: CVE-2013-0223
+    resolution: FalsePositive
+    comment: '"CVE-2013-0221 is fixed in coreutils-8.32-i18n-1.patch"'

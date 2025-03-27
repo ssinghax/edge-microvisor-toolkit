@@ -1,0 +1,12 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: ncurses
+  triages:
+  - cve: CVE-2022-29458
+    resolution: FalsePositive
+    comment: '"This nopatch file is required to clear the CVE.
+
+      ncurses 6.3.20220416 or greater has the patch.
+
+      See the SPEC file for more details on ncurses versioning"'

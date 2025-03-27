@@ -1,0 +1,11 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: openssh
+  triages:
+  - cve: CVE-2025-26466
+    resolution: FalsePositive
+    comment: '"CVE-2025-26465.patch patches both CVE-2025-26465 and CVE-2025-26466."'
+  - cve: CVE-2007-2768
+    resolution: FalsePositive
+    comment: '"Community agreed to not patch this"'

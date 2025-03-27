@@ -18,3 +18,21 @@ overrides:
   forceVersion: true
   files:
   - path: usr/bin/node-agent
+vulnerabilityTriages:
+- component:
+    name: node-agent
+  triages:
+  - cve: CVE-2024-51744
+    resolution: FalsePositive
+    comment: '"Package golang-jwt already at the patched version 4.5.1. Lack of CPE
+      data in NVD database.
+
+
+      https://github.com/advisories/GHSA-29wx-vh33-7x7r"'
+  - cve: CVE-2024-45338
+    resolution: FalsePositive
+    comment: '"Package x-net already at the patched version 0.33.0. Lack of CPE data
+      in NVD database.
+
+
+      https://github.com/advisories/GHSA-w32m-9786-jp63"'

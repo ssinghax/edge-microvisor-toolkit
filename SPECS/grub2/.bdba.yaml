@@ -1,0 +1,48 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: grub2
+  triages:
+  - cve: CVE-2020-25647
+    resolution: FalsePositive
+    comment: ''
+  - cve: CVE-2021-3418
+    resolution: FalsePositive
+    comment: ''
+  - cve: CVE-2020-25632
+    resolution: FalsePositive
+    comment: ''
+  - cve: CVE-2020-14310
+    resolution: FalsePositive
+    comment: ''
+  - cve: CVE-2021-20233
+    resolution: FalsePositive
+    comment: ''
+  - cve: CVE-2020-10713
+    resolution: FalsePositive
+    comment: ''
+  - cve: CVE-2021-46705
+    resolution: FalsePositive
+    comment: "\"Issue: Insecure Temporary Files vulnerability in grub-once of grub2.\n\
+      \       Found in SUSE Linux Enterprise Server 15 SP4. Ignore.\n\nCVE: https://nvd.nist.gov/vuln/detail/CVE-2021-46705\""
+  - cve: CVE-2020-14309
+    resolution: FalsePositive
+    comment: ''
+  - cve: CVE-2020-14311
+    resolution: FalsePositive
+    comment: ''
+  - cve: CVE-2021-20225
+    resolution: FalsePositive
+    comment: ''
+  - cve: CVE-2020-14308
+    resolution: FalsePositive
+    comment: ''
+  - cve: CVE-2020-27779
+    resolution: FalsePositive
+    comment: ''
+  - cve: CVE-2020-27749
+    resolution: FalsePositive
+    comment: ''
+  - cve: CVE-2020-14372
+    resolution: FalsePositive
+    comment: ''

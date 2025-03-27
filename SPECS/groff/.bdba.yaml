@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: groff
+  triages:
+  - cve: CVE-2000-0803
+    resolution: FalsePositive
+    comment: '"No patch has been made available for CVE-2000-0803"'

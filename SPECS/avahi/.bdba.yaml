@@ -1,0 +1,10 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: avahi
+  triages:
+  - cve: CVE-2021-26720
+    resolution: FalsePositive
+    comment: '"CVE-2021-26720 only applies to Debian''s packaging of avahi.
+
+      https://nvd.nist.gov/vuln/detail/CVE-2021-26720"'

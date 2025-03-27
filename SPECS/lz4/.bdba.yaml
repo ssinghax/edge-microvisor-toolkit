@@ -1,0 +1,18 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: lz4
+  triages:
+  - cve: CVE-2014-4715
+    resolution: FalsePositive
+    comment: '"Version format changed from r131 to v1.7.3 on Nov 16, 2016
+
+      see https://github.com/lz4/lz4/tags?after=v1.7.4.2
+
+      The versions with the new version format have the fix.
+
+      *** NOTE: Leave this patch definition because the CVE Scan tool will flag the
+
+      CVE due to the above version format change.
+
+      CVE-2014-4715 applies to versions r* before r119."'
