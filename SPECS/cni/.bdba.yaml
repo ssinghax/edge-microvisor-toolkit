@@ -1,4 +1,4 @@
-pecVersion: 3
+specVersion: 3
 overrides:
 - component:
     name: cni
