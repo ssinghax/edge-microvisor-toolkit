@@ -1,0 +1,18 @@
+specVersion: 3
+overrides:
+- component:
+    name: protobuf-java
+  newVersion: v0.25.5
+  forceVersion: true
+  files:
+  - path: usr/bin/bazel-real:A-server.jar:com/google
+- component:
+    name: perfmark-api
+  forceVersion: true
+  files:
+  - path: usr/bin/bazel-real:A-server.jar:io
+- component:
+    name: boringssl
+  forceVersion: true
+  files:
+  - path: usr/bin/bazel-real:A-server.jar:META-INF/native/libnetty_tcnative_linux_x86_64.so
