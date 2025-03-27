@@ -1,0 +1,20 @@
+specVersion: 3
+overrides:
+- component:
+    name: golang-genproto
+  newVersion: v0.0.0-20240826202546-f6391c0de4c7
+  forceVersion: true
+  files:
+  - path: usr/bin/platform-telemetry-agent
+- component:
+    name: x-crypto
+  newVersion: v0.31.0
+  forceVersion: true
+  files:
+  - path: usr/bin/platform-telemetry-agent
+- component:
+    name: intel-innersource-frameworks.edge.one-intel-edge.edge-node.bma.platform-telemetry-agent
+  newVersion: v1.1.19
+  forceVersion: true
+  files:
+  - path: usr/bin/platform-telemetry-agent

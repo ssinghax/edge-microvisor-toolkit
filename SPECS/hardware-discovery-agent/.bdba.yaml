@@ -6,3 +6,15 @@ overrides:
   forceVersion: 'true'
   files:
   - path: 'usr/bin/hd-agent'
+- component:
+    name: x-crypto
+  newVersion: v0.31.0
+  forceVersion: true
+  files:
+  - path: usr/bin/hd-agent
+- component:
+    name: intel-innersource-frameworks.edge.one-intel-edge.edge-node.bma.hardware-discovery-agent
+  newVersion: v1.4.7
+  forceVersion: true
+  files:
+  - path: usr/bin/hd-agent

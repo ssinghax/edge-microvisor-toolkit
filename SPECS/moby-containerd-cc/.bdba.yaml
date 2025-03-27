@@ -8,7 +8,7 @@ overrides:
   - path: usr/bin/containerd
 - component:
     name: moby
-  newVersion: v23.0.3
+  newVersion: v23.0.3+incompatible
   forceVersion: true
   files:
   - path: usr/bin/containerd

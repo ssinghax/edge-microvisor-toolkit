@@ -1,0 +1,20 @@
+specVersion: 3
+overrides:
+- component:
+    name: golang-genproto
+  newVersion: v0.0.0-20231120223509-83a465c0220f
+  forceVersion: true
+  files:
+  - path: usr/bin/node-agent
+- component:
+    name: x-crypto
+  newVersion: v0.31.0
+  forceVersion: true
+  files:
+  - path: usr/bin/node-agent
+- component:
+    name: intel-innersource-frameworks.edge.one-intel-edge.edge-node.bma.node-agent
+  newVersion: v1.4.4
+  forceVersion: true
+  files:
+  - path: usr/bin/node-agent

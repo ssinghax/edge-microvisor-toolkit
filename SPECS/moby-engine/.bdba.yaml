@@ -1,0 +1,38 @@
+specVersion: 3
+overrides:
+- component:
+    name: aws-sdk-go
+  newVersion: v1.17.6
+  forceVersion: true
+  files:
+  - path: usr/bin/dockerd
+- component:
+    name: etcd
+  newVersion: v3.3.10+incompatible
+  forceVersion: true
+  files:
+  - path: usr/bin/dockerd
+- component:
+    name: fileutil
+  newVersion: v0.5.0
+  forceVersion: true
+  files:
+  - path: usr/bin/dockerd
+- component:
+    name: google-cloud-go-datastore
+  newVersion: v1.0.0
+  forceVersion: true
+  files:
+  - path: usr/bin/dockerd
+- component:
+    name: kubernetes-api
+  newVersion: v0.17.4
+  forceVersion: true
+  files:
+  - path: usr/bin/dockerd
+- component:
+    name: storage
+  newVersion: v1.0.0
+  forceVersion: true
+  files:
+  - path: usr/bin/dockerd
