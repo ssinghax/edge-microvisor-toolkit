@@ -3,6 +3,120 @@ overrides:
 - component:
     name: glibc
   newVersion: 2.38
-  forceVersion: 'true'
+  forceVersion: true
   files:
-  - path: 'usr/local/bin/pause'
+  - path: usr/local/bin/pause
+- component:
+    name: aws-sdk-go-v2
+  newVersion: v1.35.24
+  forceVersion: true
+  files:
+  - path: usr/bin/kubelet
+- component:
+    name: containerd
+  newVersion: v1.4.9
+  forceVersion: true
+  files:
+  - path: usr/bin/kubelet
+- component:
+    name: etcd
+  newVersion: v3.5.10
+  forceVersion: true
+  files:
+  - path: usr/bin/kubelet
+- component:
+    name: go-yaml
+  newVersion: v2.4.0
+  forceVersion: true
+  files:
+  - path: usr/bin/kubelet
+- component:
+    name: golang-genproto
+  newVersion: v0.0.0-20230803162519-f966b187b2e5
+  forceVersion: true
+  files:
+  - path: usr/bin/kubelet
+- component:
+    name: kubernetes-api
+  newVersion: v0.0.0
+  forceVersion: true
+  files:
+  - path: usr/bin/kubelet
+- component:
+    name: kubernetes-apimachinery
+  newVersion: v0.0.0
+  forceVersion: true
+  files:
+  - path: usr/bin/kubelet
+- component:
+    name: kubernetes-apiserver
+  newVersion: v0.0.0
+  forceVersion: true
+  files:
+  - path: usr/bin/kubelet
+- component:
+    name: kubernetes-apiserver-extensions
+  newVersion: v0.0.0
+  forceVersion: true
+  files:
+  - path: usr/bin/kubelet
+- component:
+    name: kubernetes-client
+  newVersion: v0.0.0
+  forceVersion: true
+  files:
+  - path: usr/bin/kubelet
+- component:
+    name: kubernetes-cloudprovider
+  newVersion: v0.0.0
+  forceVersion: true
+  files:
+  - path: usr/bin/kubelet
+- component:
+    name: kubernetes-component-base
+  newVersion: v0.0.0
+  forceVersion: true
+  files:
+  - path: usr/bin/kubelet
+- component:
+    name: kubernetes-controller-manager
+  newVersion: v0.0.0
+  forceVersion: true
+  files:
+  - path: usr/bin/kubelet
+- component:
+    name: kubernetes-cri-api
+  newVersion: v0.0.0
+  forceVersion: true
+  files:
+  - path: usr/bin/kubelet
+- component:
+    name: kubernetes-csi-translation
+  newVersion: v0.0.0
+  forceVersion: true
+  files:
+  - path: usr/bin/kubelet
+- component:
+    name: kubernetes-kube-scheduler
+  newVersion: v0.0.0
+  forceVersion: true
+  files:
+  - path: usr/bin/kubelet
+- component:
+    name: kubernetes-kubectl
+  newVersion: v0.0.0
+  forceVersion: true
+  files:
+  - path: usr/bin/kubelet
+- component:
+    name: kubernetes-legacy-cloud-providers
+  newVersion: v0.0.0
+  forceVersion: true
+  files:
+  - path: usr/bin/kubelet
+- component:
+    name: kubernetes-mount-utils
+  newVersion: v0.0.0
+  forceVersion: true
+  files:
+  - path: usr/bin/kubelet
