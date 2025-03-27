@@ -1,0 +1,14 @@
+specVersion: 3
+overrides:
+- component:
+    name: golang-genproto
+  newVersion: v0.0.0-20240401170217-c3f982113cda
+  forceVersion: 'true'
+  files:
+  - path: usr/bin/telegraf
+- component:
+    name: zap
+  newVersion: v1.24.0
+  forceVersion: 'true'
+  files:
+  - path: usr/bin/telegraf

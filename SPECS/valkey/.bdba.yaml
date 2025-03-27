@@ -1,0 +1,18 @@
+specVersion: 3
+overrides:
+- component:
+    name: hiredis
+  newVersion: v1.2.0
+  forceVersion: 'true'
+  files:
+  - path: usr/bin/valkey-benchmark
+  - path: usr/bin/valkey-cli
+  - path: usr/bin/valkey-server
+- component:
+    name: jemalloc
+  newVersion: v5.3.0
+  forceVersion: 'true'
+  files:
+  - path: usr/bin/valkey-benchmark
+  - path: usr/bin/valkey-cli
+  - path: usr/bin/valkey-server

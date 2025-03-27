@@ -1,0 +1,14 @@
+specVersion: 3
+overrides:
+- component:
+    name: cjson
+  newVersion: 1.7.14
+  forceVersion: 'true'
+  files:
+  - path: usr/lib/ruby/gems/3.3.0/gems/rdkafka-0.15.1/ext/librdkafka.so
+- component:
+    name: librdkafka
+  newVersion: v2.3.0
+  forceVersion: 'true'
+  files:
+  - path: usr/lib/ruby/gems/3.3.0/gems/rdkafka-0.15.1/ext/librdkafka.so

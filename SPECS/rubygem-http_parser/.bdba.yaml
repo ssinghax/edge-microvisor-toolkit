@@ -1,0 +1,9 @@
+specVersion: 3
+overrides:
+- component:
+    name: http-parser
+  newVersion: v2.8.1
+  forceVersion: 'true'
+  files:
+  - path: usr/lib/ruby/gems/3.3.0/extensions/x86_64-linux/3.3.0/http_parser.rb-0.8.0/ruby_http_parser.so
+  - path: usr/lib/ruby/gems/3.3.0/gems/http_parser.rb-0.8.0/lib/ruby_http_parser.so

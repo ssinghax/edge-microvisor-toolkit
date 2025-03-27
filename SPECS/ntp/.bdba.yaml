@@ -1,0 +1,12 @@
+specVersion: 3
+overrides:
+- component:
+    name: autogen
+  newVersion: v5.18.16
+  forceVersion: 'true'
+  files:
+  - path: usr/bin/ntp-keygen
+  - path: usr/bin/ntpd
+  - path: usr/bin/ntpdc
+  - path: usr/bin/ntpq
+  - path: usr/bin/sntp

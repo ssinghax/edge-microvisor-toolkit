@@ -1,0 +1,8 @@
+specVersion: 3
+overrides:
+- component:
+    name: binutils
+  newVersion: v2.32.0
+  forceVersion: 'true'
+  files:
+  - path: usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-b76fea627b799088.rlib

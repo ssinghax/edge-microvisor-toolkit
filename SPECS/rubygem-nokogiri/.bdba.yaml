@@ -1,0 +1,14 @@
+specVersion: 3
+overrides:
+- component:
+    name: nekohtml
+  newVersion: v1.15.4
+  forceVersion: 'true'
+  files:
+  - path: net/sourceforge/htmlunit/cyberneko
+- component:
+    name: nekohtml
+  newVersion: v2.63.0
+  forceVersion: 'true'
+  files:
+  - path: net/sourceforge/htmlunit/cyberneko

@@ -1,0 +1,9 @@
+specVersion: 3
+overrides:
+- component:
+    name: libestr
+  newVersion: v0.1.9
+  forceVersion: 'true'
+  files:
+  - path: usr/lib/rsyslog/omelasticsearch.so
+  - path: usr/sbin/rsyslogd
