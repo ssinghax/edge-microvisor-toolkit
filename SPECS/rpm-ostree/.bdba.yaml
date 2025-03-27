@@ -1,0 +1,8 @@
+specVersion: 3
+overrides:
+- component:
+    name: libyaml
+  newVersion: 0.2.5
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/rpm-ostree'

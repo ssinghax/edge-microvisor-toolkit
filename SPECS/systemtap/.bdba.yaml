@@ -1,0 +1,8 @@
+specVersion: 3
+overrides:
+- component:
+    name: bcc
+  newVersion: 0.29.1
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/stap'

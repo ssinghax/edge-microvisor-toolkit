@@ -1,0 +1,8 @@
+specVersion: 3
+overrides:
+- component:
+    name: ipmiutil
+  newVersion: 1.8.19
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/ipmitool'

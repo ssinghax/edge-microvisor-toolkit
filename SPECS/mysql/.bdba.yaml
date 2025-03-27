@@ -1,4 +1,4 @@
-specVersion: 4
+specVersion: 3
 overrides:
 - component:
     name: zstd 
@@ -16,3 +16,9 @@ overrides:
   - path: usr/lib/mysqlrouter/http_auth_backend.so
   - path: usr/lib/mysqlrouter/rest_metadata_cache.so
   - path: usr/lib/mysqlrouter/private/libmysqlrouter.so.1
+- component:
+    name: libedit
+  newVersion: 20221030-3.1
+  forceVersion: 'true'
+  files:
+  - path: usr/bin/mysql

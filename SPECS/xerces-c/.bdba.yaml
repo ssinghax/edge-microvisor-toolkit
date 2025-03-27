@@ -1,0 +1,8 @@
+specVersion: 3
+overrides:
+- component:
+    name: xerces-c++
+  newVersion: 3.2.4
+  forceVersion: 'true'
+  files:
+  - path: 'usr/lib/libxerces-c-3.2.so'

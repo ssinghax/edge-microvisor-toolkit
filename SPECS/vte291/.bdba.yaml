@@ -1,0 +1,8 @@
+specVersion: 3
+overrides:
+- component:
+    name: libvte
+  newVersion: 0.74.2
+  forceVersion: 'true'
+  files:
+  - path: 'usr/lib/libvte-2.91.so.0.7400.2'
