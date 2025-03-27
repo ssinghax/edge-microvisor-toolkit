@@ -1,0 +1,14 @@
+specVersion: 3
+overrides:
+- component:
+    name: fmt
+  newVersion: 10.2.1
+  forceVersion: 'true'
+  files:
+  - path: 'usr/lib/libxpum.so.1.2.39'
+- component:
+    name: intel-openmp
+  newVersion: 18.1
+  forceVersion: 'true'
+  files:
+  - path: 'usr/lib/libxpum.so.1.2.39'

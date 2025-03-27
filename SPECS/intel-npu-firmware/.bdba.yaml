@@ -1,0 +1,8 @@
+specVersion: 3
+overrides:
+- component:
+    name: newlib
+  newVersion: 13.2.0
+  forceVersion: 'true'
+  files:
+  - path: 'lib/firmware/updates/intel/vpu/vpu_37xx_v0.0.bin'

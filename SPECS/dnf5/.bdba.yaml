@@ -1,0 +1,8 @@
+specVersion: 3
+overrides:
+- component:
+    name: fmt
+  newVersion: 10.2.1
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/dnf5'
