@@ -1,0 +1,33 @@
+specVersion: 3
+overrides:
+- component:
+    name: shadow
+  newVersion: v4.14.3
+  forceVersion: true
+  files:
+  - path: usr/bin/newgidmap
+  - path: usr/bin/login
+  - path: bin/passwd
+  - path: usr/bin/chage
+  - path: usr/bin/chfn
+  - path: usr/bin/chsh
+  - path: usr/bin/gpasswd
+  - path: usr/bin/newuidmap
+  - path: usr/sbin/chgpasswd
+  - path: usr/sbin/chpasswd
+  - path: usr/sbin/groupadd
+  - path: usr/sbin/groupdel
+  - path: usr/sbin/groupmems
+  - path: usr/sbin/groupmod
+  - path: usr/sbin/grpck
+  - path: usr/sbin/grpconv
+  - path: usr/sbin/grpunconv
+  - path: usr/sbin/newusers
+  - path: usr/sbin/pwck
+  - path: usr/sbin/pwconv
+  - path: usr/sbin/pwunconv
+  - path: usr/sbin/useradd
+  - path: usr/sbin/userdel
+  - path: usr/sbin/usermod
+  - path: usr/sbin/vipw
+  - path: usr/bin/newgrp

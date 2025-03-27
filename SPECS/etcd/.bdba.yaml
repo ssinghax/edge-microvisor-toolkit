@@ -1,0 +1,62 @@
+specVersion: 3
+overrides:
+- component:
+    name: etcd-api
+  newVersion: v3.5.18
+  forceVersion: true
+  files:
+  - path: usr/bin/etcd
+  - path: usr/bin/etcdctl
+  - path: usr/bin/etcdutl
+- component:
+    name: etcd-client-pkg
+  newVersion: v3.5.18
+  forceVersion: true
+  files:
+  - path: usr/bin/etcdctl
+  - path: usr/bin/etcdutl
+  - path: usr/bin/etcd
+- component:
+    name: etcd-etcdctl
+  newVersion: v3.5.18
+  forceVersion: true
+  files:
+  - path: usr/bin/etcdctl
+- component:
+    name: etcd-etcdutl
+  newVersion: v3.5.18
+  forceVersion: true
+  files:
+  - path: usr/bin/etcdctl
+  - path: usr/bin/etcdutl
+- component:
+    name: etcd-pkg
+  newVersion: v3.5.18
+  forceVersion: true
+  files:
+  - path: usr/bin/etcd
+  - path: usr/bin/etcdctl
+  - path: usr/bin/etcdutl
+- component:
+    name: etcd-raft
+  newVersion: v3.5.18
+  forceVersion: true
+  files:
+  - path: usr/bin/etcd
+  - path: usr/bin/etcdctl
+  - path: usr/bin/etcdutl
+- component:
+    name: etcd-server
+  newVersion: v3.5.18
+  forceVersion: true
+  files:
+  - path: usr/bin/etcd
+  - path: usr/bin/etcdctl
+  - path: usr/bin/etcdutl
+- component:
+    name: golang-genproto
+  newVersion: v0.0.0-20230822172742-b8732ec3820d
+  forceVersion: true
+  files:
+  - path: usr/bin/etcdctl
+  - path: usr/bin/etcdutl
