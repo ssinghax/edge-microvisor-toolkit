@@ -1,0 +1,8 @@
+specVersion: 3
+overrides:
+- component:
+    name: bcc
+  newVersion: v0.27
+  forceVersion: true
+  files:
+  - path: usr/bin/bpftrace
