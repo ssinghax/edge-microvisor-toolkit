@@ -1,0 +1,9 @@
+specVersion: 3
+overrides:
+- component:
+    name: libbpf
+  newVersion: v0.33
+  forceVersion: true
+  files:
+  - path: usr/lib64/libbcc.so.0.29.1
+  - path: usr/lib64/libbcc_bpf.so.0.29.1
