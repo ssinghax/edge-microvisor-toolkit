@@ -1,0 +1,11 @@
+specVersion: 3
+overrides:
+- component:
+    name: jsoncpp
+  newVersion: 1.9.5
+  forceVersion: true
+  files:
+  - path: usr/bin/ccmake
+  - path: usr/bin/cmake
+  - path: usr/bin/cpack
+  - path: usr/bin/ctest
