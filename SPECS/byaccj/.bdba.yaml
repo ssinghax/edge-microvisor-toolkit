@@ -1,0 +1,8 @@
+specVersion: 3
+overrides:
+- component:
+    name: byacc
+  newVersion: v1.14
+  forceVersion: true
+  files:
+  - path: usr/bin/byaccj
