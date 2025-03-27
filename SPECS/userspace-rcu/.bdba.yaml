@@ -1,0 +1,13 @@
+specVersion: 3
+overrides:
+- component:
+    name: liburcu
+  newVersion: v0.14.0
+  forceVersion: 'true'
+  files:
+  - path: usr/lib/liburcu.so.8.1.0
+  - path: usr/lib/liburcu-bp.so.8.1.0
+  - path: usr/lib/liburcu-mb.so.8.1.0
+  - path: usr/lib/liburcu-memb.so.8.1.0
+  - path: usr/lib/liburcu-qsbr.so.8.1.0
+  - path: usr/lib/liburcu-signal.so.8.1.0

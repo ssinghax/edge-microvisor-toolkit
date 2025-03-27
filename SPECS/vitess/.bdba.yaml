@@ -1,0 +1,110 @@
+specVersion: 3
+overrides:
+- component:
+    name: vitess.io-vitess
+  newVersion: v0.16.2
+  forceVersion: 'true'
+  files:
+  - path: usr/bin/mysqlctl
+  - path: usr/bin/mysqlctld
+  - path: usr/bin/rulesctl
+  - path: usr/bin/topo2topo
+  - path: usr/bin/vtaclcheck
+  - path: usr/bin/vtadmin
+  - path: usr/bin/vtbackup
+  - path: usr/bin/vtbench
+  - path: usr/bin/vtclient
+  - path: usr/bin/vtcombo
+  - path: usr/bin/vtctl
+  - path: usr/bin/vtctlclient
+  - path: usr/bin/vtctld
+  - path: usr/bin/vtctldclient
+  - path: usr/bin/vtexplain
+  - path: usr/bin/vtgate
+  - path: usr/bin/vtgateclienttest
+  - path: usr/bin/vtorc
+  - path: usr/bin/vttablet
+  - path: usr/bin/vttestserver
+  - path: usr/bin/vttlstest
+  - path: usr/bin/zk
+  - path: usr/bin/zkctl
+  - path: usr/bin/zkctld
+- component:
+    name: golang-genproto
+  newVersion: v0.0.0-20240304212257-790db918fca8
+  forceVersion: 'true'
+  files:
+  - path: usr/bin/mysqlctl
+  - path: usr/bin/mysqlctld
+  - path: usr/bin/rulesctl
+  - path: usr/bin/topo2topo
+  - path: usr/bin/vtaclcheck
+  - path: usr/bin/vtadmin
+  - path: usr/bin/vtbench
+  - path: usr/bin/vtclient
+  - path: usr/bin/vtcombo
+  - path: usr/bin/vtctlclient
+  - path: usr/bin/vtctldclient
+  - path: usr/bin/vtexplain
+  - path: usr/bin/vtgate
+  - path: usr/bin/vtgateclienttest
+  - path: usr/bin/vtorc
+  - path: usr/bin/vttestserver
+  - path: usr/bin/zk
+  - path: usr/bin/zkctl
+  - path: usr/bin/zkctld
+- component:
+    name: x-crypto
+  newVersion: v0.23.0
+  forceVersion: 'true'
+  files:
+  - path: usr/bin/mysqlctl
+  - path: usr/bin/mysqlctld
+  - path: usr/bin/rulesctl
+  - path: usr/bin/topo2topo
+  - path: usr/bin/vtaclcheck
+  - path: usr/bin/vtadmin
+  - path: usr/bin/vtbench
+  - path: usr/bin/vtclient
+  - path: usr/bin/vtcombo
+  - path: usr/bin/vtctlclient
+  - path: usr/bin/vtctldclient
+  - path: usr/bin/vtexplain
+  - path: usr/bin/vtgate
+  - path: usr/bin/vtgateclienttest
+  - path: usr/bin/vtorc
+  - path: usr/bin/vttestserver
+  - path: usr/bin/zk
+  - path: usr/bin/zkctl
+  - path: usr/bin/zkctld
+- component:
+    name: etcd
+  newVersion: v3.5.18
+  forceVersion: 'true'
+  files:
+  - path: usr/bin/topo2topo
+  - path: usr/bin/vtadmin
+  - path: usr/bin/vtbackup
+  - path: usr/bin/vtcombo
+  - path: usr/bin/vtctl
+  - path: usr/bin/vtctld
+  - path: usr/bin/vtctldclient
+  - path: usr/bin/vtgate
+  - path: usr/bin/vtorc
+  - path: usr/bin/vttablet
+  - path: usr/bin/vttestserver
+  - path: usr/bin/zk
+  - path: usr/bin/zkctl
+  - path: usr/bin/zkctld
+- component:
+    name: klauspost-compress
+  newVersion: v1.17.7
+  forceVersion: 'true'
+  files:
+  - path: usr/bin/topo2topo
+  - path: usr/bin/vtclient
+  - path: usr/bin/vtctlclient
+  - path: usr/bin/vtorc
+  - path: usr/bin/zk
+  - path: usr/bin/zkctl
+  - path: usr/bin/zkctld

@@ -1,0 +1,29 @@
+specVersion: 3
+overrides:
+- component:
+    name: k8s.io-node-problem-detector
+  newVersion: v0.8.15
+  forceVersion: 'true'
+  files:
+  - path: usr/bin/health-checker
+  - path: usr/bin/log-counter
+  - path: usr/bin/node-problem-detector
+- component:
+    name: x-crypto
+  newVersion: v0.14.0
+  forceVersion: 'true'
+  files:
+  - path: usr/bin/health-checker
+  - path: usr/bin/log-counter
+- component:
+    name: kubernetes-client
+  newVersion: v0.29.0
+  forceVersion: 'true'
+  files:
+  - path: usr/bin/log-counter
+- component:
+    name: go-yaml
+  newVersion: v2.4.0
+  forceVersion: 'true'
+  files:
+  - path: usr/bin/node-problem-detector

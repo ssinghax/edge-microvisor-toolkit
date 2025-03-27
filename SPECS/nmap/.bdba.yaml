@@ -1,0 +1,15 @@
+specVersion: 3
+overrides:
+- component:
+    name: libdnet
+  newVersion: v1.10
+  forceVersion: 'true'
+  files:
+  - path: usr/bin/nmap
+  - path: usr/bin/nping
+- component:
+    name: liblinear
+  newVersion: v2.47
+  forceVersion: 'true'
+  files:
+  - path: usr/bin/nmap
