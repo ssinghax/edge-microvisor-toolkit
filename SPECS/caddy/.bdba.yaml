@@ -1,0 +1,194 @@
+specVersion: 3
+overrides:
+- component:
+    name: ansi
+  newVersion: v0.0.0-20200706080929-d51e80ef957d
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: blackfriday
+  newVersion: v2.1.0
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: bolt
+  newVersion: v1.3.9
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: cast
+  newVersion: v1.7.0
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: cobra
+  newVersion: v1.9.1
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: decimal
+  newVersion: v1.4.0
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: errors
+  newVersion: v0.9.1
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: go-humanize
+  newVersion: v1.0.1
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: go-jose
+  newVersion: v3.0.4
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: go-proxyproto
+  newVersion: v0.7.1-0.20240628150027-b718e7ce4964
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: go-readline
+  newVersion: v1.5.1
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: go-sql-driver-mysql
+  newVersion: v1.7.1
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: golang-genproto
+  newVersion: v0.0.0-20241007155032-5fefd90f89a9
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: google-uuid
+  newVersion: v1.6.0
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: klauspost-compress
+  newVersion: v1.18.0
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: logr
+  newVersion: v1.4.2
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: logrus
+  newVersion: v1.9.3
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: masterminds-goutils
+  newVersion: v1.1.1
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: miekg-dns
+  newVersion: v1.1.63
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: mitchellh-copystructure
+  newVersion: v1.2.0
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: pflag
+  newVersion: v1.0.6
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: prometheus-client
+  newVersion: v1.19.1
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: prometheus-client-model
+  newVersion: v0.5.0
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: protobuf-go
+  newVersion: v1.35.1
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: reflectwalk
+  newVersion: v1.0.2
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: toml
+  newVersion: v1.4.0
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: x-crypto
+  newVersion: v0.36.0
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: x-net
+  newVersion: v0.37.0
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: x-text
+  newVersion: v0.23.0
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: xid
+  newVersion: v1.5.0
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: xstrings
+  newVersion: v1.5.0
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: zap
+  newVersion: v1.27.0
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
