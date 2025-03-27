@@ -1,0 +1,45 @@
+specVersion: 3
+overrides:
+- component:
+    name: moby
+  newVersion: v25.0.3
+  forceVersion: true
+  files:
+  - path: usr/bin/containerd
+  - path: usr/bin/containerd-stress
+  - path: usr/bin/ctr
+- component:
+    name: cri-o
+  newVersion: 0.32.0
+  forceVersion: true
+  files:
+  - path: usr/bin/containerd
+  - path: usr/bin/containerd-shim
+  - path: usr/bin/containerd-shim-runc-v1
+  - path: usr/bin/containerd-shim-runc-v2
+  - path: usr/bin/containerd-stress
+  - path: usr/bin/ctr
+- component:
+    name: x-crypto
+  newVersion: v0.14.0
+  forceVersion: true
+  files:
+  - path: usr/bin/containerd-stress
+  - path: usr/bin/ctr
+- component:
+    name: go-yaml
+  newVersion: v2.4.0
+  forceVersion: true
+  files:
+  - path: usr/bin/containerd
+- component:
+    name: cluster-agent
+  newVersion: v1.4.2
+  forceVersion: true
+  files:
+  - path: usr/bin/containerd
+  - path: usr/bin/containerd-shim
+  - path: usr/bin/containerd-shim-runc-v1
+  - path: usr/bin/ctr
+  - path: usr/bin/containerd-stress
+  - path: usr/bin/containerd-shim-runc-v2

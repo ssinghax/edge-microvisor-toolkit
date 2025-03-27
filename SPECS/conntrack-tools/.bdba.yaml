@@ -1,0 +1,9 @@
+specVersion: 3
+overrides:
+- component:
+    name: libnetfilter-cthelper
+  newVersion: v1.0.0
+  forceVersion: true
+  files:
+  - path: usr/sbin/conntrackd
+  - path: usr/sbin/nfct

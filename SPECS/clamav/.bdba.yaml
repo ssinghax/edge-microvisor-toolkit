@@ -6,3 +6,4 @@ overrides:
   forceVersion: true
   files:
   - path: usr/lib/libclammspack.so.0.8.0
+  - path: usr/lib/libclamav.so.11.0.0

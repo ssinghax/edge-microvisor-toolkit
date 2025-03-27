@@ -1,0 +1,11 @@
+specVersion: 3
+overrides:
+- component:
+    name: open-iscsi
+  newVersion: 2.1.9
+  forceVersion: true
+  files:
+  - path: usr/lib/libiscsi.so.0
+  - path: usr/sbin/iscsiadm
+  - path: usr/sbin/iscsistart
+  - path: usr/sbin/iscsid

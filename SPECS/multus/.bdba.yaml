@@ -1,0 +1,20 @@
+specVersion: 3
+overrides:
+- component:
+    name: k8snetworkplumbingwg-multus-cni
+  newVersion: v4.0.2
+  forceVersion: true
+  files:
+  - path: usr/bin/install_multus
+  - path: usr/bin/multus
+  - path: usr/bin/multus-daemon
+  - path: usr/bin/multus-shim
+  - path: usr/bin/thin_entrypoint
+- component:
+    name: go-yaml
+  newVersion: v2.4.0
+  forceVersion: true
+  files:
+  - path: usr/bin/multus
+  - path: usr/bin/multus-daemon
+  - path: usr/bin/multus-shim
