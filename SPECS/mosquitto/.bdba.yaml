@@ -1,0 +1,9 @@
+specVersion: 3
+overrides:
+- component:
+    name: cjson
+  newVersion: 1.7.14
+  forceVersion: true
+  files:
+  - path: usr/bin/mosquitto_ctrl
+  - path: usr/lib/mosquitto_dynamic_security.so

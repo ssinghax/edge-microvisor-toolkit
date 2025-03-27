@@ -1,0 +1,9 @@
+specVersion: 3
+overrides:
+- component:
+    name: cjson
+  newVersion: 1.7.13
+  forceVersion: true
+  files:
+  - path: usr/lib/libiperf.a
+  - path: usr/lib/libiperf.so.0.0.0
