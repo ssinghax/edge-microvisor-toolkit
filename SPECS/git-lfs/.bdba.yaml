@@ -1,0 +1,8 @@
+specVersion: 3
+overrides:
+- component:
+    name: git-lfs-git-lfs
+  newVersion: v3.6.1
+  forceVersion: true
+  files:
+  - path: usr/bin/git-lfs

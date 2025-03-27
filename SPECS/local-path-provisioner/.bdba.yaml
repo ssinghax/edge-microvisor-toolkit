@@ -1,0 +1,14 @@
+specVersion: 3
+overrides:
+- component:
+    name: rancher-local-path-provisioner
+  newVersion: v0.0.24
+  forceVersion: true
+  files:
+  - path: usr/bin/local-path-provisioner
+- component:
+    name: grpc-go
+  newVersion: v1.31.0
+  forceVersion: true
+  files:
+  - path: usr/bin/local-path-provisioner

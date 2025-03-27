@@ -1,0 +1,78 @@
+specVersion: 3
+overrides:
+- component:
+    name: azure-sdk-for-go-sdk-azcore
+  newVersion: v1.3.1
+  forceVersion: true
+  files:
+  - path: usr/bin/prometheus
+  - path: usr/bin/promtool
+- component:
+    name: azure-sdk-for-go-sdk-azidentity
+  newVersion: v1.2.1
+  forceVersion: true
+  files:
+  - path: usr/bin/prometheus
+  - path: usr/bin/promtool
+- component:
+    name: azure-sdk-for-go-sdk-internal
+  newVersion: v1.3.0
+  forceVersion: true
+  files:
+  - path: usr/bin/prometheus
+  - path: usr/bin/promtool
+- component:
+    name: go-autorest-autorest
+  newVersion: v0.11.29
+  forceVersion: true
+  files:
+  - path: usr/bin/prometheus
+  - path: usr/bin/promtool
+- component:
+    name: go-autorest-logger
+  newVersion: v0.2.1
+  forceVersion: true
+  files:
+  - path: usr/bin/promtool
+  - path: usr/bin/prometheus
+- component:
+    name: go-autorest-tracing
+  newVersion: v0.6.0
+  forceVersion: true
+  files:
+  - path: usr/bin/promtool
+  - path: usr/bin/prometheus
+- component:
+    name: go-yaml
+  newVersion: v3.0.1
+  forceVersion: true
+  files:
+  - path: usr/bin/prometheus
+  - path: usr/bin/promtool
+- component:
+    name: go-zookeeper
+  newVersion: v1.0.3
+  forceVersion: true
+  files:
+  - path: usr/bin/prometheus
+  - path: usr/bin/promtool
+- component:
+    name: golang-genproto
+  newVersion: v0.0.0-20231211222908-989df2bf70f3
+  forceVersion: true
+  files:
+  - path: usr/bin/prometheus
+  - path: usr/bin/promtool
+- component:
+    name: klauspost-compress
+  newVersion: v1.23.6
+  forceVersion: true
+  files:
+  - path: usr/bin/promtool
+  - path: usr/bin/prometheus
+- component:
+    name: prometheus
+  newVersion: v2.45.4
+  forceVersion: true
+  files:
+  - path: usr/bin/promtool
