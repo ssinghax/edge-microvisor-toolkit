@@ -1,0 +1,8 @@
+specVersion: 3
+overrides:
+- component:
+    name: leveldb
+  newVersion: 1.23
+  forceVersion: 'true'
+  files:
+  - path: 'usr/lib/librocksdb.so.8.9.1'

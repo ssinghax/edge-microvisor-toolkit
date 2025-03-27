@@ -1,8 +1,8 @@
-specVersion: 4
+specVersion: 3
 overrides:
 - component:
     name: readline
-  newVersion: 8.2.1
+  newVersion: 8.2
   forceVersion: 'true'
   files:
   - path: 'usr/bin/crash'

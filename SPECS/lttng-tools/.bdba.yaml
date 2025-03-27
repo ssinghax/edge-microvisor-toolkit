@@ -1,0 +1,11 @@
+specVersion: 3
+overrides:
+- component:
+    name: msgpack
+  newVersion: 3.3.0
+  forceVersion: 'true'
+  files:
+  - path: 'usr/lib/liblttng-ctl.a'
+  - path: 'usr/lib/liblttng-ctl.so.0.0.0'
+  - path: 'usr/bin/lttng'
+  - path: 'usr/bin/lttng-sessiond'

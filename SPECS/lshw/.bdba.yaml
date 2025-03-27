@@ -1,0 +1,8 @@
+specVersion: 3
+overrides:
+- component:
+    name: lshw
+  newVersion: B.02.20
+  forceVersion: 'true'
+  files:
+  - path: 'usr/sbin/lshw'
