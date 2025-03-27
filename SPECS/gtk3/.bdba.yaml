@@ -1,0 +1,14 @@
+specVersion: 3
+overrides:
+- component:
+    name: gtk+
+  newVersion: 3.24.28
+  forceVersion: 'true'
+  files:
+  - path: 'usr/lib/libgtk-3.so.0.2404.24'
+- component:
+    name: libxkbcommon
+  newVersion: 1.6.0
+  forceVersion: 'true'
+  files:
+  - path: 'usr/lib/libgdk-3.so.0.2404.24'

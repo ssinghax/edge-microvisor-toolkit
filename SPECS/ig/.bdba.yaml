@@ -1,0 +1,44 @@
+specVersion: 3
+overrides:
+- component:
+    name: cri-o
+  newVersion: v1.27.0
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/ig'
+- component:
+    name: go-yaml
+  newVersion: v3.0.1
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/ig'
+- component:
+    name: platform-telemetry-agent
+  newVersion: v1.1.19
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/ig'
+- component:
+    name: platform-update-agent
+  newVersion: v1.2.20
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/ig'
+- component:
+    name: hd-agent
+  newVersion: v1.4.7
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/ig'
+- component:
+    name: inspektor-gadget-inspektor-gadget
+  newVersion: 0.32.0
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/ig'
+- component:
+    name: cluster-agent
+  newVersion: v1.4.2
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/ig'

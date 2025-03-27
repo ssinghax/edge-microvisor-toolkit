@@ -1,0 +1,44 @@
+specVersion: 3
+overrides:
+- component:
+    name: go-yaml
+  newVersion: v3.0.1
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/helm'
+- component:
+    name: golang-genproto
+  newVersion: v0.0.0-20230822172742-b8732ec3820d
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/helm'
+- component:
+    name: hashicorp-go-version
+  newVersion: v1.4.2
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/helm'
+- component:
+    name: platform-telemetry-agent
+  newVersion: v1.1.19
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/helm'
+- component:
+    name: platform-update-agent
+  newVersion: v1.2.20
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/helm'
+- component:
+    name: hd-agent
+  newVersion: v1.4.7
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/helm'
+- component:
+    name: cluster-agent
+  newVersion: v1.4.2
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/helm'
