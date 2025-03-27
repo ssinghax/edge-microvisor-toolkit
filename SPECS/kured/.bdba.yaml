@@ -1,0 +1,32 @@
+specVersion: 3
+overrides:
+- component:
+    name: go-yaml
+  newVersion: v3.0.1
+  forceVersion: true
+  files:
+  - path: usr/bin/kured
+- component:
+    name: grpc-go
+  newVersion: v1.59.0
+  forceVersion: true
+  files:
+  - path: usr/bin/kured
+- component:
+    name: klauspost-compress
+  newVersion: v1.17.0
+  forceVersion: true
+  files:
+  - path: usr/bin/kured
+- component:
+    name: x-crypto
+  newVersion: v0.16.0
+  forceVersion: true
+  files:
+  - path: usr/bin/kured
+- component:
+    name: kubereboot-kured
+  newVersion: 1.15.0
+  forceVersion: true
+  files:
+  - path: usr/bin/kured

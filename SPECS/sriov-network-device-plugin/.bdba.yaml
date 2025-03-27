@@ -1,0 +1,26 @@
+specVersion: 3
+overrides:
+- component:
+    name: go-yaml
+  newVersion: v3.0.1
+  forceVersion: true
+  files:
+  - path: usr/bin/sriovdp
+- component:
+    name:  golang-genproto
+  newVersion: v0.0.0-20241015192408-796eee8c2d53
+  forceVersion: true
+  files:
+  - path: usr/bin/sriovdp
+- component:
+    name: x-crypto
+  newVersion: v0.21.0
+  forceVersion: true
+  files:
+  - path: usr/bin/sriovdp
+- component:
+    name: k8snetworkplumbingwg-sriov-network-device-plugin
+  newVersion: v3.7.0
+  forceVersion: true
+  files:
+  - path: usr/bin/sriovdp

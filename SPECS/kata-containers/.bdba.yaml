@@ -1,0 +1,40 @@
+specVersion: 3
+overrides:
+- component:
+    name: cri-o
+  newVersion: v1.23
+  forceVersion: true
+  files:
+  - path: usr/local/bin/kata-monitor
+  - path: usr/local/bin/kata-runtime
+  - path: usr/local/bin/containerd-shim-kata-v2
+- component:
+    name: jaeger-client-go
+  newVersion: v1.0.0
+  forceVersion: true
+  files:
+  - path: usr/local/bin/containerd-shim-kata-v2
+- component:
+    name: kata-containers-agent
+  newVersion: v0.1.0
+  forceVersion: true
+  files:
+  - path: usr/local/bin/kata-monitor
+  - path: usr/local/bin/kata-runtime
+  - path: usr/local/bin/containerd-shim-kata-v2
+- component:
+    name: x-crypto
+  newVersion: v0.21.0
+  forceVersion: true
+  files:
+  - path: usr/local/bin/kata-monitor
+  - path: usr/local/bin/kata-runtime
+  - path: usr/local/bin/containerd-shim-kata-v2
+- component:
+    name: kata-containers-src-runtime
+  newVersion: 3.2.0.azl4
+  forceVersion: true
+  files:
+  - path: usr/local/bin/kata-monitor
+  - path: usr/local/bin/kata-runtime
+  - path: usr/local/bin/containerd-shim-kata-v2

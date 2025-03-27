@@ -1,0 +1,102 @@
+specVersion: 3
+overrides:
+- component:
+    name: aws-sdk-go
+  newVersion: v1.26.1
+  forceVersion: true
+  files:
+  - path: usr/bin/keda
+  - path: usr/bin/keda-adapter
+- component:
+    name: azure-sdk-for-go-sdk-azcore
+  newVersion: v1.11.1
+  forceVersion: true
+  files:
+  - path: usr/bin/keda
+  - path: usr/bin/keda-adapter
+- component:
+    name: azure-sdk-for-go-sdk-azidentity
+  newVersion: v1.7.0
+  forceVersion: true
+  files:
+  - path: usr/bin/keda-adapter
+  - path: usr/bin/keda
+- component:
+    name: azure-sdk-for-go-sdk-internal
+  newVersion: v1.8.0
+  forceVersion: true
+  files:
+  - path: usr/bin/keda
+  - path: usr/bin/keda-adapter
+- component:
+    name: azure-sdk-for-go-sdk-messaging-azservicebus
+  newVersion: v1.7.0
+  forceVersion: true
+  files:
+  - path: usr/bin/keda
+- component:
+    name: azure-sdk-for-go-sdk-messaging-eventgrid-azeventgrid
+  newVersion: v1.7.0
+  forceVersion: true
+  files:
+  - path: usr/bin/keda
+- component:
+    name: etcd
+  newVersion: v3.5.13
+  forceVersion: true
+  files:
+  - path: usr/bin/keda
+  - path: usr/bin/keda-adapter
+- component:
+    name: go-autorest-autorest
+  newVersion: v0.11.29
+  forceVersion: true
+  files:
+  - path: usr/bin/keda-adapter
+  - path: usr/bin/keda
+- component:
+    name: go-autorest-logger
+  newVersion: v0.2.1
+  forceVersion: true
+  files:
+  - path: usr/bin/keda-adapter
+  - path: usr/bin/keda
+- component:
+    name: go-autorest-tracing
+  newVersion: v0.6.0
+  forceVersion: true
+  files:
+  - path: usr/bin/keda
+- component:
+    name: go-yaml
+  newVersion: v3.0.1
+  forceVersion: true
+  files:
+  - path: usr/bin/keda
+  - path: usr/bin/keda-adapter
+  - path: usr/bin/keda-admission-webhooks
+- component:
+    name: grpc-go
+  newVersion: v1.63.2
+  forceVersion: true
+  files:
+  - path: usr/bin/keda-admission-webhooks
+- component:
+    name: keda
+  newVersion: v2.14.1
+  forceVersion: true
+  files:
+  - path: usr/bin/keda-admission-webhooks
+  - path: usr/bin/keda-adapter
+- component:
+    name: klauspost-compress
+  newVersion: v.17.7
+  forceVersion: true
+  files:
+  - path: usr/bin/keda-admission-webhooks
+- component:
+    name: streadway-amqp
+  newVersion: v1.9.0
+  forceVersion: true
+  files:
+  - path: usr/bin/keda

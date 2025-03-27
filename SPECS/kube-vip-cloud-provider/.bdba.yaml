@@ -1,0 +1,26 @@
+specVersion: 3
+overrides:
+- component:
+    name: etcd
+  newVersion: v3.5.10
+  forceVersion: true
+  files:
+  - path: usr/bin/kube-vip-cloud-provider
+- component:
+    name: go-yaml
+  newVersion: v3.0.1
+  forceVersion: true
+  files:
+  - path: usr/bin/kube-vip-cloud-provider
+- component:
+    name:  golang-genproto
+  newVersion: v0.0.0-20230803162519-f966b187b2e5
+  forceVersion: true
+  files:
+  - path: usr/bin/kube-vip-cloud-provider
+- component:
+    name: kube-vip-kube-vip-cloud-provider
+  newVersion: v0.0.10
+  forceVersion: true
+  files:
+  - path: usr/bin/kube-vip-cloud-provider
