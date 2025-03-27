@@ -1,0 +1,8 @@
+specVersion: 4
+overrides:
+- component:
+    name: xorg-randr
+  newVersion: 1.5.0
+  forceVersion: 'true'
+  files:
+  - path: 'usr/lib/libXrandr.so.2.2.0'

@@ -1,0 +1,32 @@
+specVersion: 4
+overrides:
+- component:
+    name: go-autorest-autorest
+  newVersion: v0.11.28
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/jx'
+- component:
+    name: go-autorest-logger
+  newVersion: v0.2.1
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/jx'
+- component:
+    name: go-yaml
+  newVersion: v3.0.1
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/jx'
+- component:
+    name: kubernetes-kubectl
+  newVersion: 1.30.3
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/jx'
+- component:
+    name: jenkins-x-jx
+  newVersion: 3.10.116
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/jx'

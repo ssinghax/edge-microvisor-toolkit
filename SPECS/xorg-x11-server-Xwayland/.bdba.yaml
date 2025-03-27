@@ -1,0 +1,14 @@
+specVersion: 4
+overrides:
+- component:
+    name: xorg-server
+  newVersion: 21.1.9
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/Xwayland'
+- component:
+    name: libxdmcp
+  newVersion: 1.1.4
+  forceVersion: 'true'
+  files:
+  - path: 'usr/bin/Xwayland'
