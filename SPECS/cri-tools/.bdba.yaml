@@ -1,0 +1,149 @@
+specVersion: 3
+overrides:
+- component:
+    name: blang-semver
+  newVersion: review
+  forceVersion: v4.0.0
+  files:
+  - path: usr/bin/critest
+- component:
+    name: gingko
+  newVersion: v2.23.2
+  forceVersion: true
+  files:
+  - path: usr/bin/critest
+- component:
+    name: gofuzz
+  newVersion: v1.2.0
+  forceVersion: true
+  files:
+  - path: usr/bin/critest
+- component:
+    name: golang-genproto
+  newVersion: v0.0.0-20250218202821-56aae31c358a
+  forceVersion: true
+  files:
+  - path: usr/bin/crictl
+  - path: usr/bin/critest
+- component:
+    name: gomega
+  newVersion: v1.36.2
+  forceVersion: true
+  files:
+  - path: usr/bin/critest
+- component:
+    name: google-uuid
+  newVersion: v1.6.0
+  forceVersion: true
+  files:
+  - path: usr/bin/critest
+- component:
+    name: gorilla/websocket
+  newVersion: v1.5.3
+  forceVersion: true
+  files:
+  - path: usr/bin/critest
+- component:
+    name: grpc-go
+  newVersion: v1.71.0
+  forceVersion: true
+  files:
+  - path: usr/bin/critest
+- component:
+    name: kubernetes-api
+  newVersion: v0.33.0-beta.0
+  forceVersion: true
+  files:
+  - path: usr/bin/critest
+- component:
+    name: kubernetes-apimachinery
+  newVersion: v0.33.0-beta.0
+  forceVersion: true
+  files:
+  - path: usr/bin/critest
+- component:
+    name: kubernetes-client
+  newVersion: v0.33.0-beta.0
+  forceVersion: true
+  files:
+  - path: usr/bin/critest
+- component:
+    name: kubernetes-component-base
+  newVersion: v0.33.0-beta.0
+  forceVersion: true
+  files:
+  - path: usr/bin/critest
+- component:
+    name: kubernetes-cri-api
+  newVersion: v0.33.0-beta.0.0.20250313010358-ab383b81657e
+  forceVersion: true
+  files:
+  - path: usr/bin/critest
+- component:
+    name: logr
+  newVersion: v1.4.2
+  forceVersion: true
+  files:
+  - path: usr/bin/critest
+- component:
+    name: logrus
+  newVersion: v1.9.3
+  forceVersion: true
+  files:
+  - path: usr/bin/critest
+- component:
+    name: prometheus-client
+  newVersion: v1.22.0-rc.0
+  forceVersion: true
+  files:
+  - path: usr/bin/critest
+- component:
+    name: prometheus-client-model
+  newVersion: v0.6.1
+  forceVersion: true
+  files:
+  - path: usr/bin/critest
+- component:
+    name: protobuf-go
+  newVersion: v1.36.5
+  forceVersion: true
+  files:
+  - path: usr/bin/critest
+- component:
+    name: spew
+  newVersion: v1.1.2-0.20180830191138-d8f796af33cc
+  forceVersion: true
+  files:
+  - path: usr/bin/critest
+- component:
+    name: x-crypto
+  newVersion: v0.21.0
+  forceVersion: true
+  files:
+  - path: usr/bin/crictl
+  - path: usr/bin/critest
+- component:
+    name: x-net
+  newVersion: v0.35.0
+  forceVersion: true
+  files:
+  - path: usr/bin/critest
+- component:
+    name: x-oauth2
+  newVersion: v0.27.0
+  forceVersion: true
+  files:
+  - path: usr/bin/critest
+- component:
+    name: x-text
+  newVersion: v0.23.0
+  forceVersion: true
+  files:
+  - path: usr/bin/critest
+- component:
+    name: sigs.k8s.io-cri-tools
+  newVersion: v1.32.0
+  forceVersion: true
+  files:
+  - path: usr/bin/crictl
+  - path: usr/bin/critest

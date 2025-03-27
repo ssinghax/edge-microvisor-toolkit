@@ -1,0 +1,31 @@
+specVersion: 3
+overrides:
+- component:
+    name: plugins
+  newVersion: v1.4.0
+  forceVersion: true
+  files:
+  - path: opt/cni/bin/bandwidth
+  - path: opt/cni/bin/bridge
+  - path: opt/cni/bin/dhcp
+  - path: opt/cni/bin/dummy
+  - path: opt/cni/bin/firewall
+  - path: opt/cni/bin/host-device
+  - path: opt/cni/bin/host-local
+  - path: opt/cni/bin/ipvlan
+  - path: opt/cni/bin/loopback
+  - path: opt/cni/bin/macvlan
+  - path: opt/cni/bin/portmap
+  - path: opt/cni/bin/ptp
+  - path: opt/cni/bin/sbr
+  - path: opt/cni/bin/static
+  - path: opt/cni/bin/tap
+  - path: opt/cni/bin/tuning
+  - path: opt/cni/bin/vlan
+  - path: opt/cni/bin/vrf
+- component:
+    name: x-crypto
+  newVersion: 0.14.0
+  forceVersion: true
+  files:
+  - path: opt/cni/bin/dhcp

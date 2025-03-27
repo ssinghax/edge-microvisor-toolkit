@@ -1,0 +1,51 @@
+specVersion: 3
+overrides:
+- component:
+    name: azure-sdk-for-go-sdk-azcore
+  newVersion: v1.17.0
+  forceVersion: true
+  files:
+  - path: usr/bin/blobfuse2
+- component:
+    name: azure-sdk-for-go-sdk-azidentity
+  newVersion: v1.8.2
+  forceVersion: true
+  files:
+  - path: usr/bin/blobfuse2
+- component:
+    name: azure-sdk-for-go-sdk-internal
+  newVersion: v1.10.0
+  forceVersion: true
+  files:
+  - path: usr/bin/blobfuse2
+- component:
+    name: azure-sdk-for-go-sdk-storage-azblob
+  newVersion: v1.6.1-beta.1
+  forceVersion: true
+  files:
+  - path: usr/bin/blobfuse2
+- component:
+    name: azure-sdk-for-go-sdk-storage-azdatalake
+  newVersion: v1.4.1-beta.1
+  forceVersion: true
+  files:
+  - path: usr/bin/blobfuse2
+- component:
+    name: go-yaml
+  newVersion: v3.0.1
+  forceVersion: true
+  files:
+  - path: usr/bin/blobfuse2
+- component:
+    name: grpc-go
+  newVersion: v1.62.1
+  forceVersion: true
+  files:
+  - path: usr/bin/blobfuse2
+- component:
+    name: Azure-azure-storage-fuse
+  newVersion: blobfuse2-2.3.2
+  forceVersion: true
+  files:
+  - path: usr/bin/bfusemon
+  - path: usr/bin/blobfuse2

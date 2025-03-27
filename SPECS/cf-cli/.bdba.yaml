@@ -1,0 +1,8 @@
+specVersion: 3
+overrides:
+- component:
+    name: code.cloudfoundry.org-cli
+  newVersion: 8.7.3
+  forceVersion: true
+  files:
+  - path: usr/bin/cf

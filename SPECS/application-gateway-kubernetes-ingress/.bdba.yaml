@@ -1,0 +1,50 @@
+specVersion: 3
+overrides:
+- component:
+    name: azure-sdk-for-go-sdk-azcore
+  newVersion: v1.14.0
+  forceVersion: true
+  files:
+  - path: usr/bin/appgw-ingress
+- component:
+    name: azure-sdk-for-go-sdk-azidentity
+  newVersion: v1.8.0
+  forceVersion: true
+  files:
+  - path: usr/bin/appgw-ingress
+- component:
+    name: azure-sdk-for-go-sdk-internal
+  newVersion: v1.10.0
+  forceVersion: true
+  files:
+  - path: usr/bin/appgw-ingress
+- component:
+    name: go-autorest-autorest
+  newVersion: v0.11.29
+  forceVersion: true
+  files:
+  - path: usr/bin/appgw-ingress
+- component:
+    name: go-autorest-logger
+  newVersion: v0.2.1
+  forceVersion: true
+  files:
+  - path: usr/bin/appgw-ingress
+- component:
+    name: go-autorest-tracing
+  newVersion: v0.6.0
+  forceVersion: true
+  files:
+  - path: usr/bin/appgw-ingress
+- component:
+    name: go-yaml
+  newVersion: v2.4.0
+  forceVersion: true
+  files:
+  - path: usr/bin/appgw-ingress
+- component:
+    name: Azure-application-gateway-kubernetes-ingress
+  newVersion: 1.7.7
+  forceVersion: true
+  files:
+  - path: usr/bin/appgw-ingress

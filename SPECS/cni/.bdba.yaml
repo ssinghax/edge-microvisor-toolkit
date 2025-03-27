@@ -1,0 +1,9 @@
+pecVersion: 3
+overrides:
+- component:
+    name: cni
+  newVersion: v1.1.2
+  forceVersion: true
+  files:
+  - path: usr/libexec/cni/sleep
+  - path: usr/sbin/cnitool
