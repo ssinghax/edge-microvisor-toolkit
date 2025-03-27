@@ -1,0 +1,26 @@
+specVersion: 3
+overrides:
+- component:
+    name: pyparsing
+  newVersion: 3.1.0
+  forceVersion: true
+  files:
+  - path: pip/_vendor/pyparsing/__init__.py
+- component:
+    name: expat
+  newVersion: 2.6.3
+  forceVersion: true
+  files:
+  - path: usr/lib/python3.12/lib-dynload/pyexpat.cpython-312-x86_64-linux-gnu.so
+- component:
+    name: distro
+  newVersion: 1.8.0
+  forceVersion: true
+  files:
+  - path: pip/_vendor/distro/__main__.py
+- component:
+    name: futures
+  newVersion: 3.12.3
+  forceVersion: true
+  files:
+  - path: usr/lib/python3.12/concurrent/futures/__init__.py
