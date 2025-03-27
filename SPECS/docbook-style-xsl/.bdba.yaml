@@ -1,0 +1,26 @@
+specVersion: 3
+overrides:
+- component:
+    name: jython
+  newVersion: 2.5.2
+  forceVersion: true
+  files:
+  - path: usr/share/xml/docbook/xsl-stylesheets-1.79.1/tools/lib/jython.jar
+- component:
+    name: guava
+  newVersion: r07
+  forceVersion: true
+  files:
+  - path: usr/share/xml/docbook/xsl-stylesheets-1.79.1/tools/lib/jython.jar
+- component:
+    name: json-java
+  newVersion: 20080701
+  forceVersion: true
+  files:
+  - path: usr/share/xml/docbook/xsl-stylesheets-1.79.1/tools/lib/calabash.jar
+- component:
+    name: xmlresolver
+  newVersion: 0.9.0
+  forceVersion: true
+  files:
+  - path: usr/share/xml/docbook/xsl-stylesheets-1.79.1/tools/lib/xmlresolver.jar
