@@ -1,4 +1,4 @@
-specVersion: 4
+specVersion: 3
 overrides:
 - component:
     name: libnetfilter-conntrack

@@ -1,0 +1,23 @@
+specVersion: 3
+overrides:
+- component:
+    name: go-yaml
+  newVersion: v3.0.1
+  forceVersion: true
+  files:
+  - path: usr/bin/containerd
+- component:
+    name: moby
+  newVersion: v23.0.3
+  forceVersion: true
+  files:
+  - path: usr/bin/containerd
+  - path: usr/bin/containerd-stress
+  - path: usr/bin/ctr
+- component:
+    name: x-crypto
+  newVersion: v0.11.0
+  forceVersion: true
+  files:
+  - path: usr/bin/containerd-stress
+  - path: usr/bin/ctr

@@ -1,0 +1,32 @@
+specVersion: 3
+overrides:
+- component:
+    name: go-autorest-autorest
+  newVersion: v0.11.19
+  forceVersion: true
+  files:
+  - path: usr/bin/packer
+- component:
+    name: go-autorest-logger
+  newVersion: v0.2.1
+  forceVersion: true
+  files:
+  - path: usr/bin/packer
+- component:
+    name: go-autorest-tracing
+  newVersion: v0.6.0
+  forceVersion: true
+  files:
+  - path: usr/bin/packer
+- component:
+    name: go-yaml
+  newVersion: v3.0.1
+  forceVersion: true
+  files:
+  - path: usr/bin/packer
+- component:
+    name: google-cloud-go-datastore
+  newVersion: v1.15.0
+  forceVersion: true
+  files:
+  - path: usr/bin/packer

@@ -1,4 +1,4 @@
-pecVersion: 4
+specVersion: 3
 overrides:
 - component:
     name: aws-sdk-go
@@ -20,7 +20,7 @@ overrides:
   - path: usr/libexec/docker/cli-plugins/docker-buildx
 - component:
     name: go-yaml
-  newVersion: v2.4.0
+  newVersion: v3.0.1
   forceVersion: true
   files:
   - path: usr/libexec/docker/cli-plugins/docker-buildx

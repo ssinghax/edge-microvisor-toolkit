@@ -1,8 +1,74 @@
-pecVersion: 4
+specVersion: 3
 overrides:
 - component:
-    name: x-crypto
-  newVersion: v0.0.0-20220331220935-ae2d96664a29
+    name: go-autorest-autorest
+  newVersion: v0.11.9
   forceVersion: true
   files:
-  - path: usr/bin/influx
+  - path: usr/bin/influxd
+- component:
+    name: go-autorest-logger
+  newVersion: v0.2.1
+  forceVersion: true
+  files:
+  - path: usr/bin/influxd
+- component:
+    name: go-autorest-tracing
+  newVersion: v0.6.0
+  forceVersion: true
+  files:
+  - path: usr/bin/influxd
+- component:
+    name: go-radix
+  newVersion: v0.0.0-20180808171621-7fddfc383310
+  forceVersion: true
+  files:
+  - path: usr/bin/influxd
+- component:
+    name: go-yaml
+  newVersion: v3.0.1
+  forceVersion: true
+  files:
+  - path: usr/bin/influxd
+- component:
+    name: gonum-blas
+  newVersion: v0.11.0
+  forceVersion: true
+  files:
+  - path: usr/bin/influxd
+- component:
+    name: gonum-lapack
+  newVersion: v0.11.0
+  forceVersion: true
+  files:
+  - path: usr/bin/influxd
+- component:
+    name: gonum-matrix
+  newVersion: v0.11.0
+  forceVersion: true
+  files:
+  - path: usr/bin/influxd
+- component:
+    name: google-cloud-go-longrunning
+  newVersion: v0.82.0
+  forceVersion: true
+  files:
+  - path: usr/bin/influxd
+- component:
+    name: klauspost-compress
+  newVersion: v1.14.2
+  forceVersion: true
+  files:
+  - path: usr/bin/telemetryd
+- component:
+    name: x-crypto
+  newVersion: v0.14.0
+  forceVersion: true
+  files:
+  - path: usr/bin/telemetryd
+- component:
+    name: xid
+  newVersion: v1.2.1
+  forceVersion: true
+  files:
+  - path: usr/bin/influxd
