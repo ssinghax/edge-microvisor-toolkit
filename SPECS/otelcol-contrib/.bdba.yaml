@@ -2,13 +2,37 @@ specVersion: 3
 overrides:
 - component:
     name: go-yaml
-  newVersion: v3.0.1
+  newVersion: v1.3.0
   forceVersion: true
   files:
   - path: usr/bin/otelcol-contrib
 - component:
     name: collector-cmd-builder
   newVersion: v0.117.0
+  forceVersion: true
+  files:
+  - path: usr/bin/otelcol-contrib
+- component:
+    name: azure-sdk-for-go-sdk-azcore
+  newVersion: v1.7.0
+  forceVersion: true
+  files:
+  - path: usr/bin/otelcol-contrib
+- component:
+    name: golang-genproto
+  newVersion: v0.0.0-20200911024640-645f7a48b24f
+  forceVersion: true
+  files:
+  - path: usr/bin/otelcol-contrib
+- component:
+    name: mitchellh-mapstructure
+  newVersion: v1.5.0
+  forceVersion: true
+  files:
+  - path: usr/bin/otelcol-contrib
+- component:
+    name: x-crypto
+  newVersion: v0.31.0
   forceVersion: true
   files:
   - path: usr/bin/otelcol-contrib
