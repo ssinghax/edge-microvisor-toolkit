@@ -1,0 +1,18 @@
+specVersion: 3
+overrides:
+- component:
+    name: libxdmcp
+  newVersion: v1.1.3
+  forceVersion: true
+  files:
+  - path: usr/bin/Xnest
+  - path: usr/bin/Xvfb
+  - path: usr/libexec/Xorg
+- component:
+    name: xorg-server
+  newVersion: v21.1.9
+  forceVersion: true
+  files:
+  - path: usr/bin/Xnest
+  - path: usr/bin/Xvfb
+  - path: usr/libexec/Xorg
