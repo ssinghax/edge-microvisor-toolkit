@@ -26,7 +26,7 @@ overrides:
   - path: usr/bin/caddy
 - component:
     name: cobra
-  newVersion: v1.9.1
+  newVersion: v1.8.1
   forceVersion: true
   files:
   - path: usr/bin/caddy
@@ -86,7 +86,7 @@ overrides:
   - path: usr/bin/caddy
 - component:
     name: klauspost-compress
-  newVersion: v1.18.0
+  newVersion: v1.17.11
   forceVersion: true
   files:
   - path: usr/bin/caddy
@@ -110,7 +110,7 @@ overrides:
   - path: usr/bin/caddy
 - component:
     name: miekg-dns
-  newVersion: v1.1.63
+  newVersion: v1.1.62
   forceVersion: true
   files:
   - path: usr/bin/caddy
@@ -122,7 +122,7 @@ overrides:
   - path: usr/bin/caddy
 - component:
     name: pflag
-  newVersion: v1.0.6
+  newVersion: v1.0.5
   forceVersion: true
   files:
   - path: usr/bin/caddy
@@ -158,19 +158,19 @@ overrides:
   - path: usr/bin/caddy
 - component:
     name: x-crypto
-  newVersion: v0.36.0
+  newVersion: v0.31.0
   forceVersion: true
   files:
   - path: usr/bin/caddy
 - component:
     name: x-net
-  newVersion: v0.37.0
+  newVersion: v0.33.0
   forceVersion: true
   files:
   - path: usr/bin/caddy
 - component:
     name: x-text
-  newVersion: v0.23.0
+  newVersion: v0.21.0
   forceVersion: true
   files:
   - path: usr/bin/caddy
@@ -189,6 +189,24 @@ overrides:
 - component:
     name: zap
   newVersion: v1.27.0
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: golang-glog
+  newVersion: v1.2.2
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: aws-sdk-go-v2
+  newVersion: v1.26.1
+  forceVersion: true
+  files:
+  - path: usr/bin/caddy
+- component:
+    name: grpc-go
+  newVersion: v1.67.1
   forceVersion: true
   files:
   - path: usr/bin/caddy
