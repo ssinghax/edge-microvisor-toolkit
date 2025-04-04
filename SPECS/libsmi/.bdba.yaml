@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: libsmi
+  triages:
+  - cve: CVE-2010-2891
+    resolution: Patched
+    comment: ''

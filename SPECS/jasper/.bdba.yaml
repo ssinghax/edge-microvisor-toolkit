@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: jasper
+  triages:
+  - cve: CVE-2024-31744
+    resolution: Patched
+    comment: ''

@@ -1,0 +1,26 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: tensorflow
+  triages:
+  - cve: CVE-2024-7592
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-6232
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-8088
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-3651
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-35195
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-5569
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-6923
+    resolution: Patched
+    comment: ''

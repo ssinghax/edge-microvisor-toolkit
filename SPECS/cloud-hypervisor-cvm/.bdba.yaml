@@ -1,0 +1,11 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: cloud-hypervisor-cvm
+  triages:
+  - cve: CVE-2024-6119
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-12797
+    resolution: Patched
+    comment: ''

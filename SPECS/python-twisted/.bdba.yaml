@@ -1,0 +1,11 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: python-twisted
+  triages:
+  - cve: CVE-2024-41671
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-41810
+    resolution: Patched
+    comment: ''

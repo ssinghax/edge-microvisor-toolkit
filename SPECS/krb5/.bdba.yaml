@@ -13,3 +13,10 @@ overrides:
   files:
   - path: 'usr/lib/libgssapi_krb5.so.2.2'
   - path: 'usr/lib/libk5crypto.so.3.1'
+vulnerabilityTriages:
+- component:
+    name: krb5
+  triages:
+  - cve: CVE-2024-26461
+    resolution: Patched
+    comment: ''

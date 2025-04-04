@@ -1,0 +1,14 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: giflib
+  triages:
+  - cve: CVE-2023-48161
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2022-28506
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-39742
+    resolution: Patched
+    comment: ''

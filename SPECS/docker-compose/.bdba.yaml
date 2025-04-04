@@ -24,4 +24,19 @@ overrides:
   forceVersion: true
   files:
   - path: usr/libexec/docker/cli-plugins/docker-compose
-
+vulnerabilityTriages:
+- component:
+    name: docker-compose
+  triages:
+  - cve: CVE-2024-45337
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-45338
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-22869
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-10846
+    resolution: Patched
+    comment: ''

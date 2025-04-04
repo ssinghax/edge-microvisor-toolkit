@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: python-zipp
+  triages:
+  - cve: CVE-2024-5569
+    resolution: Patched
+    comment: ''

@@ -19,3 +19,24 @@ vulnerabilityTriages:
   - cve: CVE-2024-53858
     resolution: FalsePositive
     comment: ''
+  - cve: CVE-2024-54132
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-45337
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-45338
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-53859
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-25204
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-27144
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-22869
+    resolution: Patched
+    comment: ''

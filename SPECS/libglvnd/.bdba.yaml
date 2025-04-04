@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: libglvnd
+  triages:
+  - cve: CVE-2019-11834
+    resolution: Patched
+    comment: ''

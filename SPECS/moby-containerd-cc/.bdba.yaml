@@ -21,3 +21,22 @@ overrides:
   files:
   - path: usr/bin/containerd-stress
   - path: usr/bin/ctr
+vulnerabilityTriages:
+- component:
+    name: moby-containerd-cc
+  triages:
+  - cve: CVE-2023-47108
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-44487
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-24786
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-28180
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-45288
+    resolution: Patched
+    comment: ''

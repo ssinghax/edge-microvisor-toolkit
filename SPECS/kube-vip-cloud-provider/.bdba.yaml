@@ -24,3 +24,13 @@ overrides:
   forceVersion: true
   files:
   - path: usr/bin/kube-vip-cloud-provider
+vulnerabilityTriages:
+- component:
+    name: kube-vip-cloud-provider
+  triages:
+  - cve: CVE-2023-47108
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-45338
+    resolution: Patched
+    comment: ''

@@ -6,4 +6,10 @@ overrides:
   forceVersion: true
   files:
   - path: usr/lib/libQt6Sql.so.6.6.3
-
+vulnerabilityTriages:
+- component:
+    name: qtbase
+  triages:
+  - cve: CVE-2024-56732
+    resolution: Patched
+    comment: ''

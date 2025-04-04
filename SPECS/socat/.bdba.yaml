@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: socat
+  triages:
+  - cve: CVE-2024-54661
+    resolution: Patched
+    comment: ''

@@ -1,0 +1,20 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: pytorch
+  triages:
+  - cve: CVE-2024-27318
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2022-1941
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-5187
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-27319
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2021-22918
+    resolution: Patched
+    comment: ''

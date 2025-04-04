@@ -8,3 +8,30 @@ vulnerabilityTriages:
     comment: '"CVE-2021-26720 only applies to Debian''s packaging of avahi.
 
       https://nvd.nist.gov/vuln/detail/CVE-2021-26720"'
+  - cve: CVE-2021-3468
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2021-3502
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-1981
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-38469
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-38472
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-38473
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-38470
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-38471
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-52616
+    resolution: Patched
+    comment: ''

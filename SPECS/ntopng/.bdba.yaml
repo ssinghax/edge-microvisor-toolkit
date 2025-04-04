@@ -18,3 +18,25 @@ overrides:
   forceVersion: 'true'
   files:
   - path: usr/bin/ntopng
+vulnerabilityTriages:
+- component:
+    name: ntopng
+  triages:
+  - cve: CVE-2021-45985
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2022-28805
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2017-18214
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2022-33099
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2021-44647
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2021-43519
+    resolution: Patched
+    comment: ''

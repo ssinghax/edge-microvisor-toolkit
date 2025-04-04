@@ -1,0 +1,11 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: python-gevent
+  triages:
+  - cve: CVE-2024-24806
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-25629
+    resolution: Patched
+    comment: ''

@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: wpa_supplicant
+  triages:
+  - cve: CVE-2023-52160
+    resolution: Patched
+    comment: ''

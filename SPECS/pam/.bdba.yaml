@@ -1,0 +1,14 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: pam
+  triages:
+  - cve: CVE-2024-22365
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-10963
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-10041
+    resolution: Patched
+    comment: ''

@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: hwloc
+  triages:
+  - cve: CVE-2022-47022
+    resolution: Patched
+    comment: ''

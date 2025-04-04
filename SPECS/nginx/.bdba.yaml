@@ -1,0 +1,11 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: nginx
+  triages:
+  - cve: CVE-2024-7347
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-23419
+    resolution: Patched
+    comment: ''

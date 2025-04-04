@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: expat
+  triages:
+  - cve: CVE-2024-50602
+    resolution: Patched
+    comment: ''

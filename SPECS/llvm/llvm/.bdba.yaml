@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: llvm
+  triages:
+  - cve: CVE-2024-31852
+    resolution: Patched
+    comment: ''

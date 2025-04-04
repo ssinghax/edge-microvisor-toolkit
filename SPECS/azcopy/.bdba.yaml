@@ -60,3 +60,10 @@ overrides:
   forceVersion: true
   files:
   - path: usr/bin/azcopy
+vulnerabilityTriages:
+- component:
+    name: azcopy
+  triages:
+  - cve: CVE-2025-22868
+    resolution: Patched
+    comment: ''

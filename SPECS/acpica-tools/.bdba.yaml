@@ -14,3 +14,16 @@ overrides:
   - path: 'usr/bin/acpisrc'
   - path: 'usr/bin/acpixtract'
   - path: 'usr/bin/iasl'
+vulnerabilityTriages:
+- component:
+    name: acpica-tools
+  triages:
+  - cve: CVE-2017-13693
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2017-13694
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2017-13695
+    resolution: Patched
+    comment: ''

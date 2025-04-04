@@ -1,0 +1,11 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: m2crypto
+  triages:
+  - cve: CVE-2020-25657
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2019-11358
+    resolution: Patched
+    comment: ''

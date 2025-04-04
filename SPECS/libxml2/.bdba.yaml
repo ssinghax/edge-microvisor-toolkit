@@ -1,0 +1,26 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: libxml2
+  triages:
+  - cve: CVE-2024-40896
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-45322
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-34459
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-56171
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-24928
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-25062
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-27113
+    resolution: Patched
+    comment: ''

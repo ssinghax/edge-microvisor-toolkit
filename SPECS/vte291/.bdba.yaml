@@ -6,3 +6,10 @@ overrides:
   forceVersion: 'true'
   files:
   - path: 'usr/lib/libvte-2.91.so.0.7400.2'
+vulnerabilityTriages:
+- component:
+    name: vte291
+  triages:
+  - cve: CVE-2024-37535
+    resolution: Patched
+    comment: ''

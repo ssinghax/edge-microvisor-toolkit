@@ -1,0 +1,17 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: unbound
+  triages:
+  - cve: CVE-2024-43168
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-33655
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-8508
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-43167
+    resolution: Patched
+    comment: ''

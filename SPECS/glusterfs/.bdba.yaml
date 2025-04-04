@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: glusterfs
+  triages:
+  - cve: CVE-2023-26253
+    resolution: Patched
+    comment: ''

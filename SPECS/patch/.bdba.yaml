@@ -6,3 +6,18 @@ vulnerabilityTriages:
   - cve: CVE-2019-13638
     resolution: FalsePositive
     comment: '"This vulnerability is fixed with patch3."'
+  - cve: CVE-2018-6951
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2018-1000156
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2018-6952
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2018-20969
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2019-13636
+    resolution: Patched
+    comment: ''

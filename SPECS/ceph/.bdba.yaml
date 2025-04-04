@@ -1,0 +1,41 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: ceph
+  triages:
+  - cve: CVE-2024-52338
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2014-5461
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2020-22217
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2015-9251
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2012-6708
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2012-2677
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2020-10723
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2021-3672
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2020-10722
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-25629
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2021-24032
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2020-10724
+    resolution: Patched
+    comment: ''

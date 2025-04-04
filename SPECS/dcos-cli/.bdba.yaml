@@ -6,3 +6,13 @@ overrides:
   forceVersion: true
   files:
   - path: usr/bin/dcos
+vulnerabilityTriages:
+- component:
+    name: dcos-cli
+  triages:
+  - cve: CVE-2020-26160
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-28180
+    resolution: Patched
+    comment: ''

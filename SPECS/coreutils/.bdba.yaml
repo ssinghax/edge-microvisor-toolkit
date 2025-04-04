@@ -15,3 +15,6 @@ vulnerabilityTriages:
   - cve: CVE-2013-0223
     resolution: FalsePositive
     comment: '"CVE-2013-0221 is fixed in coreutils-8.32-i18n-1.patch"'
+  - cve: CVE-2024-0684
+    resolution: Patched
+    comment: ''

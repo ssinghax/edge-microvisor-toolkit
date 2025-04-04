@@ -72,3 +72,34 @@ overrides:
   forceVersion: true
   files:
   - path: usr/bin/influxd
+vulnerabilityTriages:
+- component:
+    name: influxdb
+  triages:
+  - cve: CVE-2021-4238
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2019-0205
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-6104
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-45288
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-24786
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-45338
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-28180
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-27144
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-22868
+    resolution: Patched
+    comment: ''

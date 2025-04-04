@@ -147,3 +147,10 @@ overrides:
   files:
   - path: usr/bin/crictl
   - path: usr/bin/critest
+vulnerabilityTriages:
+- component:
+    name: cri-tools
+  triages:
+  - cve: CVE-2024-45338
+    resolution: Patched
+    comment: ''

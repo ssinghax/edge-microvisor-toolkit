@@ -6,3 +6,16 @@ overrides:
   forceVersion: 'true'
   files:
   - path: usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-b76fea627b799088.rlib
+vulnerabilityTriages:
+- component:
+    name: rust
+  triages:
+  - cve: CVE-2023-45853
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-32884
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-31852
+    resolution: Patched
+    comment: ''

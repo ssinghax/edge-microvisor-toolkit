@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: libndp
+  triages:
+  - cve: CVE-2024-5564
+    resolution: Patched
+    comment: ''

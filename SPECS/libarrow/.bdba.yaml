@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: libarrow
+  triages:
+  - cve: CVE-2024-52338
+    resolution: Patched
+    comment: ''
