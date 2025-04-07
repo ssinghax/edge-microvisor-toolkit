@@ -1,12 +1,6 @@
 specVersion: 3
 overrides:
 - component:
-    name: go-yaml
-  newVersion: v3.0.1
-  forceVersion: true
-  files:
-  - path: usr/bin/otelcol-contrib
-- component:
     name: collector-cmd-builder
   newVersion: v0.117.0
   forceVersion: true
