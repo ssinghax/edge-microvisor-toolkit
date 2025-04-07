@@ -2,7 +2,7 @@ specVersion: 3
 overrides:
 - component:
     name: go-yaml
-  newVersion: v1.3.0
+  newVersion: v3.0.1
   forceVersion: true
   files:
   - path: usr/bin/otelcol-contrib
