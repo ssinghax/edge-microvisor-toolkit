@@ -2,19 +2,13 @@ specVersion: 3
 overrides:
 - component:
     name: golang-genproto
-  newVersion: v0.0.0-20231106174013-bbf56f31fb17
+  newVersion: v0.0.0-20250324211829-b45e905df463
   forceVersion: 'true'
   files:
   - path: 'usr/bin/hd-agent'
 - component:
-    name: x-crypto
-  newVersion: v0.31.0
-  forceVersion: true
-  files:
-  - path: usr/bin/hd-agent
-- component:
-    name: intel-innersource-frameworks.edge.one-intel-edge.edge-node.bma.hardware-discovery-agent
-  newVersion: v1.4.7
+    name: github.com/open-edge-platform/edge-node-agents/hardware-discovery-agent
+  newVersion: v1.6.1
   forceVersion: true
   files:
   - path: usr/bin/hd-agent

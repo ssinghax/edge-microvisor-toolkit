@@ -2,19 +2,13 @@ specVersion: 3
 overrides:
 - component:
     name: golang-genproto
-  newVersion: v0.0.0-20231120223509-83a465c0220f
+  newVersion: v0.0.0-20250313205543-e70fdf4c4cb4
   forceVersion: true
   files:
   - path: usr/bin/cluster-agent
 - component:
-    name: x-crypto
-  newVersion: v0.31.0
-  forceVersion: true
-  files:
-  - path: usr/bin/cluster-agent
-- component:
-    name: intel-innersource-frameworks.edge.one-intel-edge.edge-node.bma.cluster-agent
-  newVersion: v1.4.2
+    name: github.com/open-edge-platform/edge-node-agents/cluster-agent
+  newVersion: v1.6.1
   forceVersion: true
   files:
   - path: usr/bin/cluster-agent
