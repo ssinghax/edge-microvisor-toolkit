@@ -210,3 +210,11 @@ overrides:
   forceVersion: true
   files:
   - path: usr/bin/caddy
+  vulnerabilityTriages:
+- component:
+    name: x-net
+  triages:
+  - cve: CVE-2025-22870
+    resolution: FalsePositive
+    comment: "x-net component is not using httpproxy but using httpguts"
+
