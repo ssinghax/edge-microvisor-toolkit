@@ -127,3 +127,18 @@ vulnerabilityTriages:
   - cve: CVE-2020-8554
     resolution: FalsePositive
     comment: ''
+  - cve: CVE-2024-28180
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-45338
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-27144
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-22868
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-22869
+    resolution: Patched
+    comment: ''

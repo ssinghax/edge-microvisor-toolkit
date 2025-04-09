@@ -1,0 +1,26 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: kubevirt
+  triages:
+  - cve: CVE-2023-48795
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-24786
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-45337
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-45338
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-45288
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-44487
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-22869
+    resolution: Patched
+    comment: ''

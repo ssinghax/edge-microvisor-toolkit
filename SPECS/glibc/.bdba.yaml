@@ -18,3 +18,18 @@ vulnerabilityTriages:
 
       Rationale: Exploit requires crafted pattern in regex compiler meant only for
       trusted content"'
+  - cve: CVE-2023-4911
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-5156
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-6246
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-6779
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-6780
+    resolution: Patched
+    comment: ''

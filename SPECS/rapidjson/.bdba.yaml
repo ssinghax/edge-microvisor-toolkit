@@ -6,3 +6,6 @@ vulnerabilityTriages:
   - cve: CVE-2024-39684
     resolution: FalsePositive
     comment: '"CVE-2024-39684 is a duplicate of CVE-2024-38517"'
+  - cve: CVE-2024-38517
+    resolution: Patched
+    comment: ''

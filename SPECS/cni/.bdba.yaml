@@ -7,3 +7,19 @@ overrides:
   files:
   - path: usr/libexec/cni/sleep
   - path: usr/sbin/cnitool
+vulnerabilityTriages:
+- component:
+    name: cni
+  triages:
+  - cve: CVE-2021-38561
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2022-32149
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-45338
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2022-29526
+    resolution: Patched
+    comment: ''

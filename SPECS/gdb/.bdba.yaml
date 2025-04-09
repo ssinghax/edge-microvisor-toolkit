@@ -6,3 +6,16 @@ overrides:
   forceVersion: true
   files:
   - path: usr/bin/gdb
+vulnerabilityTriages:
+- component:
+    name: gdb
+  triages:
+  - cve: CVE-2023-39128
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-39129
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-39130
+    resolution: Patched
+    comment: ''

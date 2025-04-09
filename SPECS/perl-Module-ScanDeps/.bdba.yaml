@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: perl-Module-ScanDeps
+  triages:
+  - cve: CVE-2024-10224
+    resolution: Patched
+    comment: ''

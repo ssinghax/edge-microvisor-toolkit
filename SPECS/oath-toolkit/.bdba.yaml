@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: oath-toolkit
+  triages:
+  - cve: CVE-2024-47191
+    resolution: Patched
+    comment: ''

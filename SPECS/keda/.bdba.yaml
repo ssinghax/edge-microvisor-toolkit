@@ -100,3 +100,19 @@ overrides:
   forceVersion: true
   files:
   - path: usr/bin/keda
+vulnerabilityTriages:
+- component:
+    name: keda
+  triages:
+  - cve: CVE-2024-6104
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-45338
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-27144
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-22868
+    resolution: Patched
+    comment: ''

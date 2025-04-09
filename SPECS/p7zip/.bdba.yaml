@@ -12,3 +12,9 @@ vulnerabilityTriages:
       Patch to fix CVE-2018-5996 is for RAR functionality compression bug.
 
       It is not vulnerable hence adding nopatch"'
+  - cve: CVE-2016-9296
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2017-17969
+    resolution: Patched
+    comment: ''

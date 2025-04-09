@@ -6,3 +6,16 @@ overrides:
   forceVersion: true
   files:
   - path: usr/bin/cf
+vulnerabilityTriages:
+- component:
+    name: cf-cli
+  triages:
+  - cve: CVE-2024-45337
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-45338
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-22869
+    resolution: Patched
+    comment: ''

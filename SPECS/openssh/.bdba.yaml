@@ -9,3 +9,6 @@ vulnerabilityTriages:
   - cve: CVE-2007-2768
     resolution: FalsePositive
     comment: '"Community agreed to not patch this"'
+  - cve: CVE-2025-26465
+    resolution: Patched
+    comment: ''

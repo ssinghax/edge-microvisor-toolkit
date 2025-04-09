@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: ruby
+  triages:
+  - cve: CVE-2024-49761
+    resolution: Patched
+    comment: ''

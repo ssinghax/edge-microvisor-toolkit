@@ -1,0 +1,14 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: systemd-bootstrap
+  triages:
+  - cve: CVE-2022-3821
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2022-45873
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2022-4415
+    resolution: Patched
+    comment: ''

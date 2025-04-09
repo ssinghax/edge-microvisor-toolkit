@@ -1,0 +1,11 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: gnutls
+  triages:
+  - cve: CVE-2024-28834
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-28835
+    resolution: Patched
+    comment: ''

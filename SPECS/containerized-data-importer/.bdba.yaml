@@ -1,0 +1,38 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: containerized-data-importer
+  triages:
+  - cve: CVE-2024-3727
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2022-2879
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-24786
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-45338
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-39325
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-44487
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-28180
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-45288
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-3978
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-27144
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-22868
+    resolution: Patched
+    comment: ''

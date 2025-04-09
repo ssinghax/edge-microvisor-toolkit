@@ -18,3 +18,19 @@ overrides:
   - path: usr/bin/multus
   - path: usr/bin/multus-daemon
   - path: usr/bin/multus-shim
+vulnerabilityTriages:
+- component:
+    name: multus
+  triages:
+  - cve: CVE-2023-3978
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-44487
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-45288
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-45338
+    resolution: Patched
+    comment: ''

@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: libcap
+  triages:
+  - cve: CVE-2025-1390
+    resolution: Patched
+    comment: ''

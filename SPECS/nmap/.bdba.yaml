@@ -13,3 +13,13 @@ overrides:
   forceVersion: 'true'
   files:
   - path: usr/bin/nmap
+vulnerabilityTriages:
+- component:
+    name: nmap
+  triages:
+  - cve: CVE-2024-8006
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-7256
+    resolution: Patched
+    comment: ''

@@ -1,0 +1,14 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: python-tensorboard
+  triages:
+  - cve: CVE-2024-43788
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-43796
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-45590
+    resolution: Patched
+    comment: ''

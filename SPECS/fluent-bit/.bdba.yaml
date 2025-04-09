@@ -101,3 +101,111 @@ vulnerabilityTriages:
     comment: "\"https://nvd.nist.gov/vuln/detail/CVE-2023-35945\n\ncpe:2.3:a:nghttp2:nghttp2:*:*:*:*:*:*:*:*\
       \ \tUp to (excluding)\n1.55.1\n\nhttps://github.com/fluent/fluent-bit/blob/v3.0.7/lib/nghttp2/CMakeLists.txt\n\
       project(nghttp2 VERSION 1.58.90)\""
+  - cve: CVE-2024-34250
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-25431
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-27532
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-50608
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-50609
+    resolution: Patched
+    comment: ''
+- component:
+    name: c-ares
+  triages:
+  - cve: CVE-2023-31124
+    resolution: FalsePositive
+    comment: "\"https://nvd.nist.gov/vuln/detail/CVE-2023-31124\n\ncpe:2.3:a:c-ares_project:c-ares:*:*:*:*:*:*:*:*\
+      \ \tUp to (excluding)\n1.19.1\n\nhttps://github.com/fluent/fluent-bit/tree/v3.0.7/lib/c-ares-1.24.0\n\
+      b2fe537776e6c494237adb72eef8511fff590ea9\""
+  - cve: CVE-2021-3672
+    resolution: FalsePositive
+    comment: "\"https://nvd.nist.gov/vuln/detail/CVE-2021-3672\n\ncpe:2.3:a:c-ares_project:c-ares:*:*:*:*:*:*:*:*\
+      \ \tFrom (including) \t1.0.0 \tUp to (excluding)\n1.19.0\n\nhttps://github.com/fluent/fluent-bit/tree/v3.0.7/lib/c-ares-1.24.0\n\
+      b2fe537776e6c494237adb72eef8511fff590ea9\""
+  - cve: CVE-2023-32067
+    resolution: FalsePositive
+    comment: "\"https://nvd.nist.gov/vuln/detail/CVE-2023-32067\n\ncpe:2.3:a:c-ares_project:c-ares:*:*:*:*:*:*:*:*\
+      \ \tUp to (excluding)\n1.19.1\n\nhttps://github.com/fluent/fluent-bit/tree/v3.0.7/lib/c-ares-1.24.0\n\
+      b2fe537776e6c494237adb72eef8511fff590ea9\""
+  - cve: CVE-2023-31130
+    resolution: FalsePositive
+    comment: "\"https://nvd.nist.gov/vuln/detail/CVE-2023-31130\n\ncpe:2.3:a:c-ares_project:c-ares:*:*:*:*:*:*:*:*\
+      \ \tUp to (excluding)\n1.19.1\n\nhttps://github.com/fluent/fluent-bit/tree/v3.0.7/lib/c-ares-1.24.0\n\
+      b2fe537776e6c494237adb72eef8511fff590ea9\""
+  - cve: CVE-2022-4904
+    resolution: FalsePositive
+    comment: "\"https://nvd.nist.gov/vuln/detail/CVE-2022-4904\n\ncpe:2.3:a:c-ares_project:c-ares:*:*:*:*:*:*:*:*\
+      \ \tUp to (excluding)\n1.19.0\n\nhttps://github.com/fluent/fluent-bit/tree/v3.0.7/lib/c-ares-1.24.0\n\
+      b2fe537776e6c494237adb72eef8511fff590ea9\""
+  - cve: CVE-2020-8277
+    resolution: FalsePositive
+    comment: "\"https://nvd.nist.gov/vuln/detail/CVE-2020-8277\n\ncpe:2.3:a:c-ares_project:c-ares:*:*:*:*:*:*:*:*\
+      \ \tUp to (excluding)\n1.16.0\n\nhttps://github.com/fluent/fluent-bit/tree/v3.0.7/lib/c-ares-1.24.0\n\
+      b2fe537776e6c494237adb72eef8511fff590ea9\""
+  - cve: CVE-2023-31147
+    resolution: FalsePositive
+    comment: "\"https://nvd.nist.gov/vuln/detail/CVE-2023-31147\n\ncpe:2.3:a:c-ares_project:c-ares:*:*:*:*:*:*:*:*\
+      \ \tUp to (excluding)\n1.19.1\n\nhttps://github.com/fluent/fluent-bit/tree/v3.0.7/lib/c-ares-1.24.0\n\
+      b2fe537776e6c494237adb72eef8511fff590ea9\""
+  - cve: CVE-2016-5180
+    resolution: FalsePositive
+    comment: '"https://nvd.nist.gov/vuln/detail/CVE-2016-5180
+
+
+      cpe:2.3:a:c-ares:c-ares:>1.10.0:*:*:*:*:*:*:*
+
+
+      https://github.com/fluent/fluent-bit/tree/v3.0.7/lib/c-ares-1.24.0
+
+      b2fe537776e6c494237adb72eef8511fff590ea9"'
+  - cve: CVE-2024-25629
+    resolution: FalsePositive
+    comment: 'Tue Nov 23 2024 Paul Meyer <paul.meyer@microsoft.com> - 3.1.9-1 
+      - Update to 3.1.9 to enable Lua filter plugin using system luajit library.
+      - Remove patches for CVE-2024-25629 and CVE-2024-28182 as they are fixed in 3.1.9.'
+- component:
+    name: nghttp2
+  triages:
+  - cve: CVE-2015-8659
+    resolution: FalsePositive
+    comment: "\"https://nvd.nist.gov/vuln/detail/CVE-2015-8659\n\ncpe:2.3:a:nghttp2:nghttp2:*:*:*:*:*:*:*:*\
+      \ \tUp to (excluding)\n1.5.0\n\nhttps://github.com/fluent/fluent-bit/blob/v3.0.7/lib/nghttp2/CMakeLists.txt\n\
+      project(nghttp2 VERSION 1.58.90)\""
+  - cve: CVE-2020-11080
+    resolution: FalsePositive
+    comment: "\"https://nvd.nist.gov/vuln/detail/CVE-2020-11080\n\ncpe:2.3:a:nghttp2:nghttp2:*:*:*:*:*:*:*:*\
+      \ \tUp to (excluding)\n1.41.0\n\nhttps://github.com/fluent/fluent-bit/blob/v3.0.7/lib/nghttp2/CMakeLists.txt\n\
+      project(nghttp2 VERSION 1.58.90)\""
+  - cve: CVE-2016-1544
+    resolution: FalsePositive
+    comment: "\"https://nvd.nist.gov/vuln/detail/CVE-2016-1544\n\ncpe:2.3:a:nghttp2:nghttp2:*:*:*:*:*:*:*:*\
+      \ \tUp to (excluding)\n1.7.1\n\nhttps://github.com/fluent/fluent-bit/blob/v3.0.7/lib/nghttp2/CMakeLists.txt\n\
+      project(nghttp2 VERSION 1.58.90)\""
+  - cve: CVE-2023-44487
+    resolution: FalsePositive
+    comment: "\"https://nvd.nist.gov/vuln/detail/CVE-2023-44487\n\ncpe:2.3:a:nghttp2:nghttp2:*:*:*:*:*:*:*:*\
+      \ \tUp to (excluding)\n1.57.0\n\nhttps://github.com/fluent/fluent-bit/blob/v3.0.7/lib/nghttp2/CMakeLists.txt\n\
+      project(nghttp2 VERSION 1.58.90)\""
+  - cve: CVE-2023-35945
+    resolution: FalsePositive
+    comment: "\"https://nvd.nist.gov/vuln/detail/CVE-2023-35945\n\ncpe:2.3:a:nghttp2:nghttp2:*:*:*:*:*:*:*:*\
+      \ \tUp to (excluding)\n1.55.1\n\nhttps://github.com/fluent/fluent-bit/blob/v3.0.7/lib/nghttp2/CMakeLists.txt\n\
+      project(nghttp2 VERSION 1.58.90)\""
+- component:
+    name: lz4
+  triages:
+  - cve: CVE-2019-17543
+    resolution: FalsePositive
+    comment: "\"https://nvd.nist.gov/vuln/detail/CVE-2019-17543\n\ncpe:2.3:a:lz4_project:lz4:*:*:*:*:*:*:*:*\
+      \ \tUp to (excluding)\n1.9.2\n\nhttps://github.com/fluent/fluent-bit/blob/v3.0.7/lib/librdkafka-2.3.0/src/lz4.h\n\
+      /*------   Version   ------*/\n#define LZ4_VERSION_MAJOR    1    /* for breaking\
+      \ interface changes  */\n#define LZ4_VERSION_MINOR    9    /* for new (non-breaking)\
+      \ interface capabilities */\n#define LZ4_VERSION_RELEASE  3    /* for tweaks,\
+      \ bug-fixes, or development */\""

@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: lua
+  triages:
+  - cve: CVE-2020-24370
+    resolution: Patched
+    comment: ''

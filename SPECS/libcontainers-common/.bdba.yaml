@@ -1,0 +1,26 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: libcontainers-common
+  triages:
+  - cve: CVE-2022-2879
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-45288
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-1753
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-3727
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-37298
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-6104
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-24786
+    resolution: Patched
+    comment: ''

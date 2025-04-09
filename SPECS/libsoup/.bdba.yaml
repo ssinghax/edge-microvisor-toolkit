@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: libsoup
+  triages:
+  - cve: CVE-2024-52530
+    resolution: Patched
+    comment: ''

@@ -1,0 +1,17 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: python-jinja2
+  triages:
+  - cve: CVE-2024-22195
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-34064
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-56201
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-56326
+    resolution: Patched
+    comment: ''

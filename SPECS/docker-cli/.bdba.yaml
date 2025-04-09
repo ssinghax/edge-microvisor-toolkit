@@ -156,3 +156,10 @@ overrides:
   forceVersion: true
   files:
   - path: usr/bin/docker
+vulnerabilityTriages:
+- component:
+    name: docker-cli
+  triages:
+  - cve: CVE-2024-24786
+    resolution: Patched
+    comment: ''

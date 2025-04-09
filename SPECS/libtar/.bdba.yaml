@@ -3,9 +3,21 @@ vulnerabilityTriages:
 - component:
     name: libtar
   triages:
+  - cve: CVE-2021-33644
+    resolution: Patched
+    comment: ''
   - cve: CVE-2021-33645
     resolution: FalsePositive
     comment: '"CVE-2021-33645 - Already addressed in SPECS/libtar/CVE-2021-33640.patch"'
   - cve: CVE-2021-33646
     resolution: FalsePositive
     comment: '"CVE-2021-33646 - Already addressed in SPECS/libtar/CVE-2021-33640.patch"'
+  - cve: CVE-2013-4420
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2021-33643
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2021-33640
+    resolution: Patched
+    comment: ''

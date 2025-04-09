@@ -108,3 +108,13 @@ overrides:
   - path: usr/bin/zk
   - path: usr/bin/zkctl
   - path: usr/bin/zkctld
+vulnerabilityTriages:
+- component:
+    name: vitess
+  triages:
+  - cve: CVE-2017-14623
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-45339
+    resolution: Patched
+    comment: ''

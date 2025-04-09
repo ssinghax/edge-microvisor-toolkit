@@ -8,3 +8,6 @@ vulnerabilityTriages:
     comment: '"CVE disputed by project''s owner, no repro.
 
       See here for more details: https://github.com/libsndfile/libsndfile/issues/398."'
+  - cve: CVE-2022-33065
+    resolution: Patched
+    comment: ''

@@ -6,3 +6,28 @@ overrides:
   forceVersion: 'true'
   files:
   - path: 'usr/bin/node'
+vulnerabilityTriages:
+- component:
+    name: nodejs
+  triages:
+  - cve: CVE-2019-10906
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-21538
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-23083
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-22150
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-23085
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-22020
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-22195
+    resolution: Patched
+    comment: ''

@@ -7,3 +7,10 @@ overrides:
   files:
   - path: usr/lib/libiperf.a
   - path: usr/lib/libiperf.so.0.0.0
+vulnerabilityTriages:
+- component:
+    name: iperf3
+  triages:
+  - cve: CVE-2024-53580
+    resolution: Patched
+    comment: ''

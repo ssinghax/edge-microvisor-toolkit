@@ -1,0 +1,17 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: cert-manager
+  triages:
+  - cve: CVE-2024-45338
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-27144
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-22868
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-22869
+    resolution: Patched
+    comment: ''

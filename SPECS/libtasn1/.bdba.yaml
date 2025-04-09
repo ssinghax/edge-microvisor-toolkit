@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: libtasn1
+  triages:
+  - cve: CVE-2024-12133
+    resolution: Patched
+    comment: ''

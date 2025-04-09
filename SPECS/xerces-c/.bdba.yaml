@@ -6,3 +6,10 @@ overrides:
   forceVersion: 'true'
   files:
   - path: 'usr/lib/libxerces-c-3.2.so'
+vulnerabilityTriages:
+- component:
+    name: xerces-c
+  triages:
+  - cve: CVE-2024-23807
+    resolution: Patched
+    comment: ''

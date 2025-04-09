@@ -1,0 +1,14 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: libreswan
+  triages:
+  - cve: CVE-2023-38710
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-38711
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-38712
+    resolution: Patched
+    comment: ''

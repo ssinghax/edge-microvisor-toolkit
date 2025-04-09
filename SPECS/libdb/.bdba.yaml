@@ -73,3 +73,9 @@ vulnerabilityTriages:
   - cve: CVE-2017-3607
     resolution: FalsePositive
     comment: ''
+  - cve: CVE-2019-2708
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2020-13435
+    resolution: Patched
+    comment: ''

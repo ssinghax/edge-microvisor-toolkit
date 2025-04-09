@@ -6,3 +6,22 @@ overrides:
   forceVersion: 'true'
   files:
   - path: 'sbin/busybox'
+vulnerabilityTriages:
+- component:
+    name: busybox
+  triages:
+  - cve: CVE-2022-28391
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2021-42380
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-42363
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-42365
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-42366
+    resolution: Patched
+    comment: ''

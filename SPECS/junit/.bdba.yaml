@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: junit
+  triages:
+  - cve: CVE-2020-15250
+    resolution: Patched
+    comment: ''

@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: fuse
+  triages:
+  - cve: CVE-2018-10906
+    resolution: Patched
+    comment: ''

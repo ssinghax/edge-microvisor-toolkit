@@ -1,0 +1,20 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: binutils
+  triages:
+  - cve: CVE-2025-1176
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-1178
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-1181
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-1182
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-0840
+    resolution: Patched
+    comment: ''

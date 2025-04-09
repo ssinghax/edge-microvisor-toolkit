@@ -43,3 +43,22 @@ overrides:
   - path: usr/bin/ctr
   - path: usr/bin/containerd-stress
   - path: usr/bin/containerd-shim-runc-v2
+vulnerabilityTriages:
+- component:
+    name: containerd
+  triages:
+  - cve: CVE-2023-44487
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-47108
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-24786
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-28180
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-45288
+    resolution: Patched
+    comment: ''

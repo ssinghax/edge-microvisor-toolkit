@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: libconfuse
+  triages:
+  - cve: CVE-2022-40320
+    resolution: Patched
+    comment: ''

@@ -12,3 +12,16 @@ overrides:
   forceVersion: 'true'
   files:
   - path: usr/bin/telegraf
+vulnerabilityTriages:
+- component:
+    name: telegraf
+  triages:
+  - cve: CVE-2024-37298
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-45337
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-45338
+    resolution: Patched
+    comment: ''

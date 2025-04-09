@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: frr
+  triages:
+  - cve: CVE-2024-44070
+    resolution: Patched
+    comment: ''

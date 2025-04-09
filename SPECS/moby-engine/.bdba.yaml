@@ -36,3 +36,34 @@ overrides:
   forceVersion: true
   files:
   - path: usr/bin/dockerd
+vulnerabilityTriages:
+- component:
+    name: moby-engine
+  triages:
+  - cve: CVE-2022-2879
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-41110
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-29018
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-24786
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-36621
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-36620
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-36623
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-45337
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-45288
+    resolution: Patched
+    comment: ''

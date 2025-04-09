@@ -24,3 +24,13 @@ overrides:
   forceVersion: true
   files:
   - path: usr/bin/sriovdp
+vulnerabilityTriages:
+- component:
+    name: sriov-network-device-plugin
+  triages:
+  - cve: CVE-2024-45338
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-45339
+    resolution: Patched
+    comment: ''

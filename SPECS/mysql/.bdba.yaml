@@ -29,3 +29,12 @@ vulnerabilityTriages:
   - cve: CVE-2012-5627
     resolution: FalsePositive
     comment: ''
+  - cve: CVE-2012-2677
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-9681
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-0725
+    resolution: Patched
+    comment: ''

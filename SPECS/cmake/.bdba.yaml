@@ -9,3 +9,25 @@ overrides:
   - path: usr/bin/cmake
   - path: usr/bin/cpack
   - path: usr/bin/ctest
+vulnerabilityTriages:
+- component:
+    name: cmake
+  triages:
+  - cve: CVE-2024-6197
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-6874
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-8096
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-11053
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-7264
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2024-9681
+    resolution: Patched
+    comment: ''

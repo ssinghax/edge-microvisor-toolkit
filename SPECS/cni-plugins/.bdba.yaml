@@ -29,3 +29,10 @@ overrides:
   forceVersion: true
   files:
   - path: opt/cni/bin/dhcp
+vulnerabilityTriages:
+- component:
+    name: cni-plugins
+  triages:
+  - cve: CVE-2024-45338
+    resolution: Patched
+    comment: ''

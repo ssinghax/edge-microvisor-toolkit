@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: zip
+  triages:
+  - cve: CVE-2018-13410
+    resolution: Patched
+    comment: ''

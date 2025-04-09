@@ -30,3 +30,10 @@ overrides:
   forceVersion: true
   files:
   - path: usr/bin/kured
+vulnerabilityTriages:
+- component:
+    name: kured
+  triages:
+  - cve: CVE-2023-45288
+    resolution: Patched
+    comment: ''

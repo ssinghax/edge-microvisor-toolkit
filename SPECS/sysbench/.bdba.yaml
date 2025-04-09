@@ -6,3 +6,10 @@ overrides:
   forceVersion: 'true'
   files:
   - path: 'usr/bin/sysbench'
+vulnerabilityTriages:
+- component:
+    name: sysbench
+  triages:
+  - cve: CVE-2019-19391
+    resolution: Patched
+    comment: ''

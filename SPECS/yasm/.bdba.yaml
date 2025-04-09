@@ -1,0 +1,11 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: yasm
+  triages:
+  - cve: CVE-2023-31975
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2021-33454
+    resolution: Patched
+    comment: ''

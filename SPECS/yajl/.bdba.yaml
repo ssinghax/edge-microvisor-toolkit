@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: yajl
+  triages:
+  - cve: CVE-2023-33460
+    resolution: Patched
+    comment: ''

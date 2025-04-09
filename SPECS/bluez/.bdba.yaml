@@ -1,0 +1,17 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: bluez
+  triages:
+  - cve: CVE-2022-3563
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-50229
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-50230
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-45866
+    resolution: Patched
+    comment: ''

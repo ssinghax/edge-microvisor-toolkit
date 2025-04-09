@@ -1,0 +1,14 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: curl
+  triages:
+  - cve: CVE-2025-0665
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-0167
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-0725
+    resolution: Patched
+    comment: ''

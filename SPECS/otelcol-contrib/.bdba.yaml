@@ -31,4 +31,3 @@ overrides:
   - cve: CVE-2025-22870
     resolution: FalsePositive
     comment: "x-net component is not using httpproxy"
-
