@@ -10,7 +10,7 @@ overrides:
   - path: usr/libexec/Xorg
 - component:
     name: xorg-server
-  newVersion: v21.1.9
+  newVersion: v21.1.11
   forceVersion: true
   files:
   - path: usr/bin/Xnest
