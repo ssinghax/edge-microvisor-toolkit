@@ -210,7 +210,7 @@ overrides:
   forceVersion: true
   files:
   - path: usr/bin/caddy
-  vulnerabilityTriages:
+vulnerabilityTriages:
 - component:
     name: x-net
   triages:
