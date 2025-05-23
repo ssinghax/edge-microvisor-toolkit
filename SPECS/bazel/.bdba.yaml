@@ -5,14 +5,18 @@ overrides:
   newVersion: v0.25.5
   forceVersion: true
   files:
-  - path: usr/bin/bazel-real:A-server.jar:com/google
+  - path: usr/bin/bazel-real
+  - path: A-server.jar
 - component:
     name: perfmark-api
+  newVersion: v0.19.0
   forceVersion: true
   files:
-  - path: usr/bin/bazel-real:A-server.jar:io
+  - path: usr/bin/bazel-real
+  - path: A-server.jar
 - component:
     name: boringssl
+  newVersion: v2.0.51
   forceVersion: true
   files:
-  - path: usr/bin/bazel-real:A-server.jar:META-INF/native/libnetty_tcnative_linux_x86_64.so
+  - path: META-INF/native/libnetty_tcnative_linux_x86_64.so
