@@ -1,3 +1,5 @@
+# Edge Microvisor Toolkit SPEC License Map
+
 The Edge Microvisor Toolkit SPEC files originated from a variety of sources with varying licenses.  The changelog for each SPEC file declares provenance for Edge Microvisor Toolkit.  Some of the SPEC files that originated from other distributions might already have been derived from alternate sources. Their licenses can be found in LICENSE-EXCEPTION.xxx files in this folder.
 
 | Origin | License | Specs |
