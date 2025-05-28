@@ -39,7 +39,7 @@ install -m 0644 %{SOURCE1} %{topdir}/var/lib/rancher/k3s/agent/images/k3s-airgap
 /var/lib/rancher/k3s/agent/images/k3s-airgap-images-amd64.tar.zst
 
 %changelog
-* Fri May 16 2025 Rafael <32229014+rafaelbreno@users.noreply.github.com> - v1.32.5-rc1+k3s1 v1.32.5+k3s1 origin/release-1.32
+* Fri May 16 2025 Rafael <32229014+rafaelbreno@users.noreply.github.com> - v1.32.5+k3s1
 - Update to v1.32.5 (#12361)
 
 * Wed Apr 23 2025 Rafael <32229014+rafaelbreno@users.noreply.github.com> - v1.32.4+k3s1
