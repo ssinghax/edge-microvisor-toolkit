@@ -12,6 +12,18 @@ overrides:
   forceVersion: true
   files:
   - path: usr/bin/hd-agent
+- component:
+    name: x-crypto
+  newVersion: v0.38.0
+  forceVersion: true
+  files:
+  - path: usr/bin/hd-agent
+- component:
+    name: go-yaml
+  newVersion: v3.0.1
+  forceVersion: true
+  files:
+  - path: usr/bin/hd-agent
 vulnerabilityTriages:
 - component:
     name: hardware-discovery-agent

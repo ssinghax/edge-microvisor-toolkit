@@ -6,3 +6,9 @@ overrides:
   forceVersion: 'true'
   files:
   - path: 'usr/lib/libze_loader.so.1.17.44'
+- component:
+    name: spdlog
+  newVersion: 1.14.1
+  forceVersion: 'true'
+  files:
+  - path: 'usr/lib/libze_loader.so.1.17.44'

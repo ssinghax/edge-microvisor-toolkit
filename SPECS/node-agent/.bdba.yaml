@@ -12,6 +12,30 @@ overrides:
   forceVersion: true
   files:
   - path: usr/bin/node-agent
+- component:
+    name: x-crypto
+  newVersion: v0.36.0
+  forceVersion: true
+  files:
+  - path: usr/bin/node-agent
+- component:
+    name: go-yaml
+  newVersion: v3.0.1
+  forceVersion: true
+  files:
+  - path: usr/bin/node-agent
+- component:
+    name: klauspost-compress
+  newVersion: v1.18.0
+  forceVersion: true
+  files:
+  - path: usr/bin/node-agent
+- component:
+    name: zap
+  newVersion: v1.18.1
+  forceVersion: true
+  files:
+  - path: usr/bin/node-agent
 vulnerabilityTriages:
 - component:
     name: node-agent

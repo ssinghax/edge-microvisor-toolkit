@@ -12,3 +12,9 @@ overrides:
   forceVersion: 'true'
   files:
   - path: 'usr/lib/libxpum.so.1.2.39'
+- component:
+    name: spdlog
+  newVersion: 1.9.2
+  forceVersion: 'true'
+  files:
+  - path: 'usr/lib/libxpum.so.1.2.39'
