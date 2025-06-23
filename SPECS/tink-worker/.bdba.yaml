@@ -1,0 +1,14 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: containerd
+  triages:
+  - cve: CVE-2024-40635
+    resolution: FalsePositive
+    comment: '"Package containerd already at the patched version 1.7.27."'
+- component:
+    name: x-net
+  triages:
+  - cve: CVE-2025-22872
+    resolution: FalsePositive
+    comment: '"x-net component is not using html/token"'

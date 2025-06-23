@@ -1,0 +1,8 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: x-net
+  triages:
+  - cve: CVE-2025-22872
+    resolution: FalsePositive
+    comment: '"x-net component is not using html/token"'

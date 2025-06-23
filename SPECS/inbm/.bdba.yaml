@@ -6,3 +6,10 @@ overrides:
   forceVersion: true
   files:
   - path: usr/bin/inb-provision-certs
+vulnerabilityTriages:
+- component:
+    name: x-crypto
+  triages:
+  - cve: CVE-2025-22869
+    resolution: FalsePositive
+    comment: "x-crypto component is not using ssh/handshake"
