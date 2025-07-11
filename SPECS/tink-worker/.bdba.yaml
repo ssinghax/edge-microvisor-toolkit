@@ -1,4 +1,17 @@
 specVersion: 3
+overrides:
+- component:
+    name: x-crypto
+  newVersion: v0.36.0
+  forceVersion: true
+  files:
+  - path: usr/bin/tink-worker
+- component:
+    name: go-yaml
+  newVersion: v3.0.1
+  forceVersion: true
+  files:
+  - path: usr/bin/tink-worker
 vulnerabilityTriages:
 - component:
     name: containerd

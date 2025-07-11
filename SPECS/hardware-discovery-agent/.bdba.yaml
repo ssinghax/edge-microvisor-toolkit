@@ -24,6 +24,12 @@ overrides:
   forceVersion: true
   files:
   - path: usr/bin/hd-agent
+- component:
+    name: open-edge-platform-edge-node-agents-hardware-discovery-agent
+  newVersion: 1.7.0
+  forceVersion: true
+  files:
+  - path: usr/bin/hd-agent
 vulnerabilityTriages:
 - component:
     name: hardware-discovery-agent

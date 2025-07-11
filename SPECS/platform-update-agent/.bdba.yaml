@@ -30,3 +30,9 @@ overrides:
   forceVersion: true
   files:
   - path: usr/bin/platform-update-agent
+- component:
+    name: open-edge-platform-edge-node-agents-platform-update-agent
+  newVersion: 1.5.2
+  forceVersion: true
+  files:
+  - path: usr/bin/platform-update-agent

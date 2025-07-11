@@ -36,6 +36,12 @@ overrides:
   forceVersion: true
   files:
   - path: usr/bin/node-agent
+- component:
+    name: open-edge-platform-edge-node-agents-node-agent
+  newVersion: 1.7.2
+  forceVersion: true
+  files:
+  - path: usr/bin/node-agent
 vulnerabilityTriages:
 - component:
     name: node-agent

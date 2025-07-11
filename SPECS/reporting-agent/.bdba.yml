@@ -1,0 +1,26 @@
+specVersion: 3
+overrides:
+- component:
+    name: x-crypto
+  newVersion: v0.36.0
+  forceVersion: true
+  files:
+  - path: usr/bin/reporting-agent
+- component:
+    name: go-yaml
+  newVersion: v3.0.1
+  forceVersion: true
+  files:
+  - path: usr/bin/reporting-agent
+- component:
+    name: mitchellh-mapstructure
+  newVersion: v2.3.0
+  forceVersion: true
+  files:
+  - path: usr/bin/reporting-agent
+- component:
+    name: open-edge-platform-edge-node-agents-reporting-agent
+  newVersion: 0.0.4
+  forceVersion: true
+  files:
+  - path: usr/bin/reporting-agent

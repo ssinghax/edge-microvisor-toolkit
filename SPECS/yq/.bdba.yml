@@ -1,0 +1,20 @@
+specVersion: 3
+overrides:
+- component:
+    name: x-crypto
+  newVersion: v0.39.0
+  forceVersion: true
+  files:
+  - path: usr/bin/yq
+- component:
+    name: mikefarah-yq
+  newVersion: v4
+  forceVersion: true
+  files:
+  - path: usr/bin/yq
+- component:
+    name: op-go-logging
+  newVersion: v1.0.0-20160211212156-b2cb9fa56473
+  forceVersion: true
+  files:
+  - path: usr/bin/yq

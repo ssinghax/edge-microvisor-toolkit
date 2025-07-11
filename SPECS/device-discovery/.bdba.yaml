@@ -1,4 +1,23 @@
 specVersion: 3
+overrides:
+- component:
+    name: x-crypto
+  newVersion: v0.36.0
+  forceVersion: true
+  files:
+  - path: usr/bin/device-discovery/device-discovery
+- component:
+    name: golang-genproto
+  newVersion: v0.0.0-20250324211829-b45e905df463
+  forceVersion: true
+  files:
+  - path: usr/bin/device-discovery/device-discovery
+- component:
+    name: klauspost-compress
+  newVersion: v1.18.0
+  forceVersion: true
+  files:
+  - path: usr/bin/device-discovery/device-discovery
 vulnerabilityTriages:
 - component:
     name: x-net

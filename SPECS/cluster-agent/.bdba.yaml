@@ -30,6 +30,12 @@ overrides:
   forceVersion: true
   files:
   - path: usr/bin/cluster-agent
+- component:
+    name: open-edge-platform-edge-node-agents-cluster-agent
+  newVersion: 1.7.3
+  forceVersion: true
+  files:
+  - path: usr/bin/cluster-agent
 vulnerabilityTriages:
 - component:
     name: cluster-agent

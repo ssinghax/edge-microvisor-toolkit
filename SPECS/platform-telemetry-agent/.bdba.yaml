@@ -24,3 +24,9 @@ overrides:
   forceVersion: true
   files:
   - path: usr/bin/platform-telemetry-agent
+- component:
+    name: open-edge-platform-edge-node-agents-platform-telemetry-agent
+  newVersion: 1.4.0
+  forceVersion: true
+  files:
+  - path: usr/bin/platform-telemetry-agent
