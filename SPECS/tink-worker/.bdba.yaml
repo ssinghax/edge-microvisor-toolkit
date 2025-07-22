@@ -25,3 +25,9 @@ vulnerabilityTriages:
   - cve: CVE-2025-22872
     resolution: FalsePositive
     comment: '"x-net component is not using html/token"'
+- component:
+    name: protobuf
+  triages:
+  - cve: CVE-2019-15544
+    resolution: FalsePositive
+    comment: "This CVE is linked to a Rust component, but this specific component doesn't use Rust, making it invalid."

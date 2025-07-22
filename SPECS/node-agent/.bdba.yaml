@@ -60,3 +60,9 @@ vulnerabilityTriages:
 
 
       https://github.com/advisories/GHSA-w32m-9786-jp63"'
+- component:
+    name: protobuf
+  triages:
+  - cve: CVE-2019-15544
+    resolution: FalsePositive
+    comment: "This CVE is linked to a Rust component, but this specific component doesn't use Rust, making it invalid."

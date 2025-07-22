@@ -17,4 +17,10 @@ overrides:
   newVersion: v1.0.0-20160211212156-b2cb9fa56473
   forceVersion: true
   files:
+   path: usr/bin/yq
+- component:
+    name: go-yaml
+  newVersion: v3.0.1
+  forceVersion: true
+  files:
   - path: usr/bin/yq

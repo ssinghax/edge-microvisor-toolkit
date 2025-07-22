@@ -36,3 +36,10 @@ overrides:
   forceVersion: true
   files:
   - path: usr/bin/platform-update-agent
+vulnerabilityTriages:
+- component:
+    name: protobuf
+  triages:
+  - cve: CVE-2019-15544
+    resolution: FalsePositive
+    comment: "This CVE is linked to a Rust component, but this specific component doesn't use Rust, making it invalid."

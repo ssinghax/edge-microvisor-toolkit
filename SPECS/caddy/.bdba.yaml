@@ -247,4 +247,10 @@ vulnerabilityTriages:
   - cve: CVE-2025-22870
     resolution: FalsePositive
     comment: "x-net component is not using httpproxy but using httpguts"
+- component:
+    name: protobuf
+  triages:
+  - cve: CVE-2019-15544
+    resolution: FalsePositive
+    comment: "This CVE is linked to a Rust, but this specific component does not use Rust, making it invalid."
 
