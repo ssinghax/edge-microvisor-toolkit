@@ -2,7 +2,7 @@ specVersion: 3
 overrides:
 - component:
     name: openwsman
-  newVersion: 2.6.1
+  newVersion: 2.8.0
   forceVersion: true
   files:
   - path: usr/bin/lms
