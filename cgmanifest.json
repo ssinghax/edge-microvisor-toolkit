@@ -31944,6 +31944,16 @@
         }
       }
     }
+    {
+      "component": {
+        "type": "other",
+        "other": {
+          "name": "mesa-demos",
+          "version": "9.0.0",
+          "downloadUrl": "https://archive.mesa3d.org/demos/mesa-demos-9.0.0.tar.xz"
+        }
+      }
+    }
   ],
   "Version": 1
 }
