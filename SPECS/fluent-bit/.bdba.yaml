@@ -198,6 +198,13 @@ vulnerabilityTriages:
     comment: "\"https://nvd.nist.gov/vuln/detail/CVE-2023-35945\n\ncpe:2.3:a:nghttp2:nghttp2:*:*:*:*:*:*:*:*\
       \ \tUp to (excluding)\n1.55.1\n\nhttps://github.com/fluent/fluent-bit/blob/v3.0.7/lib/nghttp2/CMakeLists.txt\n\
       project(nghttp2 VERSION 1.58.90)\""
+  - cve: CVE-2024-28182
+    resolution: FalsePositive
+    comment: |
+      CVE-2024-28182 is addressed in Fluent Bit 3.1.9 via a backport.
+      - Upstream fix in nghttp2: nghttp2/nghttp2@00201ec
+      - Backported in Fluent Bit: fluent/fluent-bit@f041691
+      - NVD reference: https://nvd.nist.gov/vuln/detail/CVE-2024-28182
 - component:
     name: lz4
   triages:
