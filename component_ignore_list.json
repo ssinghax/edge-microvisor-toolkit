@@ -1,0 +1,12 @@
+[
+    {
+        "component": "Unified Runtime",
+        "parent_component": ["llvm14"],
+        "description": "Known issue. Invalid component reported by BDBA."
+    },
+    {
+        "component": "nomad",
+        "parent_component": ["cluster-agent", "node-agent", "platform-update-agent"],
+        "description": "Known issue. Invalid component reported by BDBA."
+    }
+]
