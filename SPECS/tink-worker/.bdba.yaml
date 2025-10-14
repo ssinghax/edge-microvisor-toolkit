@@ -14,6 +14,12 @@ overrides:
   - path: usr/bin/tink-worker
 vulnerabilityTriages:
 - component:
+    name: moby
+  triages:
+  - cve: CVE-2025-54410
+    resolution: FalsePositive
+    comment: '"Containerd is used, not docker"'
+- component:
     name: containerd
   triages:
   - cve: CVE-2024-40635
@@ -31,3 +37,4 @@ vulnerabilityTriages:
   - cve: CVE-2019-15544
     resolution: FalsePositive
     comment: "This CVE is linked to a Rust component, but this specific component doesn't use Rust, making it invalid."
+
