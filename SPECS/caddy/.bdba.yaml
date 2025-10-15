@@ -253,4 +253,10 @@ vulnerabilityTriages:
   - cve: CVE-2019-15544
     resolution: FalsePositive
     comment: "This CVE is linked to a Rust, but this specific component does not use Rust, making it invalid."
+- component:
+    name: golang-glog
+  triages:
+  - cve: CVE-2024-45339
+    resolution: Patched
+    comment: "CVE-2024-45339 is already fixed in the EMT repo (see PR #5) and hence marked as Patched."
 
