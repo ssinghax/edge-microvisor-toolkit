@@ -2,7 +2,7 @@ specVersion: 3
 overrides:
 - component:
     name: cjson
-  newVersion: 1.7.14
+  newVersion: 1.7.19
   forceVersion: true
   files:
   - path: usr/bin/fluent-bit
