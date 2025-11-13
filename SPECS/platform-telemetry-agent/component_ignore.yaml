@@ -1,0 +1,11 @@
+ComponentIgnore:
+- component:
+    name: klauspost-compress
+  files:
+  - path: usr/bin/platform-telemetry-agent
+  comment: "False positive"
+- component:
+    name: gax-go
+  files:
+  - path: usr/bin/platform-telemetry-agent
+  comment: "False positive"

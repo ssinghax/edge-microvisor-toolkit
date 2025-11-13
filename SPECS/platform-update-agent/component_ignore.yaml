@@ -1,0 +1,11 @@
+ComponentIgnore:
+- component:
+    name: azure-sdk-for-go-sdk-azcore
+  files:
+  - path: usr/bin/platform-update-agent
+  comment: "False positive"
+- component:
+    name: klauspost-compress
+  files:
+  - path: usr/bin/platform-update-agent
+  comment: "False positive"

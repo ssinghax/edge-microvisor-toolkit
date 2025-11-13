@@ -1,0 +1,21 @@
+ComponentIgnore:
+- component:
+    name: azure-sdk-for-go-sdk-azcore
+  files:
+  - path: usr/bin/tink-worker
+  comment: "Not used in tink worker"
+- component:
+    name: cri-o
+  files:
+  - path: usr/bin/tink-worker
+  comment: "Not used in tink worker"
+- component:
+    name: tinkerbell-tink
+  files:
+  - path: usr/bin/tink-worker
+  comment: "Not used in tink worker"
+- component:
+    name: traefik
+  files:
+  - path: usr/bin/tink-worker
+  comment: "Not used in tink worker"

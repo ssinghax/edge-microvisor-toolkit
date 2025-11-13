@@ -1,0 +1,16 @@
+ComponentIgnore:
+- component:
+    name: azure-sdk-for-go-sdk-azcore
+  files:
+  - path: usr/bin/node-agent
+  comment: "False positive"
+- component:
+    name: gax-go
+  files:
+  - path: usr/bin/node-agent
+  comment: "False positive"
+- component:
+    name: markbates-validate
+  files:
+  - path: usr/bin/node-agent
+  comment: "False positive"

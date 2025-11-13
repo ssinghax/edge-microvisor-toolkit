@@ -1,0 +1,6 @@
+ComponentIgnore:
+- component:
+    name: azure-sdk-for-go-sdk-azcore
+  files:
+  - path: usr/bin/cluster-agent
+  comment: "False positive"
