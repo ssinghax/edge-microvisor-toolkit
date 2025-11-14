@@ -3,12 +3,12 @@ ComponentIgnore:
     name: azure-sdk-for-go-sdk-azcore
   files:
   - path: usr/bin/hd-agent
-  comment: "False positive""
+  comment: "False positive"
 - component:
     name: gax-go
   files:
   - path: usr/bin/hd-agent
-  comment: "False positive""
+  comment: "False positive"
 - component:
     name: klauspost-compress
   files:
