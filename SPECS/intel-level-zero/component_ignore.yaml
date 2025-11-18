@@ -1,0 +1,6 @@
+ComponentIgnore:
+- component:
+    name: fmt
+  files:
+  - path: usr/lib/libze_loader.so.1.21.9
+  comment: "Not used in intel level zero"

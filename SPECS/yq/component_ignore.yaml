@@ -1,0 +1,6 @@
+ComponentIgnore:
+- component:
+    name: klauspost-compress
+  files:
+  - path: usr/bin/yq
+  comment: "Not used in yq"

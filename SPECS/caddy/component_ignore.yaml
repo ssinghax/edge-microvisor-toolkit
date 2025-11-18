@@ -1,0 +1,11 @@
+ComponentIgnore:
+- component:
+    name: containerd
+  files:
+  - path: usr/bin/caddy
+  comment: "Not used in caddy"
+- component:
+    name: kops
+  files:
+  - path: usr/bin/caddy
+  comment: "Not used in caddy"

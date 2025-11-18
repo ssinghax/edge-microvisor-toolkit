@@ -1,0 +1,6 @@
+ComponentIgnore:
+- component:
+    name: gax-go
+  files:
+  - path: usr/bin/device-discovery/device-discovery
+  comment: "Not used in device-discovery"

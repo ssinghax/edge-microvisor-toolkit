@@ -1,0 +1,41 @@
+ComponentIgnore:
+- component:
+    name: gonum-blas
+  files:
+  - path: usr/bin/otelcol-contrib
+  comment: "Not used in otelcol contrib"
+- component:
+    name: gonum-graph
+  files:
+  - path: usr/bin/otelcol-contrib
+  comment: "Not used in otelcol contrib"
+- component:
+    name: gonum-lapack
+  files:
+  - path: usr/bin/otelcol-contrib
+  comment: "Not used in otelcol contrib"
+- component:
+    name: gonum-matrix
+  files:
+  - path: usr/bin/otelcol-contrib
+  comment: "Not used in otelcol contrib"
+- component:
+    name: jaeger
+  files:
+  - path: usr/bin/otelcol-contrib
+  comment: "Not used in otelcol contrib"
+- component:
+    name: kops
+  files:
+  - path: usr/bin/otelcol-contrib
+  comment: "Not used in otelcol contrib"
+- component:
+    name: tdewolff-parse
+  files:
+  - path: usr/bin/otelcol-contrib
+  comment: "Not used in otelcol contrib"
+- component:
+    name: x-crypto
+  files:
+  - path: usr/bin/otelcol-contrib
+  comment: "Not used in otelcol contrib"
