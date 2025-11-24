@@ -30,6 +30,12 @@ overrides:
   forceVersion: true
   files:
   - path: usr/bin/otelcol-contrib
+- component:
+    name: protobuf
+  newVersion: v1.5.4
+  forceVersion: true
+  files:
+  - path: usr/bin/otelcol-contrib
 vulnerabilityTriages:
 - component:
     name: x-net
@@ -41,5 +47,8 @@ vulnerabilityTriages:
     name: protobuf
   triages:
   - cve: CVE-2019-15544
+    resolution: FalsePositive
+    comment: "This CVE is linked to a Rust component, but this specific component doesn't use Rust, making it invalid."
+  - cve: CVE-2025-53605
     resolution: FalsePositive
     comment: "This CVE is linked to a Rust component, but this specific component doesn't use Rust, making it invalid."
