@@ -25,6 +25,9 @@ vulnerabilityTriages:
   - cve: CVE-2024-40635
     resolution: FalsePositive
     comment: '"Package containerd already at the patched version 1.7.27."'
+  - cve: CVE-2025-64329
+    resolution: FalsePositive
+    comment: '"tink-worker is using containerd client API not server"'
 - component:
     name: x-net
   triages:
@@ -35,6 +38,9 @@ vulnerabilityTriages:
     name: protobuf
   triages:
   - cve: CVE-2019-15544
+    resolution: FalsePositive
+    comment: "This CVE is linked to a Rust component, but this specific component doesn't use Rust, making it invalid."
+  - cve: CVE-2025-53605
     resolution: FalsePositive
     comment: "This CVE is linked to a Rust component, but this specific component doesn't use Rust, making it invalid."
 
