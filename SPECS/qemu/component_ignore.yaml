@@ -1,0 +1,6 @@
+ComponentIgnore:
+- component:
+    name: llvm
+  files:
+  - path: usr/bin/qemu-hexagon
+  comment: "Not used in qemu"

@@ -8,5 +8,10 @@
         "component": "nomad",
         "parent_component": ["cluster-agent", "node-agent", "platform-update-agent"],
         "description": "Known issue. Invalid component reported by BDBA."
+    },
+    {
+        "component": "glew",
+        "parent_component": ["mesa-demos"],
+        "description": "glew component cannot be found in mesa-demos."
     }
 ]
