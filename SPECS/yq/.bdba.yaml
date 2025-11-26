@@ -2,7 +2,7 @@ specVersion: 3
 overrides:
 - component:
     name: x-crypto
-  newVersion: v0.39.0
+  newVersion: v0.38.0
   forceVersion: true
   files:
   - path: usr/bin/yq

@@ -1,0 +1,8 @@
+specVersion: 3
+overrides:
+- component:
+    name: x-crypto
+  newVersion: v0.43.0
+  forceVersion: true
+  files:
+  - path: usr/bin/inb*
