@@ -31,15 +31,9 @@ vulnerabilityTriages:
   - cve: CVE-2025-47913
     resolution: FalsePositive
     comment: "x-crypto component is not found as bundle software for reporting-agent/v0.1.0"
-- component:
-    name: x-crypto
-  triages:
   - cve: CVE-2025-47914
     resolution: FalsePositive
     comment: "x-crypto component is not found as bundle software for reporting-agent/v0.1.0"
-- component:
-    name: x-crypto
-  triages:
   - cve: CVE-2025-58181
     resolution: FalsePositive
-    comment: "x-crypto component is not found as bundle software for reporting-agent/v0.1.0"
+    comment: "x-crypto component is not found as bundle software for reporting-agent/v0.1.0" 
