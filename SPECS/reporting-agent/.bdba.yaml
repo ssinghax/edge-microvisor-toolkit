@@ -26,7 +26,8 @@ overrides:
   - path: usr/bin/reporting-agent
 vulnerabilityTriages:
 - component:
-    name: x-crypto
+    name: "x-crypto"
+    version: "v0.36.0"
   triages:
   - cve: CVE-2025-47913
     resolution: FalsePositive
