@@ -28,6 +28,8 @@ vulnerabilityTriages:
 - component:
     name: "x-crypto"
     version: "v0.36.0"
+  files:
+    - path: usr/bin/reporting-agent
   triages:
   - cve: CVE-2025-47913
     resolution: FalsePositive
