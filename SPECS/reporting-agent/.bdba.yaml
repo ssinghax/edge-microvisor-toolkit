@@ -23,20 +23,4 @@ overrides:
   newVersion: 0.0.4
   forceVersion: true
   files:
-  - path: usr/bin/reporting-agent
-vulnerabilityTriages:
-- component:
-    name: "x-crypto"
-    version: "v0.36.0"
-  files:
-    - path: usr/bin/reporting-agent
-  triages:
-  - cve: CVE-2025-47913
-    resolution: FalsePositive
-    comment: "x-crypto component is not found as bundle software for reporting-agent/v0.1.0"
-  - cve: CVE-2025-47914
-    resolution: FalsePositive
-    comment: "x-crypto component is not found as bundle software for reporting-agent/v0.1.0"
-  - cve: CVE-2025-58181
-    resolution: FalsePositive
-    comment: "x-crypto component is not found as bundle software for reporting-agent/v0.1.0" 
+  - path: usr/bin/reporting-agent 
