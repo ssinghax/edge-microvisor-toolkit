@@ -18,3 +18,9 @@ overrides:
   forceVersion: true
   files:
   - path: usr/bin/inb*
+- component:
+    name: open-edge-platform-edge-node-agents-in-band-manageability
+  newVersion: v1.0.2-2
+  forceVersion: true
+  files:
+  - path: usr/bin/inb*
