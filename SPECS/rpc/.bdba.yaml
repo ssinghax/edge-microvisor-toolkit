@@ -1,8 +1,1 @@
-specVersion: 3
-overrides:
-- component:
-    name: x-crypto
-  newVersion: v0.45.0
-  forceVersion: true
-  files:
-  - path: usr/bin/rpc
+
