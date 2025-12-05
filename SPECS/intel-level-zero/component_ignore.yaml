@@ -1,8 +1,7 @@
 ComponentIgnore:
 - component:
     name: fmt
+  comment: "Not used in intel level zero"
   files:
   - path: usr/lib/libze_loader.so.1.21.9
-  comment: "Not used in intel level zero"
   - path: usr/lib/libze_validation_layer.so.1.21.9
-  comment: "Not used in intel level zero"

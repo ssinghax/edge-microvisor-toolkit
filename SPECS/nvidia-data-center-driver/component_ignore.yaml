@@ -2,5 +2,5 @@ ComponentIgnore:
 - component:
     name: mbed_tls
   files:
-  - path: lib/modules/6.12.44-1.emt3/kernel/drivers/video/nvidia.ko
+  - path: lib/modules/6.12.55-1.emt3/kernel/drivers/video/nvidia.ko
   comment: "Not used in nvidia data center driver"
