@@ -39,3 +39,8 @@ ComponentIgnore:
   files:
   - path: usr/bin/otelcol-contrib
   comment: "Not used in otelcol contrib"
+- component:
+    name: traefik
+  files:
+  - path: usr/bin/otelcol-contrib
+  comment: "Not used in otelcol contrib"
