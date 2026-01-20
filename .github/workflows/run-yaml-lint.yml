@@ -1,0 +1,185 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT License.
+#
+# GitHub Actions workflow to run yamllint on specific YAML files in a pull request.
+---
+name: Run YAML Lint
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+    branches:
+      - next-devel
+jobs:
+  check:
+    name: YAML Lint Check
+    runs-on: bdba
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install PYPI packages
+        run: pip install yamllint pyyaml
+
+      - name: Display YAML Lint version
+        run: yamllint --version
+
+      - name: Bot Auto Assignee
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.addAssignees({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.pull_request.number,
+              assignees: [context.actor],
+            });
+
+      - name: Bot Auto Reviewer
+        uses: actions/github-script@v7
+        with:
+          script: |
+            try {
+              await github.rest.pulls.requestReviewers({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.payload.pull_request.number,
+                reviewers: ['jinghuitham', 'JiayongT', 'Copilot'],
+              });
+              console.log('Reviewers added successfully');
+            } catch (error) {
+              core.setFailed(`Failed to add reviewers: ${error.message}`);
+            }
+
+      - name: Bot Auto Labels
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.pull_request.number,
+              labels: ['needs-review'],
+            });
+
+      - name: Bot assign PR title
+        uses: actions/github-script@v7
+        with:
+          script: |
+            
+            const { data: files } = await github.rest.pulls.listFiles({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.payload.pull_request.number,
+            });
+
+            const args = files.map(file => file.filename.split('/')[1]).filter(spec => spec !== undefined);            
+
+
+            const MAX_TITLE_LENGTH = 256;
+            const title = context.payload.pull_request.title;
+            let newTitle = title;
+
+            if (args.length > 0) {
+              const prefix = 'Review Analysis Configuration File - ';
+              const remainingForContent = Math.max(0, MAX_TITLE_LENGTH - prefix.length);
+
+              let displayedFiles = [];
+
+              for (let i = 0; i < args.length; i++) {
+                const file = args[i];
+                const nextFiles = displayedFiles.concat(file);
+                const remainingCount = args.length - (i + 1);
+                const moreText = remainingCount > 0 ? ` (+${remainingCount} more)` : '';
+                const candidateContent = nextFiles.join(', ');
+                const candidateTitle = prefix + candidateContent + moreText;
+
+                if (candidateTitle.length <= MAX_TITLE_LENGTH) {
+                  displayedFiles = nextFiles;
+                } else {
+                  break;
+                }
+              }
+
+              let content = displayedFiles.join(', ');
+              const remainingCountFinal = args.length - displayedFiles.length;
+              if (remainingCountFinal > 0) {
+                content += ` (+${remainingCountFinal} more)`;
+              }
+
+              newTitle = prefix + content;
+            }
+
+            try {
+              await github.rest.pulls.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.payload.pull_request.number,
+                title: newTitle,
+              });
+            }
+            catch (error) {
+              core.setFailed(`Failed to update PR title: ${error.message}`);
+            }
+
+      - name: Run YAML Linting
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            // Run yamllint on changed YAML files in the PR
+            const { data: files } = await github.rest.pulls.listFiles({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.payload.pull_request.number,
+            });
+            console.log(files.map(file => file.filename).join('\n'));
+            core.setOutput('files', files.map(file => file.filename).join('\n'));
+            const command = 'yamllint';
+            const args = files.map(file => file.filename);
+            await exec.exec(command, args).catch(error => core.setFailed(error.message));
+            // set environment variable for next steps
+            core.exportVariable('EDGE_MT_SPECS', args.join(' '));
+            // Add labels based on changed files
+            const specs = args
+              .map(file => file.split('/')[1])
+              .filter(spec => spec !== undefined);
+            // Add labels to the PR
+            const validSpec = specs.filter(spec => spec && spec.trim().length >0);
+            try {
+              validSpec.forEach(spec => console.log(`Package to be labeled as ${spec}`));
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.pull_request.number,
+                labels: [...new Set(validSpec)],
+              });
+            }
+            catch (error) {
+              core.setFailed(`Failed to add labels: ${error.message}`);
+            }
+
+      - name: Run YAML Syntax Checks
+        run: |
+          python3 scripts/check-bdba-yaml.py
+
+      - name: Bot End message
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const username = context.payload.pull_request.user.login;
+            const ref = context.payload.pull_request.head.ref;
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.pull_request.number,
+              body: `user @${username} updated the PR on branch ${ref}. YAML Linting and Syntax Checks rerun and was completed.`,
+            });

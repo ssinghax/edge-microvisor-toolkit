@@ -1,0 +1,126 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT License.
+#
+# GitHub Actions workflow to sync SPECS edge-microvisor-toolkit repository to current repository.
+---
+name: Sync with Edge Microvisor Repository (next)
+on:
+  schedule:
+    - cron: '0 * * * *'  # Runs every hour
+  push: 
+    paths:
+      - '.github/workflows/sync-repo.yml'
+  workflow_dispatch:
+jobs:
+  sync:
+    name: Sync Edge Microvisor
+    runs-on: bdba
+    steps:
+      - name: Clean workspace
+        run: |
+          rm -rf edge-microvisor-repo bdba-config-repo
+
+      - name: Checkout current repository
+        uses: actions/checkout@v4
+        with:
+          path: bdba-config-repo
+          ref: refs/heads/next
+
+      - name: Checkout edge-microvisor repository
+        uses: actions/checkout@v4
+        with:
+          repository: open-edge-platform/edge-microvisor-toolkit
+          path: edge-microvisor-repo
+          ref: refs/heads/next
+      
+      - name: Sync with Edge microvisor
+        run: |
+          python3 bdba-config-repo/scripts/run-repo-sync.py --edge-repo-path edge-microvisor-repo --bdba-repo-path bdba-config-repo
+        
+      - name: Checkout Commit Changes
+        run: |
+          cd bdba-config-repo
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git branch "sync/pull-request-next"
+          git checkout "sync/pull-request-next"
+          git add .
+          git status
+          git commit -m "Sync SPECS with edge-microvisor-toolkit (next branch) repo"
+          git log -2
+          git push origin "sync/pull-request-next" --force
+      
+      - name: Check PR for sync/pull-request-next exists
+        id: check_branch
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const branchName = 'sync/pull-request-next';
+            const { repo, owner } = context.repo;
+
+            // Check if there is already an open pull request from this branch
+            const { data: pullRequests } = await github.rest.pulls.list({
+              owner,
+              repo,
+              state: 'open',
+              head: `${owner}:${branchName}`,
+            });
+
+            if (pullRequests.length > 0) {
+              // A PR already exists for this branch
+              return 'exists';
+            }
+
+            // No PR exists for this branch yet
+            return 'missing';
+          result-encoding: string
+
+      - name: Create New Pull Requests
+        id: create_pr
+        uses: actions/github-script@v7
+        if: ${{ steps.check_branch.outputs.result == 'missing' }}
+        with:
+          script: |
+            const { repo, owner } = context.repo;
+            const { data: pullRequest } = await github.rest.pulls.create({
+              owner,
+              repo,
+              title: 'Sync SPECS with edge-microvisor-toolkit (next branch) repo',
+              head: 'sync/pull-request-next',
+              base: 'next',
+              body: ['This PR synchronizes the current SPECS from the edge-microvisor-toolkit repository.',
+                      'Please review the changes and merge if everything looks good.'].join('\n'),
+              draft: true,
+            });
+            console.log(`Pull request created: ${pullRequest.html_url}`);
+            return pullRequest.number;
+          result-encoding: string
+
+      - name: Bot Auto Reviewer
+        uses: actions/github-script@v7
+        if: ${{ steps.check_branch.outputs.result == 'missing' }}
+        with:
+          script: |
+            try {
+              await github.rest.pulls.requestReviewers({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: ${{ steps.create_pr.outputs.result }},
+                reviewers: ['aaroncyew', 'jinghuitham', 'JiayongT'],
+              });
+              console.log('Reviewers added successfully');
+            } catch (error) {
+              core.setFailed(`Failed to add reviewers: ${error.message}`);
+            }
+
+      - name: Bot Auto Labels
+        uses: actions/github-script@v7
+        if: ${{ steps.check_branch.outputs.result == 'missing' }}
+        with:
+          script: |
+            github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: ${{ steps.create_pr.outputs.result }},
+              labels: ['needs-review'],
+            });
