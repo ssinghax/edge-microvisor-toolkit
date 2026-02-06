@@ -1,0 +1,20 @@
+specVersion: 3
+vulnerabilityTriages:
+- component:
+    name: qemu
+  triages:
+  - cve: CVE-2024-3567
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-6683
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2023-6693
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-54567
+    resolution: Patched
+    comment: ''
+  - cve: CVE-2025-54566
+    resolution: FalsePositive
+    comment: Not applicable to QEMU 9.1.0 as the vulnerable function `pcie_sriov_pf_post_load` is not present in this version.
