@@ -265,6 +265,12 @@ vulnerabilityTriages:
   - cve: CVE-2025-58181
     resolution: Patched
     comment: "PR #672 is created with patch"
+  - cve: CVE-2025-47913
+    resolution: Patched
+    comment: "PR #672 is created with patch"
+  - cve: CVE-2025-47914
+    resolution: Patched
+    comment: "PR #672 is created with patch"
     name: golang-runtime
   triages:
   - cve: CVE-2025-61727
